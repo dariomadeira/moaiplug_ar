@@ -18,7 +18,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Plugin .dex v1 — canales de Argentina resueltos con el enfoque de pascua.
+ * Plugin .dex v1 — catálogo completo (449 canales desde master.json de pascua).
+ *
+ * v1.3.0:
+ *  - Catálogo íntegro generado por tools/generate_catalog.py.
+ *  - resolve() genérico por canal: decide HLS / DASH / FLOW / ClearKey
+ *    (inline kid:k convertido a licencia feemon: el motor solo sabe "clearkey").
  *
  * v1.2.1:
  *  - unicanal_flow: seed Viajar/chromecast (edge-liveXX responde, cde-py 403)
@@ -39,22 +44,10 @@ public final class MoaiArPlugin implements IPlugin {
     private static final String FORMAT_HLS = "hls";
     private static final String FORMAT_DASH = "dash";
 
-    // ---- Femon ClearKey: licencia devuelta por POST {"kids":[base64_kid]} ----
-    // keyid (hex) = cenc:default_KID del MPD en uppercase sin guiones
-    private static final String CAZE_FEMON_LICENSE =
-        "https://results.femon.net/?keyid=34475edab991ad5e92548aebd710410a"
-        + "&key=501b209cccd323ac00bf5ac15b406cb4";
-
-    private static final String UNICANAL_FEMON_LICENSE =
-        "https://results.femon.net/?keyid=7d798b4e58cfda51da8b2a01989e7f93"
-        + "&key=16c5c9d859b544dfe10119d67df15d66";
-
     // ---- Flow token CDN (fiel a FlowTokenManager.DEFAULT_SEED_URLS) ----
-    // IMPORTANTE: el path del token NO se valida contra la URL final (lo
-    // verifica pascua reproduciendo UNICANAL con el token de Viajar). El
-    // cluster edge SÍ importa: la semilla chromecast/Viajar cae en edge-liveXX
-    // (responde), mientras cdn-py cae en edgeXX-cde-py (403 en el dispositivo).
-    // Por eso el orden replica EXACTAMENTE FlowTokenManager.DEFAULT_SEED_URLS.
+    // El orden replica EXACTAMENTE FlowTokenManager.DEFAULT_SEED_URLS: la
+    // semilla chromecast/Viajar cae en edge-liveXX (responde), mientras cdn-py
+    // cae en edgeXX-cde-py (403 en el dispositivo).
     private static final String[] FLOW_SEED_URLS = {
         "https://chromecast.cvattv.com.ar/live/c6eds/Viajar/SA_Live_dash_cenc/Viajar.mpd",
         "https://cdn-py.cvattv.com.ar/live/c6eds/EWTN/SA_Live_dash_enc/EWTN.mpd",
@@ -70,37 +63,25 @@ public final class MoaiArPlugin implements IPlugin {
     private static final Pattern PATH_PATTERN  = Pattern.compile("(live/c\\d+eds/[^?#]*)");
     private static final Pattern PATH_PATTERN_ALT = Pattern.compile("(c\\d+eds/[^?#]*)");
 
+    // ---- hosts / marcadores para detectar el sistema de cada canal ----
+    private static final String[] FLOW_MARKERS = {
+        "cvattv.com.ar", "cvattv.com.py", "flow.com.ar", "flow.com.py",
+        "cdn-token.app.flow.com.ar",
+    };
+
     // ---- Estado cacheado del token (volatile en Java; usamos synchronized) ----
     private static String sCachedHost;
     private static String sCachedTok;
     private static long   sCachedAt;
     private static long   sCachedTtl;
 
-    private static final String UNICANAL_FLOW_SEED =
-        "https://cdn-py.cvattv.com.ar/live/c4eds/UNICANAL_C4/"
-        + "SA_Live_dash_enc/UNICANAL_C4.mpd";
-
     private static final List<PluginChannel> CANALES;
     static {
         List<PluginChannel> list = new ArrayList<PluginChannel>();
-        list.add(new PluginChannel(
-            "canal_7_salta",
-            "7 Salta",
-            "https://play-lh.googleusercontent.com/wqC28g5axDfQhkUhcALzgqvyF8bCwyCr06knFxa0FS0d0zy5lQG_9uC_ZQu-HJ-f9oXdFr4QJjGPZAUscuEwSQ",
-            "Aire",
-            "Argentina"));
-        list.add(new PluginChannel(
-            "caze_fhd",
-            "CAZÉ TV FHD",
-            "https://i.postimg.cc/XJjjwygm/cazetv-logo-0-2048x2048-Easy-Resize-com-(1).jpg",
-            "Entretenimiento",
-            "Argentina"));
-        list.add(new PluginChannel(
-            "unicanal_flow",
-            "Unicanal Flow",
-            "https://banners.femon.net/banners/6978d540a14188.24291079.png",
-            "Entretenimiento",
-            "Argentina"));
+        for (MoaiCatalog.Entrada e : MoaiCatalog.all()) {
+            list.add(new PluginChannel(
+                e.id, e.nombre, e.logo, e.categoria, e.pais));
+        }
         CANALES = list;
     }
 
@@ -112,7 +93,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.2.1",
+            "1.3.0",
             1,
             1,
             CANALES,
@@ -122,58 +103,116 @@ public final class MoaiArPlugin implements IPlugin {
     @Override
     public ResolveResult resolve(ResolveRequest request) {
         final String channelId = request.getChannelId();
+        final MoaiCatalog.Entrada e = MoaiCatalog.byId(channelId);
+        if (e == null) {
+            throw new IllegalArgumentException("MoaiAr: canal desconocido " + channelId);
+        }
+
         Map<String, String> headers = new LinkedHashMap<String, String>();
         headers.put("User-Agent", DEFAULT_UA);
-
-        if ("canal_7_salta".equals(channelId)) {
-            return new ResolveResult(
-                "https://vivo.solumedia.com:2020/canal7salta/canal7salta.m3u8",
-                headers,
-                null,
-                FORMAT_HLS,
-                0L);
+        for (Map.Entry<String, String> h : e.headers.entrySet()) {
+            headers.put(h.getKey(), h.getValue());
         }
 
-        if ("caze_fhd".equals(channelId)) {
-            return new ResolveResult(
-                "https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/"
-                    + "3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
-                headers,
-                new DrmInfo("clearkey", CAZE_FEMON_LICENSE),
-                FORMAT_DASH,
-                0L);
-        }
-
-        if ("unicanal_flow".equals(channelId)) {
-            // FLOW: probe seeds → token CDN → URL firmada.
-            final String relPath = extractRelativePath(UNICANAL_FLOW_SEED);
-
+        String url = e.url;
+        final boolean flow = isFlow(e.url);
+        if (flow) {
             String[] token = getFreshToken();
             if (token == null) {
                 throw new RuntimeException("MoaiAr: no se obtuvo token Flow CDN");
             }
-            final String host = token[0];
-            final String tok  = token[1];
-
-            final String signedUrl =
-                "https://" + host + "/" + tok + "/" + relPath;
-
+            final String relPath = extractRelativePath(e.url);
+            url = "https://" + token[0] + "/" + token[1] + "/" + relPath;
             // Headers para la CDN Flow (fiel a hydrateFlowHeaders / chooseHeaders).
             headers.put("Origin",  "https://portal.app.flow.com.ar");
             headers.put("Referer", "https://portal.app.flow.com.ar/");
-
-            return new ResolveResult(
-                signedUrl,
-                headers,
-                new DrmInfo("clearkey", UNICANAL_FEMON_LICENSE),
-                FORMAT_DASH,
-                0L);
         }
 
-        throw new IllegalArgumentException("MoaiAr: canal desconocido " + channelId);
+        final String format = (url.toLowerCase().endsWith(".m3u8")
+                || url.toLowerCase().contains(".m3u8?"))
+            ? FORMAT_HLS : FORMAT_DASH;
+
+        DrmInfo drm = drmFor(e.drm);
+
+        return new ResolveResult(url, headers, drm, format, 0L);
+    }
+
+    // ------------------------------------------------------------------ DRM
+    /**
+     * Convierte la licencia del catálogo a un [DrmInfo].
+     *  - '' -> null (sin DRM).
+     *  - 'kid:<b64url>,k:<b64url>' -> licencia feemon con keyid/key en HEX
+     *    (el motor de moai3 solo arma ClearKey con licenseUri; pemmon responde
+     *    a ese par y eso nos evita soportar keys inline en el engine).
+     *  - URL ya formada (femon/Widevine) -> se pasa tal cual (clearkey).
+     */
+    private static DrmInfo drmFor(String drm) {
+        if (drm == null || drm.trim().isEmpty()) return null;
+        final String d = drm.trim();
+
+        // keyid/key literal (femon query) -> clearkey directo.
+        if (d.startsWith("https://") || d.startsWith("http://")) {
+            return new DrmInfo("clearkey", d);
+        }
+
+        // Formato kid:<b64url>,k:<b64url> -> HEX -> feemon.
+        String kid = null;
+        String key = null;
+        for (String part : d.split(",")) {
+            part = part.trim();
+            if (part.startsWith("kid:")) {
+                kid = part.substring(4).trim();
+            } else if (part.startsWith("k:")) {
+                key = part.substring(2).trim();
+            } else if (part.startsWith("keyid:")) {
+                kid = part.substring(6).trim();
+            } else if (part.startsWith("key:")) {
+                key = part.substring(4).trim();
+            }
+        }
+        // Un caso raro del catálogo: "DDl3j-j7T5-FdAFrPUri7Q,k:..." (sin prefijo kid:)
+        if (kid == null && !d.contains("k:")) {
+            kid = d;
+        }
+        if (kid == null || key == null) return null;
+
+        final String kidHex = b64urlToHex(kid);
+        final String keyHex = b64urlToHex(key);
+        if (kidHex == null || keyHex == null) return null;
+
+        return new DrmInfo("clearkey",
+            "https://results.femon.net/?keyid=" + kidHex + "&key=" + keyHex);
+    }
+
+    /** base64url (sin padding) -> hex. */
+    private static String b64urlToHex(String s) {
+        final String alphabet =
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+        int bits = 0;
+        int accum = 0;
+        StringBuilder hex = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            int val = alphabet.indexOf(s.charAt(i));
+            if (val < 0) continue;
+            accum = (accum << 6) | val;
+            bits += 6;
+            if (bits >= 8) {
+                bits -= 8;
+                hex.append(String.format("%02x", (accum >> bits) & 0xff));
+            }
+        }
+        return hex.toString();
     }
 
     // ------------------------------------------------------------------ FLOW
+    private static boolean isFlow(String url) {
+        final String lower = url.toLowerCase();
+        for (String marker : FLOW_MARKERS) {
+            if (lower.contains(marker)) return true;
+        }
+        return false;
+    }
+
     /**
      * Devuelve [host, tok] cacheando por ~45-60 s.
      * Fiel a FlowTokenManager.getFreshToken/refreshToken.
