@@ -1,11 +1,11 @@
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "201a317966d13579237d102ee4718d60005f4167d0ebd5ff3810c7a598df2603",
+  "sha256": "681c1245696dc6eeec9db2c1fbf98d434881da174432ae91aeeb44f1b5a193f1",
   "canales": [
     {
       "id": "canal_7_salta",
@@ -18,6 +18,13 @@
       "id": "caze_fhd",
       "nombre": "CAZÉ TV FHD",
       "logo": "https://i.postimg.cc/XJjjwygm/cazetv-logo-0-2048x2048-Easy-Resize-com-(1).jpg",
+      "categoria": "Entretenimiento",
+      "pais": "Argentina"
+    },
+    {
+      "id": "unicanal_flow",
+      "nombre": "Unicanal Flow",
+      "logo": "https://banners.femon.net/banners/6978d540a14188.24291079.png",
       "categoria": "Entretenimiento",
       "pais": "Argentina"
     }

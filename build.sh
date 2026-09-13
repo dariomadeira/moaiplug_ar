@@ -57,7 +57,7 @@ cat > "$ROOT/manifest.json" <<EOF
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
@@ -74,6 +74,13 @@ cat > "$ROOT/manifest.json" <<EOF
       "id": "caze_fhd",
       "nombre": "CAZÉ TV FHD",
       "logo": "https://i.postimg.cc/XJjjwygm/cazetv-logo-0-2048x2048-Easy-Resize-com-(1).jpg",
+      "categoria": "Entretenimiento",
+      "pais": "Argentina"
+    },
+    {
+      "id": "unicanal_flow",
+      "nombre": "Unicanal Flow",
+      "logo": "https://banners.femon.net/banners/6978d540a14188.24291079.png",
       "categoria": "Entretenimiento",
       "pais": "Argentina"
     }
