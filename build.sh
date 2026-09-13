@@ -57,7 +57,7 @@ cat > "$ROOT/manifest.json" <<EOF
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",

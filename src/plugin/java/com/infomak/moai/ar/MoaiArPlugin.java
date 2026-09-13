@@ -20,6 +20,10 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — canales de Argentina resueltos con el enfoque de pascua.
  *
+ * v1.2.1:
+ *  - unicanal_flow: seed Viajar/chromecast (edge-liveXX responde, cde-py 403)
+ *    + keyid femon correcto (7d798b4e) del MPD CDN real.
+ *
  * v1.2:
  *  - canal_7_salta  → HLS directo (sin DRM)
  *  - caze_fhd       → DASH CENC + ClearKey (licencia femon vía POST)
@@ -42,14 +46,19 @@ public final class MoaiArPlugin implements IPlugin {
         + "&key=501b209cccd323ac00bf5ac15b406cb4";
 
     private static final String UNICANAL_FEMON_LICENSE =
-        "https://results.femon.net/?keyid=63a3729cfd60f24f7e1266bee5eca02c"
-        + "&key=cb9ed028af40654e1aa43934ee58db58";
+        "https://results.femon.net/?keyid=7d798b4e58cfda51da8b2a01989e7f93"
+        + "&key=16c5c9d859b544dfe10119d67df15d66";
 
-    // ---- Flow token CDN (fidely a FlowTokenManager.DEFAULT_SEED_URLS) ----
+    // ---- Flow token CDN (fiel a FlowTokenManager.DEFAULT_SEED_URLS) ----
+    // IMPORTANTE: el path del token NO se valida contra la URL final (lo
+    // verifica pascua reproduciendo UNICANAL con el token de Viajar). El
+    // cluster edge SÍ importa: la semilla chromecast/Viajar cae en edge-liveXX
+    // (responde), mientras cdn-py cae en edgeXX-cde-py (403 en el dispositivo).
+    // Por eso el orden replica EXACTAMENTE FlowTokenManager.DEFAULT_SEED_URLS.
     private static final String[] FLOW_SEED_URLS = {
-        "https://cdn-py.cvattv.com.ar/live/c4eds/UNICANAL_C4/SA_Live_dash_enc/UNICANAL_C4.mpd",
         "https://chromecast.cvattv.com.ar/live/c6eds/Viajar/SA_Live_dash_cenc/Viajar.mpd",
         "https://cdn-py.cvattv.com.ar/live/c6eds/EWTN/SA_Live_dash_enc/EWTN.mpd",
+        "https://cdn-py.cvattv.com.ar/live/c4eds/UNICANAL_C4/SA_Live_dash_enc/UNICANAL_C4.mpd",
         "https://cdn-py.cvattv.com.ar/live/c4eds/TELEFUTURO_C4/SA_Live_dash_enc/TELEFUTURO_C4.mpd",
     };
 
@@ -103,7 +112,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.2.0",
+            "1.2.1",
             1,
             1,
             CANALES,

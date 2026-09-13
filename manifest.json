@@ -1,11 +1,11 @@
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "681c1245696dc6eeec9db2c1fbf98d434881da174432ae91aeeb44f1b5a193f1",
+  "sha256": "858f5aaaea855be9cfdce5ed7a7f95d2d743a4700f0369ff2b843914d198f255",
   "canales": [
     {
       "id": "canal_7_salta",
