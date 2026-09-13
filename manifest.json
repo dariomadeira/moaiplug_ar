@@ -5,7 +5,7 @@
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "ffcefc026098e4b247bbcc3d74a395462a584591ddee70b2bd58b75ed9b6f6fe",
+  "sha256": "201a317966d13579237d102ee4718d60005f4167d0ebd5ff3810c7a598df2603",
   "canales": [
     {
       "id": "canal_7_salta",
