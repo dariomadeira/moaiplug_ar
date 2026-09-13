@@ -57,7 +57,7 @@ cat > "$ROOT/manifest.json" <<EOF
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
@@ -68,6 +68,13 @@ cat > "$ROOT/manifest.json" <<EOF
       "nombre": "7 Salta",
       "logo": "https://play-lh.googleusercontent.com/wqC28g5axDfQhkUhcALzgqvyF8bCwyCr06knFxa0FS0d0zy5lQG_9uC_ZQu-HJ-f9oXdFr4QJjGPZAUscuEwSQ",
       "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "caze_fhd",
+      "nombre": "CAZÉ TV FHD",
+      "logo": "https://i.postimg.cc/XJjjwygm/cazetv-logo-0-2048x2048-Easy-Resize-com-(1).jpg",
+      "categoria": "Entretenimiento",
       "pais": "Argentina"
     }
   ]
