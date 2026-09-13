@@ -1,0 +1,18 @@
+{
+  "id": "moai_ar",
+  "nombre": "Moai Argentina",
+  "version": "1.0.0",
+  "minContrato": 1,
+  "maxContrato": 1,
+  "clase": "com.infomak.moai.ar.MoaiArPlugin",
+  "sha256": "ffcefc026098e4b247bbcc3d74a395462a584591ddee70b2bd58b75ed9b6f6fe",
+  "canales": [
+    {
+      "id": "canal_7_salta",
+      "nombre": "7 Salta",
+      "logo": "https://play-lh.googleusercontent.com/wqC28g5axDfQhkUhcALzgqvyF8bCwyCr06knFxa0FS0d0zy5lQG_9uC_ZQu-HJ-f9oXdFr4QJjGPZAUscuEwSQ",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    }
+  ]
+}
