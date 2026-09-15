@@ -20,6 +20,9 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo completo (449 canales desde master.json de pascua).
  *
+ * v1.3.1:
+ *  - Soporte de ClearKey DRM inline (data URI JSON) local sin depender de servidor externo.
+ *
  * v1.3.0:
  *  - Catálogo íntegro generado por tools/generate_catalog.py.
  *  - resolve() genérico por canal: decide HLS / DASH / FLOW / ClearKey
@@ -93,7 +96,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.3.0",
+            "1.3.1",
             1,
             1,
             CANALES,
@@ -141,21 +144,20 @@ public final class MoaiArPlugin implements IPlugin {
     /**
      * Convierte la licencia del catálogo a un [DrmInfo].
      *  - '' -> null (sin DRM).
-     *  - 'kid:<b64url>,k:<b64url>' -> licencia feemon con keyid/key en HEX
-     *    (el motor de moai3 solo arma ClearKey con licenseUri; pemmon responde
-     *    a ese par y eso nos evita soportar keys inline en el engine).
      *  - URL ya formada (femon/Widevine) -> se pasa tal cual (clearkey).
+     *  - 'kid:<b64url>,k:<b64url>' -> data:application/json inline con claves ClearKey
+     *    (el motor de moai3 lo consume mediante LocalMediaDrmCallback sin red).
      */
     private static DrmInfo drmFor(String drm) {
         if (drm == null || drm.trim().isEmpty()) return null;
         final String d = drm.trim();
 
-        // keyid/key literal (femon query) -> clearkey directo.
+        // URL externa ya formada (femon/Widevine) -> se pasa tal cual.
         if (d.startsWith("https://") || d.startsWith("http://")) {
             return new DrmInfo("clearkey", d);
         }
 
-        // Formato kid:<b64url>,k:<b64url> -> HEX -> feemon.
+        // Formato kid:<b64url>,k:<b64url> -> ClearKey JSON inline
         String kid = null;
         String key = null;
         for (String part : d.split(",")) {
@@ -176,12 +178,8 @@ public final class MoaiArPlugin implements IPlugin {
         }
         if (kid == null || key == null) return null;
 
-        final String kidHex = b64urlToHex(kid);
-        final String keyHex = b64urlToHex(key);
-        if (kidHex == null || keyHex == null) return null;
-
-        return new DrmInfo("clearkey",
-            "https://results.femon.net/?keyid=" + kidHex + "&key=" + keyHex);
+        String json = "{\"keys\":[{\"kty\":\"oct\",\"k\":\"" + key + "\",\"kid\":\"" + kid + "\"}],\"type\":\"temporary\"}";
+        return new DrmInfo("clearkey", "data:application/json," + json);
     }
 
     /** base64url (sin padding) -> hex. */

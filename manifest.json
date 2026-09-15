@@ -1,11 +1,11 @@
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "5a43d4eb07bca5ca79a4f31d2a35806501bd76f7e506ee426350ccb5f7790204",
+  "sha256": "127699f9c2b9621eb8db319dfbb6797a8e7e2db6fb277c25a439a77e1836f747",
   "canales": [
     {
       "id": "t_me_worldtv6",
