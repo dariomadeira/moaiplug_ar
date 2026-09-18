@@ -20,6 +20,9 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo completo (449 canales desde master.json de pascua).
  *
+ * v1.3.2:
+ *  - Saneamiento y sustitución de URLs de logos caídas (403 Cloudflare) por fuentes estables CDN.
+ *
  * v1.3.1:
  *  - Soporte de ClearKey DRM inline (data URI JSON) local sin depender de servidor externo.
  *
@@ -96,7 +99,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.3.1",
+            "1.3.2",
             1,
             1,
             CANALES,

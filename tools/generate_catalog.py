@@ -112,6 +112,66 @@ def guess_cat(name, grupo):
     return "General"
 
 
+LOGO_OVERRIDES = {
+    # Nacionales / Canales de Aire Argentina
+    "telefe": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
+    "telefe_internacional": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
+    "el_trece_internacional": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/eltrece-ar.png",
+    "net_tv": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/net-tv-ar.png",
+    "construir_tv": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Construir_TV_logo.png/240px-Construir_TV_logo.png",
+    # Canales provinciales
+    "10_mar_del_plata": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-10-ar.png",
+    "13_corrientes": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/13max-hd-ar.png",
+    "13_telefe_santa_fe": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
+    "4_san_juan": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-4-ar.png",
+    "7_mendoza": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png",
+    "7_neuquen": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-neuquen-ar.png",
+    "7_sgo_estero": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png",
+    "8_mar_del_plata": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-8-mar-del-plata-ar.png",
+    "8_telefe_cordoba": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
+    "8_tucuman": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-ocho-ar.png",
+    "9_bahia_blanca": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png",
+    "9_nordeste": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png",
+    "9_parana": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png",
+    # Deportes
+    "espn_premium": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-premium-ar.png",
+    "espn_5": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-ar.png",
+    "espn_2_2": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png",
+    "espn_3_2": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png",
+    "espn_4_2": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-4-lam.png",
+    "espn_5_2": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-5-lam.png",
+    "espn_6": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-6-lam.png",
+    "espn_7": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-7-lam.png",
+    "bein_sports_1": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-us.png",
+    "bein_sports_2": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-2-us.png",
+    "bein_sports_3": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-3-us.png",
+    # Cine y Series / Entretenimiento
+    "comedy_central": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/comedy-central-ar.png",
+    "sony_channel": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/sony-channel-ar.png",
+    "sony_movies": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/sony-movies-us.png",
+    "space": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/space-ar.png",
+    "tlnovelas": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/tlnovelas-lam.png",
+    "tnt_novelas": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/tnt-novelas-lam.png",
+    # Internacionales
+    "tv_globo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/globo-br.png",
+    "rede_record": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/record-br.png",
+    "band_news_tv": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/band-news-br.png",
+    # Paraguay
+    "snt": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/SNT_2013.png/240px-SNT_2013.png",
+    "paravision": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paravision_2004.png/240px-Paravision_2004.png",
+    "paraguay_tv": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ParaguayTV2019.png/240px-ParaguayTV2019.png",
+}
+
+
+def clean_logo(cid, logo):
+    if cid in LOGO_OVERRIDES:
+        return LOGO_OVERRIDES[cid]
+    if "nocookie.net" in logo:
+        # Servidor Wikia/Logopedia bloqueado con HTTP 403 por Cloudflare Anti-bot
+        return ""
+    return logo
+
+
 def main():
     with open(MASTER, encoding="utf-8") as f:
         data = json.load(f)
@@ -144,6 +204,7 @@ def main():
                 i += 1
                 cid = f"{base}_{i}"
             seen_ids.add(cid)
+            logo = clean_logo(cid, logo)
             rows.append({
                 "id": cid,
                 "nombre": name,

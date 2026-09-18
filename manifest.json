@@ -1,11 +1,11 @@
 {
   "id": "moai_ar",
   "nombre": "Moai Argentina",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "127699f9c2b9621eb8db319dfbb6797a8e7e2db6fb277c25a439a77e1836f747",
+  "sha256": "4a81a0858ad8522d013eb3b8566c360fc5b83349f857f105343fe708645637ad",
   "canales": [
     {
       "id": "t_me_worldtv6",
@@ -38,7 +38,7 @@
     {
       "id": "snt",
       "nombre": "SNT",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/7/77/SNT_2013.png/revision/latest/scale-to-width-down/50?cb=20220908172855&path-prefix=es",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/SNT_2013.png/240px-SNT_2013.png",
       "categoria": "General",
       "pais": "Paraguay"
     },
@@ -52,14 +52,14 @@
     {
       "id": "paravision",
       "nombre": "PARAVISIÓN",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Paravision_2004.png/revision/latest/scale-to-width-down/50?cb=20201020230413&path-prefix=es",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paravision_2004.png/240px-Paravision_2004.png",
       "categoria": "General",
       "pais": "Paraguay"
     },
     {
       "id": "la_tele",
       "nombre": "LA TELE",
-      "logo": "https://static.wikia.nocookie.net/television-paraguaya/images/b/b6/LateleLogo2023.png/revision/latest/scale-to-width-down/50?cb=20250818152107&path-prefix=es",
+      "logo": "",
       "categoria": "General",
       "pais": "Paraguay"
     },
@@ -178,7 +178,7 @@
     {
       "id": "paraguay_tv",
       "nombre": "PARAGUAY TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/ParaguayTV2019.png/revision/latest/scale-to-width-down/50?cb=20210512141435&path-prefix=es",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ParaguayTV2019.png/240px-ParaguayTV2019.png",
       "categoria": "General",
       "pais": "Paraguay"
     },
@@ -297,7 +297,7 @@
     {
       "id": "construir_tv",
       "nombre": "Construir TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/d/de/Dd74e-construirtv.png/revision/latest/scale-to-width-down/50?cb=20210527004647&path-prefix=es",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Construir_TV_logo.png/240px-Construir_TV_logo.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -318,7 +318,7 @@
     {
       "id": "el_trece_internacional",
       "nombre": "El Trece Internacional",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/03/Logoc13arginternacional2017.png/revision/latest/scale-to-width-down/50?cb=20170816113401",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/eltrece-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -353,7 +353,7 @@
     {
       "id": "net_tv",
       "nombre": "Net TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/2/21/NETTV2018.png/revision/latest/scale-to-width-down/50?cb=20210315130135&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/net-tv-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -367,14 +367,14 @@
     {
       "id": "telefe",
       "nombre": "Telefe",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/6/68/Telefe_2018.png/revision/latest/scale-to-width-down/50?cb=20220502230721&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
     {
       "id": "telefe_internacional",
       "nombre": "Telefe Internacional",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/8/80/Telefe_Internacional_(2018).svg/revision/latest/scale-to-width-down/50?cb=20210610211401",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -458,7 +458,7 @@
     {
       "id": "10_mar_del_plata",
       "nombre": "10 Mar del Plata",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5b/Canal_10_Mar_del_Plata_(Logo_2023).png/revision/latest/scale-to-width-down/50?cb=20230222134051&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-10-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -486,7 +486,7 @@
     {
       "id": "11_salta",
       "nombre": "11 Salta",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/0e/ElOnceTV_Salta_2023.svg/revision/latest/scale-to-width-down/50?cb=20230929221320",
+      "logo": "",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -507,7 +507,7 @@
     {
       "id": "13_corrientes",
       "nombre": "13 Corrientes",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/6/67/13_Max_Televisi%C3%B3n_%28Logo_2024_-_2%29.png/revision/latest/scale-to-width-down/50?cb=20240226170630",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/13max-hd-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -528,7 +528,7 @@
     {
       "id": "13_telefe_santa_fe",
       "nombre": "13 Telefe Santa Fe",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/7/76/TelefeSantaFe2018.png/revision/latest/scale-to-width-down/50?cb=20181121162328",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -605,7 +605,7 @@
     {
       "id": "4_san_juan",
       "nombre": "4 San Juan",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/08/Cuatro093d.png/revision/latest/scale-to-width-down/50?cb=20210525192053&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-4-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -661,14 +661,14 @@
     {
       "id": "7_mendoza",
       "nombre": "7 Mendoza",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/El_Siete_MZ-2.png/revision/latest/scale-to-width-down/50?cb=20251216030122&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
     {
       "id": "7_neuquen",
       "nombre": "7 Neuquén",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_7_Neuqu%C3%A9n_logo_nuevo_2023.png/revision/latest/scale-to-width-down/50?cb=20240606194433&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-neuquen-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -682,7 +682,7 @@
     {
       "id": "7_sgo_estero",
       "nombre": "7 Sgo Estero",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/f/f1/Canal_7_Santiago_del_Estero_%28Logo_2006%29.png/revision/latest/scale-to-width-down/50?cb=20200615005231",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -696,28 +696,28 @@
     {
       "id": "8_mar_del_plata",
       "nombre": "8 Mar del Plata",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e5/Canal_8_Mar_del_Plata_%28Logo_2022_-_2%29.png/revision/latest/scale-to-width-down/50?cb=20250718204341",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-8-mar-del-plata-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
     {
       "id": "8_telefe_cordoba",
       "nombre": "8 Telefe Córdoba",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/a/a8/Telefe_C%C3%B3rdoba_2018.png/revision/latest/scale-to-width-down/50?cb=20200303173409",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
     {
       "id": "8_tucuman",
       "nombre": "8 Tucumán",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/6/6a/El_Ocho_TV_Tucuman.svg/revision/latest/scale-to-width-down/50?cb=20230211030405",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-ocho-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
     {
       "id": "9_bahia_blanca",
       "nombre": "9 Bahía Blanca",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/eb/El_Nueve_TV_2023-present.svg/revision/latest/scale-to-width-down/50?cb=20230902172025",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -731,14 +731,14 @@
     {
       "id": "9_nordeste",
       "nombre": "9 Nordeste",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/c/cb/Canal_Nueve_Resistencia_%28Logo_2016%29.png/revision/latest/scale-to-width-down/50?cb=20210526154731&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
     {
       "id": "9_parana",
       "nombre": "9 Paraná",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/d/d5/Canal_9_Litoral_%28Logo_2021%29.png/revision/latest/scale-to-width-down/50?cb=20220305163041",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png",
       "categoria": "General",
       "pais": "Argentina"
     },
@@ -892,7 +892,7 @@
     {
       "id": "espn_premium",
       "nombre": "ESPN Premium",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/5/55/ESPN_Premium_blanco.png/revision/latest/scale-to-width-down/50?cb=20220501173330&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-premium-ar.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
@@ -1109,21 +1109,21 @@
     {
       "id": "bein_sports_1",
       "nombre": "Bein Sports 1",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/4/45/BeIN_Sports_2017_flat.svg/revision/latest/scale-to-width-down/50?cb=20230910182143",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-us.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "bein_sports_2",
       "nombre": "Bein Sports 2",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/4/45/BeIN_Sports_2017_flat.svg/revision/latest/scale-to-width-down/50?cb=20230910182143",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-2-us.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "bein_sports_3",
       "nombre": "Bein Sports 3",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/4/45/BeIN_Sports_2017_flat.svg/revision/latest/scale-to-width-down/50?cb=20230910182143",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-3-us.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
@@ -1452,7 +1452,7 @@
     {
       "id": "comedy_central",
       "nombre": "Comedy Central",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/5/5a/Comedy_Central_2018_%28Symbol%29.svg/revision/latest/scale-to-width-down/50?cb=20251109215224",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/comedy-central-ar.png",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -1508,21 +1508,21 @@
     {
       "id": "sony_channel",
       "nombre": "Sony Channel",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c6/Sony_Channel_2023.png/revision/latest/scale-to-width-down/50?cb=20230828233601&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/sony-channel-ar.png",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
     {
       "id": "sony_movies",
       "nombre": "Sony Movies",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/1/11/Sony_Movies_2019.svg/revision/latest/scale-to-width-down/50?cb=20220324215220&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/sony-movies-us.png",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
     {
       "id": "space",
       "nombre": "Space",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Space_%28Stacked%29.svg/revision/latest/scale-to-width-down/50?cb=20190305150343",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/space-ar.png",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -1634,7 +1634,7 @@
     {
       "id": "edye_tv",
       "nombre": "Edye TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e5/Edye.webp/revision/latest/scale-to-width-down/50?cb=20250619050248",
+      "logo": "",
       "categoria": "Infantil",
       "pais": "Argentina"
     },
@@ -1816,14 +1816,14 @@
     {
       "id": "az_clic",
       "nombre": "AZ CLIC",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/c/ce/TV_Azteca_Clic_logo_2021.png/revision/latest/scale-to-width-down/50?cb=20220316004010&path-prefix=es",
+      "logo": "",
       "categoria": "Comedia",
       "pais": "Argentina"
     },
     {
       "id": "az_corazon",
       "nombre": "AZ CORAZÓN",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/TV_Azteca_Corazon_2021.png/revision/latest/scale-to-width-down/50?cb=20220316001914&path-prefix=es",
+      "logo": "",
       "categoria": "Comedia",
       "pais": "Argentina"
     },
@@ -1900,14 +1900,14 @@
     {
       "id": "tlnovelas",
       "nombre": "TLnovelas",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/b/b6/TLNovelas_2019_%28Stacked%29.svg/revision/latest/scale-to-width-down/50?cb=20260708234932",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/tlnovelas-lam.png",
       "categoria": "Comedia",
       "pais": "Argentina"
     },
     {
       "id": "tnt_novelas",
       "nombre": "TNT Novelas",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e6/TNT_Novelas_logo_2023.svg/revision/latest/scale-to-width-down/50?cb=20260620222956",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/tnt-novelas-lam.png",
       "categoria": "Comedia",
       "pais": "Argentina"
     },
@@ -2089,28 +2089,28 @@
     {
       "id": "beat_box",
       "nombre": "Beat Box",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Beatbox_logo.png/revision/latest/scale-to-width-down/50?cb=20221031030621",
+      "logo": "",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "vr",
       "nombre": "VR +",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/0d/VR_Plus.png/revision/latest/scale-to-width-down/50?cb=20160916012509",
+      "logo": "",
       "categoria": "Música",
       "pais": "Argentina"
     },
     {
       "id": "exa_tv",
       "nombre": "Exa TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/d/d9/Exa_FM_logo.png/revision/latest/scale-to-width-down/50?cb=20170909171603",
+      "logo": "",
       "categoria": "Música",
       "pais": "Argentina"
     },
     {
       "id": "video_rola",
       "nombre": "Video Rola",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/02/VR-2024.png/revision/latest/scale-to-width-down/50?cb=20240910031904",
+      "logo": "",
       "categoria": "Música",
       "pais": "Argentina"
     },
@@ -2453,21 +2453,21 @@
     {
       "id": "tv_globo",
       "nombre": "TV GLOBO",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ef/Globo_2025_Vector.svg/revision/latest/scale-to-width-down/50?cb=20260528153050",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/globo-br.png",
       "categoria": "General",
       "pais": "Internacional"
     },
     {
       "id": "rede_record",
       "nombre": "Rede Record",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Record_2023_with_wordmark.png/revision/latest/scale-to-width-down/50?cb=20231111231148",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/record-br.png",
       "categoria": "General",
       "pais": "Internacional"
     },
     {
       "id": "band_news_tv",
       "nombre": "Band News TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/6/6c/Bandnews_TV_Blue_2024.svg/revision/latest/scale-to-width-down/50?cb=20240420024833",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/band-news-br.png",
       "categoria": "General",
       "pais": "Internacional"
     },
@@ -2551,7 +2551,7 @@
     {
       "id": "newsmax_2",
       "nombre": "Newsmax 2",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/8/85/Newsmax2_vertical_logo.webp/revision/latest/scale-to-width-down/50?cb=20250720212236",
+      "logo": "",
       "categoria": "General",
       "pais": "Internacional"
     },
@@ -2572,49 +2572,49 @@
     {
       "id": "espn_5",
       "nombre": "ESPN",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest/scale-to-width-down/50?cb=20201130040927",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-ar.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "espn_2_2",
       "nombre": "ESPN 2",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/d/d5/ESPN2.svg/revision/latest/scale-to-width-down/50?cb=20210609161318",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "espn_3_2",
       "nombre": "ESPN 3",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/1/11/ESPN3.svg/revision/latest/scale-to-width-down/50?cb=20231118035609",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "espn_4_2",
       "nombre": "ESPN 4",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/3/30/ESPN_4.svg/revision/latest/scale-to-width-down/50?cb=20211129170304",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-4-lam.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "espn_5_2",
       "nombre": "ESPN 5",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/1/13/ESPN_5.svg/revision/latest/scale-to-width-down/50?cb=20211120193957",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-5-lam.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "espn_6",
       "nombre": "ESPN 6",
-      "logo": "https://static.wikia.nocookie.net/tvcable/images/3/36/ESPN6.png/revision/latest/scale-to-width-down/50?cb=20240215232131&path-prefix=es",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-6-lam.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
     {
       "id": "espn_7",
       "nombre": "ESPN 7",
-      "logo": "https://static.wikia.nocookie.net/dreamlogos/images/d/d2/ESPN_7.svg/revision/latest/scale-to-width-down/50?cb=20240215222144",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-7-lam.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
@@ -2964,14 +2964,14 @@
     {
       "id": "bolivia_tv",
       "nombre": "Bolivia TV",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1b/BoliviaTV2026.svg/revision/latest/scale-to-width-down/50?cb=20260203191902&path-prefix=es",
+      "logo": "",
       "categoria": "General",
       "pais": "Bolivia"
     },
     {
       "id": "bolivision",
       "nombre": "Bolivisión",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/8/86/Bolivisi%C3%B3n2025.svg/revision/latest/scale-to-width-down/50?cb=20250311161557&path-prefix=es",
+      "logo": "",
       "categoria": "General",
       "pais": "Bolivia"
     },
@@ -3006,7 +3006,7 @@
     {
       "id": "red_uno",
       "nombre": "Red Uno",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/Red_Uno_logo.png/revision/latest/scale-to-width-down/50?cb=20201021023502&path-prefix=es",
+      "logo": "",
       "categoria": "General",
       "pais": "Bolivia"
     },
@@ -3125,7 +3125,7 @@
     {
       "id": "penthouse_gold",
       "nombre": "Penthouse Gold",
-      "logo": "https://static.wikia.nocookie.net/the-fake-logos-of-the-world/images/2/2e/Received_796876118356629.webp/revision/latest/scale-to-width-down/50?cb=20220720200940&path-prefix=bg",
+      "logo": "",
       "categoria": "General",
       "pais": "Adultos"
     },
@@ -3146,7 +3146,7 @@
     {
       "id": "dorcel",
       "nombre": "Dorcel",
-      "logo": "https://static.wikia.nocookie.net/the-fake-logos-of-the-world/images/f/fd/Dorceltv.png/revision/latest/scale-to-width-down/50?cb=20220723202903&path-prefix=bg",
+      "logo": "",
       "categoria": "General",
       "pais": "Adultos"
     }
