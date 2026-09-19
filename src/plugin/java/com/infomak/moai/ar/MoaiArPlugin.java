@@ -20,6 +20,12 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo completo (449 canales desde master.json de pascua).
  *
+ * v1.4.0:
+ *  - Reorganización completa de categorías (Aire, Interior, Deportes, Radios, etc.).
+ *  - Corrección de países (Brasil, Canadá, Internacional).
+ *  - Ordenamiento lógico por importancia y relevancia de canales en cada categoría.
+ *  - Actualización masiva de logos hacia CDN GitHub Raw tv-logos.
+ *
  * v1.3.2:
  *  - Saneamiento y sustitución de URLs de logos caídas (403 Cloudflare) por fuentes estables CDN.
  *
@@ -99,7 +105,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.3.2",
+            "1.4.0",
             1,
             1,
             CANALES,

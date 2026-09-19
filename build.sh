@@ -8,7 +8,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 SDK="${ANDROID_HOME:-$HOME/Android/Sdk}"
 BUILD_TOOLS="${ANDROID_BUILD_TOOLS:-$SDK/build-tools/36.0.0}"
-PLUGIN_VERSION="${PLUGIN_VERSION:-1.3.2}"
+PLUGIN_VERSION="${PLUGIN_VERSION:-1.4.0}"
 
 pick_platform() {
     for dir in "$SDK"/platforms/*; do
