@@ -20,6 +20,9 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo completo (449 canales desde master.json de pascua).
  *
+ * v1.4.1:
+ *  - Soporte de tag "ar" en manifest para identificación visual en moai3.
+ *
  * v1.4.0:
  *  - Reorganización completa de categorías (Aire, Interior, Deportes, Radios, etc.).
  *  - Corrección de países (Brasil, Canadá, Internacional).
@@ -105,7 +108,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.4.0",
+            "1.4.1",
             1,
             1,
             CANALES,

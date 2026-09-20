@@ -8,7 +8,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 SDK="${ANDROID_HOME:-$HOME/Android/Sdk}"
 BUILD_TOOLS="${ANDROID_BUILD_TOOLS:-$SDK/build-tools/36.0.0}"
-PLUGIN_VERSION="${PLUGIN_VERSION:-1.4.0}"
+PLUGIN_VERSION="${PLUGIN_VERSION:-1.4.1}"
 
 pick_platform() {
     for dir in "$SDK"/platforms/*; do
@@ -66,6 +66,7 @@ with open(os.path.join(root, "build", "ult_canales.json"), encoding="utf-8") as 
 
 manifest = {
     "id": "moai_ar",
+    "tag": "ar",
     "nombre": "Moai Argentina",
     "version": version,
     "minContrato": 1,

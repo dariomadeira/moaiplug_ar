@@ -1,11 +1,12 @@
 {
   "id": "moai_ar",
+  "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "a034f24b8ac399db2b7f951d5b0dace5bbb9f8e7d4c0d5024f9f56661b111860",
+  "sha256": "524de4e8e94ccfc2ab432e00373ed45b1d5aa16e2f184296f238b576f393a131",
   "canales": [
     {
       "id": "brazzers",
