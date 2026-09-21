@@ -333,12 +333,30 @@ def main():
                 "headers": headers,
             })
 
-    # Ordenamiento: primero por País, luego por Categoría, y dentro por relevancia
+    CATEGORY_PRIORITY = {
+        "Aire": 1,
+        "Noticias": 2,
+        "Deportes": 3,
+        "Cine y Series": 4,
+        "Infantil": 5,
+        "Cultural": 6,
+        "Novelas": 7,
+        "Cocina": 8,
+        "Música": 9,
+        "Radios": 10,
+        "Religioso": 11,
+        "Interior": 12,
+        "General": 13,
+        "Adultos": 999,
+    }
+
+    # Ordenamiento: primero por País, luego por Categoría (Adultos al final), y dentro por relevancia
     # Manteniendo Argentina primero
     def sort_key(r):
         p_order = 0 if r["pais"] == "Argentina" else 1
+        cat_prio = CATEGORY_PRIORITY.get(r["categoria"], 50)
         prio, norm_n = channel_priority(r)
-        return (p_order, r["pais"], r["categoria"], prio, norm_n)
+        return (p_order, r["pais"], cat_prio, r["categoria"], prio, norm_n)
 
     rows.sort(key=sort_key)
 
