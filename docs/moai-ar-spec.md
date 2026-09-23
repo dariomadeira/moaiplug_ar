@@ -1,8 +1,9 @@
 # MoaiAr Plugin — Spec (contrato moai v1)
 
 Plugin `moai_ar` del motor moai3. **Solo resuelve la señal**; la app la
-reproduce. El catálogo (448 canales, v1.4.2) se genera desde la copia reparada
-de pascua (`~/pascua/assets/master.json`) y viaja en `manifest.json`; el dex
+reproduce. El catálogo (398 canales 100% operativos, v1.5.0) se genera desde la copia reparada
+de pascua (`~/pascua/assets/master.json`) aplicando el filtro de exclusión auditado
+(`EXCLUDED_CHANNEL_IDS` en `generate_catalog.py`), y viaja en `manifest.json`; el dex
 aporta el resolver.
 
 ## Automation
@@ -60,7 +61,8 @@ sha256, canalInicial, canales).
 
 `tools/generate_catalog.py` SHALL mapear cada grupo de `master.json.categories`
 según `GROUP_CONFIG` (30 grupos) a país y categoría, filtrar basura
-(`JUNK_PATTERNS`: apks, telegram, tutorials, worldtv), generar `id` slug únicos
+(`JUNK_PATTERNS`: apks, telegram, tutorials, worldtv), excluir los canales con
+streams no operativos o caducados (`EXCLUDED_CHANNEL_IDS`), generar `id` slug únicos
 (sufijo `_2`, `_3`… ante duplicados), limpiar logos (`LOGO_OVERRIDES` hacia CDN
 GitHub `tv-logo`; `nocookie.net`/`data:` → `""`) y ordenar por
 país (Argentina primero) → categoría (`CATEGORY_PRIORITY`, **Adultos = 999 al
@@ -71,6 +73,10 @@ final**) → relevancia (`channel_priority`).
 - **THEN** el segundo recibe sufijo numérico (`_2`) y ambos conservan su URL y
   headers originales.
 
+#### Scenario: Canal no operativo en auditoría
+- **WHEN** un canal tiene su ID en `EXCLUDED_CHANNEL_IDS`
+- **THEN** no se agrega al catálogo compilado ni al manifest, garantizando 100% de operatividad.
+
 #### Scenario: Logo caído u origen basura
 - **WHEN** un canal usa logo `nocookie.net` o `data:`
 - **THEN** el catálogo emite `logo=""` y la app muestra el logo por defecto.
@@ -79,13 +85,12 @@ final**) → relevancia (`channel_priority`).
 
 El host SHALL leer la lista de canales desde `manifest.json` (`canales` +
 `canalInicial: telefe`); el dex embebido (`manifest()`) queda como fallback y
-SHALL coincidir en ids. La versión SHALL venir de `build.sh` (env
-`PLUGIN_VERSION`, default `1.4.2`) y escribirse en el manifest — NO del
-`manifest()` Java (que hoy está hardcodeado a `1.4.1`, inconsistencia menor).
+coincide en versión e ids. La versión SHALL ser unificada en `1.5.0` en `build.sh`
+(env `PLUGIN_VERSION`, default `1.5.0`), `manifest.json` y en `MoaiArPlugin.manifest()`.
 
 #### Scenario: Host carga el plugin
 - **WHEN** se agrega la fuente (URLs de `manifest.json`/`plugin.dex`)
-- **THEN** el host deriva el gemelo, verifica el `sha256`, lee los 448 canales
+- **THEN** el host deriva el gemelo, verifica el `sha256`, lee los 398 canales
   del `manifest.json` y resuelve con el dex.
 
 ### Requirement: Lookup de canal
