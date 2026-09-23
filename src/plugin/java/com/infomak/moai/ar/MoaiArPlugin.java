@@ -18,7 +18,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Plugin .dex v1 — catálogo completo (449 canales desde master.json de pascua).
+ * Plugin .dex v1 — catálogo optimizado (canales operativos desde master.json de pascua).
+ *
+ * v1.5.0:
+ *  - Saneamiento y depuración completa de catálogo: exclusión de 50 canales con enlaces
+ *    muertos (404), feeds temporales inactivos, servidores apagados y bloqueos de CDN.
+ *  - Garantía de catálogo 100% operativo para moai3.
  *
  * v1.4.1:
  *  - Soporte de tag "ar" en manifest para identificación visual en moai3.
@@ -108,7 +113,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.4.1",
+            "1.5.0",
             1,
             1,
             CANALES,

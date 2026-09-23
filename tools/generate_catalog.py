@@ -52,6 +52,31 @@ GROUP_CONFIG = {
     "ADULTOS": {"pais": "Argentina", "cat": "Adultos"},
 }
 
+# Canales caídos o con streams permanentemente rotos auditados
+EXCLUDED_CHANNEL_IDS = {
+    # Novelas (HTTP 404)
+    "az_corazon", "azteca_7",
+    # Música (HTTP 404)
+    "beat_box", "exa_tv", "vr", "video_rola",
+    # Radios (HTTP 404 / 401 / SSL caducado / Servidor fuera de línea)
+    "del_sur", "cadena_alegria", "estacion_21", "mas_tropical", "mitre_jujuy", "punto_de_encuentro",
+    # Deportes (LPF Play inactivos / Astra expirado / izzigo / peacock 403 / dazn timeout)
+    "play_1", "play_1_2", "play_2", "play_2_2", "play_3", "play_3_2",
+    "play_4", "play_4_2", "play_5", "play_5_2", "play_6", "play_6_2",
+    "basquet_tv", "eventos_formula_1", "plus_tv", "sky_sport_f1_eventos",
+    "t_deportes", "telemundo", "dazn_f1",
+    # Interior (HTTP 404 / Conexión rechazada)
+    "5_telefe_rosario_cba", "13_telefe_santa_fe", "12_misiones", "san_luis",
+    # General / Bolivia (Geobloqueo regional HTTP 403)
+    "cadena_a", "bolivia_tv", "bolivision", "f10", "red_gigavision", "red_pat",
+    "rtp", "red_uno", "tv_culturas", "unitel_cochabamba", "unitel_la_paz",
+    "tvu_la_paz", "atb",
+    # Adultos (HTTP 403)
+    "sexy_hot",
+    # Religioso (HTTP 404)
+    "jta_tv",
+}
+
 # CDNs estables
 TV_AR = "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina"
 TV_LAM = "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america"
@@ -318,6 +343,9 @@ def main():
                 i += 1
                 cid = f"{base}_{i}"
             seen_ids.add(cid)
+
+            if cid in EXCLUDED_CHANNEL_IDS:
+                continue
 
             logo = clean_logo(cid, name, logo)
 

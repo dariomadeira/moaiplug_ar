@@ -2,11 +2,11 @@
   "id": "moai_ar",
   "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "1f6abf67a34622043d07db42916a0faf604654373202771572e1d3d9101c58c1",
+  "sha256": "c00bfa5c0772cb6fb9af17ce1c63e490d742b28856b600ad5040c5e7aafe7e6c",
   "canalInicial": "telefe",
   "canales": [
     {
@@ -342,90 +342,6 @@
       "id": "dsports_2_2",
       "nombre": "Dsports 2",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_1",
-      "nombre": "(PLAY 1)",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_1_2",
-      "nombre": "PLAY 1",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_2",
-      "nombre": "(PLAY 2)",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_2_2",
-      "nombre": "PLAY 2",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_3",
-      "nombre": "(PLAY 3)",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_3_2",
-      "nombre": "PLAY 3",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_4",
-      "nombre": "(PLAY 4)",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_4_2",
-      "nombre": "PLAY 4",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_5",
-      "nombre": "(PLAY 5)",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_5_2",
-      "nombre": "PLAY 5",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_6",
-      "nombre": "(PLAY 6)",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
-      "categoria": "Deportes",
-      "pais": "Argentina"
-    },
-    {
-      "id": "play_6_2",
-      "nombre": "PLAY 6",
-      "logo": "https://lpf.vod.immergo.tv/lpf-immergo/uploaded/9ac81436-28e2-4e50-9775-e69dc8192797.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
@@ -1067,20 +983,6 @@
       "pais": "Argentina"
     },
     {
-      "id": "az_corazon",
-      "nombre": "AZ CORAZÓN",
-      "logo": "",
-      "categoria": "Novelas",
-      "pais": "Argentina"
-    },
-    {
-      "id": "azteca_7",
-      "nombre": "AZTECA 7",
-      "logo": "",
-      "categoria": "Novelas",
-      "pais": "Argentina"
-    },
-    {
       "id": "azteca_uno",
       "nombre": "AZTECA UNO",
       "logo": "https://tvazteca.brightspotcdn.com/10/57/ee810ae644028eb1793e34aeeb1f/logo-uno.png",
@@ -1214,13 +1116,6 @@
       "pais": "Argentina"
     },
     {
-      "id": "beat_box",
-      "nombre": "Beat Box",
-      "logo": "",
-      "categoria": "Música",
-      "pais": "Argentina"
-    },
-    {
       "id": "billboard",
       "nombre": "Billboard",
       "logo": "https://geo.edge.pontiscloud.com:9002/images/901/CH_LOGO/200/200/0/0/12050400077728.png",
@@ -1245,13 +1140,6 @@
       "id": "el_folklorico",
       "nombre": "El Folklórico",
       "logo": "https://geo.edge.pontiscloud.com:9002/images/4061/CH_LOGO/160/160/0/0/37904303079132.png",
-      "categoria": "Música",
-      "pais": "Argentina"
-    },
-    {
-      "id": "exa_tv",
-      "nombre": "Exa TV",
-      "logo": "",
       "categoria": "Música",
       "pais": "Argentina"
     },
@@ -1305,20 +1193,6 @@
       "pais": "Argentina"
     },
     {
-      "id": "video_rola",
-      "nombre": "Video Rola",
-      "logo": "",
-      "categoria": "Música",
-      "pais": "Argentina"
-    },
-    {
-      "id": "vr",
-      "nombre": "VR +",
-      "logo": "",
-      "categoria": "Música",
-      "pais": "Argentina"
-    },
-    {
       "id": "am_910",
       "nombre": "AM 910",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Radio_La_Red_AM_910.png",
@@ -1347,13 +1221,6 @@
       "pais": "Argentina"
     },
     {
-      "id": "cadena_alegria",
-      "nombre": "Cadena Alegria",
-      "logo": "https://play-lh.googleusercontent.com/5IE-yamV2Aiu90jKd9YZMN4jvdGiO2B2yN3hWGA8xUiLcBnOkPHwCxRUr99WfDD3t8Pf",
-      "categoria": "Radios",
-      "pais": "Argentina"
-    },
-    {
       "id": "cadena_tres",
       "nombre": "Cadena Tres",
       "logo": "https://www.cadena3.com/img/conductores-placas/generica.jpg",
@@ -1364,13 +1231,6 @@
       "id": "con_vos",
       "nombre": "Con Vos",
       "logo": "https://yt3.googleusercontent.com/T0kc3wJIrewoTiJTESM7Pkk0VeGSy04fSiwexJDD6MLVL9z8i2WnT4YX7vhlLtPzVOkCaZM2_A=s900-c-k-c0x00ffffff-no-rj",
-      "categoria": "Radios",
-      "pais": "Argentina"
-    },
-    {
-      "id": "del_sur",
-      "nombre": "Del Sur",
-      "logo": "https://myradioenvivo.ar/public/uploads/radio_img/radio-del-sur/fb_cover.jpg",
       "categoria": "Radios",
       "pais": "Argentina"
     },
@@ -1399,13 +1259,6 @@
       "id": "el_destape",
       "nombre": "El Destape",
       "logo": "https://geo.edge.pontiscloud.com:9002/images/4126/CH_LOGO/400/400/0/0/49015720078226.png",
-      "categoria": "Radios",
-      "pais": "Argentina"
-    },
-    {
-      "id": "estacion_21",
-      "nombre": "Estacion 21",
-      "logo": "https://play-lh.googleusercontent.com/SGbp_nQT2GVKBwNwgaGOSxUJxEBkNYLmm8QlMOwHtu_CCcEBO-Y2rdb9z9Rzikn5uHzM",
       "categoria": "Radios",
       "pais": "Argentina"
     },
@@ -1466,23 +1319,9 @@
       "pais": "Argentina"
     },
     {
-      "id": "mas_tropical",
-      "nombre": "Mas Tropical",
-      "logo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfM2aiorN8lORGc8hWen_WltB2aJlza0TQbIjz60mdxjSuwu8m",
-      "categoria": "Radios",
-      "pais": "Argentina"
-    },
-    {
       "id": "mia",
       "nombre": "Mia",
       "logo": "https://myradioenvivo.ar/public/uploads/radio_img/mia-fm/fb_cover.jpg",
-      "categoria": "Radios",
-      "pais": "Argentina"
-    },
-    {
-      "id": "mitre_jujuy",
-      "nombre": "Mitre Jujuy",
-      "logo": "https://static-c4-1.s3.amazonaws.com/assets/img/logos/radiomitre-logo-500x353.png",
       "categoria": "Radios",
       "pais": "Argentina"
     },
@@ -1504,13 +1343,6 @@
       "id": "popular",
       "nombre": "Popular",
       "logo": "https://geo.edge.pontiscloud.com:9002/images/3982/CH_LOGO/400/400/0/0/67035155079040.png",
-      "categoria": "Radios",
-      "pais": "Argentina"
-    },
-    {
-      "id": "punto_de_encuentro",
-      "nombre": "Punto de Encuentro",
-      "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHoO_llJ3zv5l9ToZJG2gdfDP4sBSfcJ3u_O1lqo_Q0eSvmTwm",
       "categoria": "Radios",
       "pais": "Argentina"
     },
@@ -1581,13 +1413,6 @@
       "id": "ewtn",
       "nombre": "EWTN",
       "logo": "https://cdn.mitvstatic.com/channels/cl_ewtn_m.png",
-      "categoria": "Religioso",
-      "pais": "Argentina"
-    },
-    {
-      "id": "jta_tv",
-      "nombre": "JTA TV",
-      "logo": "https://pbs.twimg.com/profile_images/1318990468290646016/D65h3HYF_400x400.jpg",
       "categoria": "Religioso",
       "pais": "Argentina"
     },
@@ -1669,13 +1494,6 @@
       "pais": "Argentina"
     },
     {
-      "id": "12_misiones",
-      "nombre": "12 Misiones",
-      "logo": "https://i.ibb.co/dmC5qGD/doce-tv.png",
-      "categoria": "Interior",
-      "pais": "Argentina"
-    },
-    {
       "id": "13_corrientes",
       "nombre": "13 Corrientes",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/13max-hd-ar.png",
@@ -1693,13 +1511,6 @@
       "id": "13_rio_cuarto",
       "nombre": "13 Río Cuarto",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png/250px-Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png",
-      "categoria": "Interior",
-      "pais": "Argentina"
-    },
-    {
-      "id": "13_telefe_santa_fe",
-      "nombre": "13 Telefe Santa Fe",
-      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1791,13 +1602,6 @@
       "id": "5_santa_fe",
       "nombre": "5 Santa Fe",
       "logo": "https://www.c5sf.com/wp-content/uploads/2018/07/CANAL-5.png",
-      "categoria": "Interior",
-      "pais": "Argentina"
-    },
-    {
-      "id": "5_telefe_rosario_cba",
-      "nombre": "5 Telefe Rosario (Cba)",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/Telefe_Rosario_%282018%29.png",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1963,13 +1767,6 @@
       "pais": "Argentina"
     },
     {
-      "id": "san_luis",
-      "nombre": "San Luis+",
-      "logo": "https://i.ibb.co/D8kbHMH/canal13-san-luis.png",
-      "categoria": "Interior",
-      "pais": "Argentina"
-    },
-    {
       "id": "somos",
       "nombre": "Somos",
       "logo": "https://i.postimg.cc/6qp5L4FT/Somos.png",
@@ -2068,109 +1865,11 @@
       "pais": "Argentina"
     },
     {
-      "id": "sexy_hot",
-      "nombre": "Sexy Hot",
-      "logo": "https://rollingstone.com.br/wp-content/uploads/sexy-hot-canal-adulto-logo-reproducao.jpg",
-      "categoria": "Adultos",
-      "pais": "Argentina"
-    },
-    {
       "id": "venus",
       "nombre": "Venus",
       "logo": "https://i.postimg.cc/fL6QgMwf/Venus.png",
       "categoria": "Adultos",
       "pais": "Argentina"
-    },
-    {
-      "id": "atb",
-      "nombre": "ATB",
-      "logo": "https://www.atb.com.bo/wp-content/uploads/2026/07/Asset-574.png.webp",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "bolivia_tv",
-      "nombre": "Bolivia TV",
-      "logo": "",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "bolivision",
-      "nombre": "Bolivisión",
-      "logo": "",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "cadena_a",
-      "nombre": "Cadena A",
-      "logo": "",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "f10",
-      "nombre": "F10",
-      "logo": "https://eju.tv/wp-content/uploads/2021/07/img_60dde7e8d5c6c.png",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "red_gigavision",
-      "nombre": "Red Gigavisión",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGS_X6Zv2i14epi6bwO7RStpvLElG72bL17TjOa9xkZyfDqHUWIm7CeraX&s=10",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "red_pat",
-      "nombre": "Red pat",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/PAT_Logotype.png/330px-PAT_Logotype.png",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "red_uno",
-      "nombre": "Red Uno",
-      "logo": "",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "rtp",
-      "nombre": "RTP",
-      "logo": "",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "tv_culturas",
-      "nombre": "TV Culturas",
-      "logo": "",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "tvu_la_paz",
-      "nombre": "TVU La Paz",
-      "logo": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/tvu.png",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "unitel_cochabamba",
-      "nombre": "Unitel Cochabamba",
-      "logo": "https://integraciones.unitel.bo/v25/resources/unitel/images/png/logo-unitel-2026.png",
-      "categoria": "General",
-      "pais": "Bolivia"
-    },
-    {
-      "id": "unitel_la_paz",
-      "nombre": "Unitel La Paz",
-      "logo": "https://integraciones.unitel.bo/v25/resources/unitel/images/png/logo-unitel-2026.png",
-      "categoria": "General",
-      "pais": "Bolivia"
     },
     {
       "id": "cazetv",
@@ -2383,13 +2082,6 @@
       "pais": "Internacional"
     },
     {
-      "id": "basquet_tv",
-      "nombre": "Basquet TV",
-      "logo": "",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
       "id": "bein_sports_1",
       "nombre": "Bein Sports 1",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-us.png",
@@ -2432,13 +2124,6 @@
       "pais": "Internacional"
     },
     {
-      "id": "dazn_f1",
-      "nombre": "DAZN F1",
-      "logo": "https://i.ibb.co/m5XrNyjB/image-7.jpg",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
       "id": "dazn_fast",
       "nombre": "Dazn Fast",
       "logo": "https://www.dwdl.de/images/1692002750_dazn-fast.jpg",
@@ -2456,13 +2141,6 @@
       "id": "espn_8_the_ocho",
       "nombre": "ESPN 8 THE OCHO",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-ar.png",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
-      "id": "eventos_formula_1",
-      "nombre": "EVENTOS FORMULA 1",
-      "logo": "https://i.ibb.co/Rpmhjtj3/F1-Announcement.png",
       "categoria": "Deportes",
       "pais": "Internacional"
     },
@@ -2635,13 +2313,6 @@
       "pais": "Internacional"
     },
     {
-      "id": "plus_tv",
-      "nombre": "PLUS+ tv",
-      "logo": "",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
       "id": "premier_sports_1",
       "nombre": "Premier Sports 1",
       "logo": "",
@@ -2691,13 +2362,6 @@
       "pais": "Internacional"
     },
     {
-      "id": "sky_sport_f1_eventos",
-      "nombre": "Sky sport F1 Eventos",
-      "logo": "https://i.ibb.co/8LvjWhTL/Sky-Sports-F1-2020-DOG-1.webp",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
       "id": "speed_sport",
       "nombre": "SPEED SPORT",
       "logo": "https://i.ibb.co/YF3VxdxN/Picsart-26-04-15-13-37-11-905.png",
@@ -2705,23 +2369,9 @@
       "pais": "Internacional"
     },
     {
-      "id": "t_deportes",
-      "nombre": "T. Deportes",
-      "logo": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2023-05/TelemundoDeportesWhite-5f8103.png",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
       "id": "t2",
       "nombre": "T2",
       "logo": "",
-      "categoria": "Deportes",
-      "pais": "Internacional"
-    },
-    {
-      "id": "telemundo",
-      "nombre": "Telemundo",
-      "logo": "https://play-lh.googleusercontent.com/TwIfy0hsJ57tJS0ZzmaEsoLEt-Wzy_p1CCLBnBnfg-jSAAbOGmc2uYQhaKVgVevzMI1J4FZdFnSMfQFvY4ej",
       "categoria": "Deportes",
       "pais": "Internacional"
     },

@@ -46,6 +46,16 @@ build-tools 36.0.0).
 java -cp build/plugin:build/contract com.infomak.moai.ar.MoaiArPlugin
 ```
 
+### Comprobar estado de los canales en vivo
+
+```bash
+python3 tools/check_channels.py
+# o filtrar por categoría / búsqueda:
+python3 tools/check_channels.py --cat Deportes
+python3 tools/check_channels.py --search espn
+python3 tools/check_channels.py --failed-only
+```
+
 ## Contrato
 
 Compila contra `com.infomak.moai.contract` (stubs Java en
@@ -56,8 +66,8 @@ Compila contra `com.infomak.moai.contract` (stubs Java en
 | Campo         | Valor                                             |
 |---------------|---------------------------------------------------|
 | id            | `moai_ar`                                         |
-| version       | `1.0.0`                                           |
+| version       | `1.5.0`                                           |
 | minContrato   | 1                                                 |
 | maxContrato   | 1                                                 |
-| canal         | `canal_7_salta` → 7 Salta (Argentina)             |
-| formato       | `hls`                                             |
+| canales       | 398 canales (100% operativos)                      |
+| canalInicial  | `telefe` → Telefe (Argentina)                     |
