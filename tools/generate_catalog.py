@@ -15,6 +15,7 @@ import json
 import re
 import sys
 import unicodedata
+from urllib.parse import quote, urlsplit, urlunsplit
 
 MASTER = "/home/apogeo/pascua/assets/master.json"
 
@@ -99,7 +100,7 @@ LOGO_OVERRIDES = {
     "canal_rural": f"{TV_AR}/canal-rural-ar.png",
     "telemax": f"{TV_AR}/telemax-ar.png",
     "argentinisima": f"{TV_AR}/argentinisima-satelital-ar.png",
-    "construir_tv": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Construir_TV_logo.png/240px-Construir_TV_logo.png",
+    "construir_tv": "https://upload.wikimedia.org/wikipedia/commons/f/f3/LogoCTVpng.png",
     "garage_tv": f"{TV_AR}/el-garage-tv-ar.png",
     "metro": f"{TV_AR}/metro-ar.png",
 
@@ -191,9 +192,9 @@ LOGO_OVERRIDES = {
     "tv_galicia": f"{TV_ES}/galicia-es.png",
 
     # Paraguay
-    "snt": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/SNT_2013.png/240px-SNT_2013.png",
-    "paravision": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paravision_2004.png/240px-Paravision_2004.png",
-    "paraguay_tv": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ParaguayTV2019.png/240px-ParaguayTV2019.png",
+    "snt": "https://upload.wikimedia.org/wikipedia/commons/6/6a/SNT_2013_logotype.png",
+    "paravision": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Paravision_logo.png",
+    "paraguay_tv": "https://upload.wikimedia.org/wikipedia/commons/1/10/Paraguay_TV_logo.png",
 }
 
 JUNK_PATTERNS = [
@@ -201,6 +202,28 @@ JUNK_PATTERNS = [
     r"playstore", r"tutorial", r"descargap", r"instalar",
     r"^t\.me/", r"worldtv"
 ]
+
+# Logos verificados como MUERTOS con tools/check_logos.py (HTTP 404/403 o
+# servidor que cierra la conexion). No hay override posible: se emiten vacios
+# para que la app dibuje el logo por defecto en vez de una imagen rota.
+#   - i.postimg.cc/.../6583*.webp : postimg rejects la conexion (h scraped)
+#   - allegrohd.com/images/logo3.png : 404 Not Found
+#   - lu5am.com/wp-content/... : 403 Forbidden (hotlink protection)
+DEAD_LOGO_IDS = {
+    "cinema", "comedy", "crime", "reality",
+    "hbo_multicamara", "4_posadas",
+    "allegro", "lu5_de_neuquen",
+}
+
+# /thumb/ de Wikimedia devuelve HTTP 400 si el ancho no es uno de los
+# estandar, y los anchos validos cambian segun el archivo (para
+# Norte_Grande_Federal valen 120/250/330/500/1280/1920; 320 no val nunca).
+# Special:FilePath?width=N si genera la miniatura correcta para cualquier N.
+WIKIMEDIA_THUMB_RE = re.compile(
+    r"^https?://upload\.wikimedia\.org/wikipedia/commons/thumb/"
+    r"(?:[0-9a-f]{1,2}/){1,3}([^/]+?)/\d+px-", re.I
+)
+WIKIMEDIA_WIDTH = 250
 
 
 def norm(s):
@@ -225,8 +248,10 @@ def is_junk(name):
 
 
 def clean_logo(cid, name, logo):
+    if cid in DEAD_LOGO_IDS:
+        return ""
     if cid in LOGO_OVERRIDES:
-        return LOGO_OVERRIDES[cid]
+        return normalize_logo_url(LOGO_OVERRIDES[cid])
     n = norm(name).upper()
     # Casos genéricos basados en nombre
     if "DSPORTS 2" in n or "DSPORTS2" in n:
@@ -238,7 +263,26 @@ def clean_logo(cid, name, logo):
 
     if "nocookie.net" in logo or logo.startswith("data:"):
         return ""
-    return logo
+    return normalize_logo_url(logo)
+
+
+def normalize_logo_url(url):
+    """Deja la URL en una forma que el player y los CDNs puedan cargar."""
+    if not url:
+        return url
+    # Anchos de /thumb/ de Wikimedia -> Special:FilePath (siempre valido).
+    m = WIKIMEDIA_THUMB_RE.match(url)
+    if m:
+        return (f"https://commons.wikimedia.org/wiki/Special:FilePath/"
+                f"{m.group(1)}?width={WIKIMEDIA_WIDTH}")
+    # El master.json trae no-ASCII crudo en el path (p.ej. "CNN_en_Español.png").
+    # Sin percent-encoding, la carga falla con UnicodeEncodeError.
+    parts = urlsplit(url)
+    return urlunsplit((
+        parts.scheme, parts.netloc,
+        quote(parts.path, safe="/%:@&=+$,~()!*'"),
+        parts.query, parts.fragment,
+    ))
 
 
 def channel_priority(item):

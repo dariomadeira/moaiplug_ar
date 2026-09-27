@@ -1,7 +1,7 @@
 # MoaiAr Plugin — Spec (contrato moai v1)
 
 Plugin `moai_ar` del motor moai3. **Solo resuelve la señal**; la app la
-reproduce. El catálogo (398 canales 100% operativos, v1.5.0) se genera desde la copia reparada
+reproduce. El catálogo (398 canales 100% operativos, v1.5.1) se genera desde la copia reparada
 de pascua (`~/pascua/assets/master.json`) aplicando el filtro de exclusión auditado
 (`EXCLUDED_CHANNEL_IDS` en `generate_catalog.py`), y viaja en `manifest.json`; el dex
 aporta el resolver.
@@ -85,8 +85,14 @@ final**) → relevancia (`channel_priority`).
 
 El host SHALL leer la lista de canales desde `manifest.json` (`canales` +
 `canalInicial: telefe`); el dex embebido (`manifest()`) queda como fallback y
-coincide en versión e ids. La versión SHALL ser unificada en `1.5.0` en `build.sh`
-(env `PLUGIN_VERSION`, default `1.5.0`), `manifest.json` y en `MoaiArPlugin.manifest()`.
+coincide en versión e ids. La versión SHALL ser unificada en `1.5.1` en `build.sh`
+(env `PLUGIN_VERSION`, default `1.5.1`), `manifest.json` y en `MoaiArPlugin.manifest()`.
+
+El host decide si hay actualización **comparando solo el string de versión**
+(`PluginUpdateService.isNewer` en moai3, semver numérica); el `sha256` se usa
+únicamente como verificación de integridad en la descarga. Consecuencia: un
+build nuevo publicado con la versión repetida es **invisible** para la app, por
+lo que todo cambio de artefacto obliga a subir la versión.
 
 #### Scenario: Host carga el plugin
 - **WHEN** se agrega la fuente (URLs de `manifest.json`/`plugin.dex`)

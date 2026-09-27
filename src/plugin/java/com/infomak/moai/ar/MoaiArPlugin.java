@@ -20,6 +20,13 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo optimizado (canales operativos desde master.json de pascua).
  *
+ * v1.5.1:
+ *  - Saneamiento de logos: 22 URLs rotas corregidas/eliminadas, 0 logos caidos.
+ *    Wikimedia /thumb/ con ancho invalido -> Special:FilePath?width=250 (14).
+ *    4 archivos renombrados en Commons -> URL nueva (Construir TV, SNT,
+ *    Paravision, Paraguay TV). 8 logos muertos -> "" (la app usa el default).
+ *    Percent-encoding de paths con no-ASCII (ej. "CNN_en_Espanol.png").
+ *
  * v1.5.0:
  *  - Saneamiento y depuración completa de catálogo: exclusión de 50 canales con enlaces
  *    muertos (404), feeds temporales inactivos, servidores apagados y bloqueos de CDN.
@@ -113,7 +120,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.5.0",
+            "1.5.1",
             1,
             1,
             CANALES,

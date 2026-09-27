@@ -2,11 +2,11 @@
   "id": "moai_ar",
   "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "c00bfa5c0772cb6fb9af17ce1c63e490d742b28856b600ad5040c5e7aafe7e6c",
+  "sha256": "77b3c71ef779486a3896940d07d899b20a10ad0a863c9b6b7aef487a07f54af7",
   "canalInicial": "telefe",
   "canales": [
     {
@@ -96,7 +96,7 @@
     {
       "id": "construir_tv",
       "nombre": "Construir TV",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Construir_TV_logo.png/240px-Construir_TV_logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/LogoCTVpng.png",
       "categoria": "Aire",
       "pais": "Argentina"
     },
@@ -453,7 +453,7 @@
     {
       "id": "hbo_multicamara",
       "nombre": "HBO MULTICAMARA",
-      "logo": "https://i.postimg.cc/ncKCS9qL/hbo-max-mosaico-contenido-destacado.jpg",
+      "logo": "",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -565,7 +565,7 @@
     {
       "id": "cinema",
       "nombre": "Cinema",
-      "logo": "https://i.postimg.cc/s1CGQp72/65831b19a0e84500189c6719.webp",
+      "logo": "",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -586,7 +586,7 @@
     {
       "id": "comedy",
       "nombre": "Comedy",
-      "logo": "https://i.postimg.cc/brCFqwtp/6583206da0e84500189c671b.webp",
+      "logo": "",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -600,7 +600,7 @@
     {
       "id": "crime",
       "nombre": "Crime",
-      "logo": "https://i.postimg.cc/HkCbVC9b/6582fc5ba0e84500189c6717.webp",
+      "logo": "",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -663,7 +663,7 @@
     {
       "id": "reality",
       "nombre": "Reality",
-      "logo": "https://i.postimg.cc/QC0vVqRt/6583213329fbc80018bdc807.webp",
+      "logo": "",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -726,7 +726,7 @@
     {
       "id": "usa_network",
       "nombre": "USA Network",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/USA_Network_2025_logo.svg/330px-USA_Network_2025_logo.svg.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/USA_Network_2025_logo.svg?width=250",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -1111,7 +1111,7 @@
     {
       "id": "allegro",
       "nombre": "Allegro",
-      "logo": "https://www.allegrohd.com/images/logo3.png",
+      "logo": "",
       "categoria": "Música",
       "pais": "Argentina"
     },
@@ -1314,7 +1314,7 @@
     {
       "id": "lu5_de_neuquen",
       "nombre": "LU5 de Neuquén",
-      "logo": "https://lu5am.com/wp-content/uploads/2022/05/lu5-150x150.png",
+      "logo": "",
       "categoria": "Radios",
       "pais": "Argentina"
     },
@@ -1349,7 +1349,7 @@
     {
       "id": "radio_10",
       "nombre": "Radio 10",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo-radio10.svg/120px-Logo-radio10.svg.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-radio10.svg?width=250",
       "categoria": "Radios",
       "pais": "Argentina"
     },
@@ -1447,7 +1447,7 @@
     {
       "id": "10_cordoba",
       "nombre": "10 Córdoba",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_10_C%C3%B3rdoba_%28Logo_2025%29.svg/250px-Canal_10_C%C3%B3rdoba_%28Logo_2025%29.svg.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_10_C%C3%B3rdoba_%28Logo_2025%29.svg?width=250",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1510,7 +1510,7 @@
     {
       "id": "13_rio_cuarto",
       "nombre": "13 Río Cuarto",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png/250px-Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png?width=250",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1524,7 +1524,7 @@
     {
       "id": "2_posadas",
       "nombre": "2 Posadas",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Canal_2_Posadas_%28Logo_2022%29.png/330px-Canal_2_Posadas_%28Logo_2022%29.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_2_Posadas_%28Logo_2022%29.png?width=250",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1580,7 +1580,7 @@
     {
       "id": "4_posadas",
       "nombre": "4 Posadas",
-      "logo": "https://i.postimg.cc/9MgwYDwQ/logo-pag-22.png",
+      "logo": "",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1608,7 +1608,7 @@
     {
       "id": "50_ng_federal",
       "nombre": "50 NG Federal",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Norte_Grande_Federal.png/250px-Norte_Grande_Federal.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Norte_Grande_Federal.png?width=250",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1622,14 +1622,14 @@
     {
       "id": "7_bahia_blanca",
       "nombre": "7 Bahía Blanca",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Eltrece_logotipo_2018.png/500px-Eltrece_logotipo_2018.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Eltrece_logotipo_2018.png?width=250",
       "categoria": "Interior",
       "pais": "Argentina"
     },
     {
       "id": "7_jujuy",
       "nombre": "7 Jujuy",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Canal_Siete_Jujuy_%28Logo_2026%29.png/330px-Canal_Siete_Jujuy_%28Logo_2026%29.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_Siete_Jujuy_%28Logo_2026%29.png?width=250",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -2007,7 +2007,7 @@
     {
       "id": "cnn_en_espanol",
       "nombre": "CNN EN ESPAÑOL",
-      "logo": "https://i.postimg.cc/J0CFyJwB/CNN_en_Español.png",
+      "logo": "https://i.postimg.cc/J0CFyJwB/CNN_en_Espa%C3%B1ol.png",
       "categoria": "Noticias",
       "pais": "Internacional"
     },
@@ -2469,7 +2469,7 @@
     {
       "id": "dw_espanol",
       "nombre": "DW Español",
-      "logo": "https://i.postimg.cc/28pvgGY2/DW_Español.png",
+      "logo": "https://i.postimg.cc/28pvgGY2/DW_Espa%C3%B1ol.png",
       "categoria": "General",
       "pais": "Internacional"
     },
@@ -2560,7 +2560,7 @@
     {
       "id": "tve",
       "nombre": "🇪🇸 TVE",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/TVE.svg/1920px-TVE.svg.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/TVE.svg?width=250",
       "categoria": "General",
       "pais": "Internacional"
     },
@@ -2637,7 +2637,7 @@
     {
       "id": "mega_tv",
       "nombre": "MEGA TV",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MEGA.svg/1280px-MEGA.svg.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/MEGA.svg?width=250",
       "categoria": "General",
       "pais": "Paraguay"
     },
@@ -2658,14 +2658,14 @@
     {
       "id": "paraguay_tv",
       "nombre": "PARAGUAY TV",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ParaguayTV2019.png/240px-ParaguayTV2019.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Paraguay_TV_logo.png",
       "categoria": "General",
       "pais": "Paraguay"
     },
     {
       "id": "paravision",
       "nombre": "PARAVISIÓN",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paravision_2004.png/240px-Paravision_2004.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Paravision_logo.png",
       "categoria": "General",
       "pais": "Paraguay"
     },
@@ -2679,7 +2679,7 @@
     {
       "id": "snt",
       "nombre": "SNT",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/SNT_2013.png/240px-SNT_2013.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/SNT_2013_logotype.png",
       "categoria": "General",
       "pais": "Paraguay"
     },
