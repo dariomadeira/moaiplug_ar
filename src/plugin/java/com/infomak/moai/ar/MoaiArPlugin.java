@@ -20,6 +20,13 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo optimizado (canales operativos desde master.json de pascua).
  *
+ * v1.6.0:
+ *  - Fusión con moaiplug_free: +104 canales nuevos (interiores, radios, series
+ *    internacionales y musicales). En todo duplicado gana el catálogo AR: los
+ *    canales importados se deduplican por id, URL o identidad del canal.
+ *  - resolve() ya no fuerza DASH: clasifica HLS (.m3u8), DASH (.mpd), MPEG-TS
+ *    (.ts) y "directo" (progresivos/radios), que es lo que espera moai3.
+ *
  * v1.5.1:
  *  - Saneamiento de logos: 22 URLs rotas corregidas/eliminadas, 0 logos caidos.
  *    Wikimedia /thumb/ con ancho invalido -> Special:FilePath?width=250 (14).
@@ -70,6 +77,9 @@ public final class MoaiArPlugin implements IPlugin {
             + "(KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36";
     private static final String FORMAT_HLS = "hls";
     private static final String FORMAT_DASH = "dash";
+    private static final String FORMAT_MPEGTS = "mpegts";
+    /** Sin pista: ExoPlayer deduce el tipo por el Content-Type de la respuesta. */
+    private static final String FORMAT_DIRECTO = "directo";
 
     // ---- Flow token CDN (fiel a FlowTokenManager.DEFAULT_SEED_URLS) ----
     // El orden replica EXACTAMENTE FlowTokenManager.DEFAULT_SEED_URLS: la
@@ -120,7 +130,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.5.1",
+            "1.6.0",
             1,
             1,
             CANALES,
@@ -155,13 +165,30 @@ public final class MoaiArPlugin implements IPlugin {
             headers.put("Referer", "https://portal.app.flow.com.ar/");
         }
 
-        final String format = (url.toLowerCase().endsWith(".m3u8")
-                || url.toLowerCase().contains(".m3u8?"))
-            ? FORMAT_HLS : FORMAT_DASH;
+        final String format = formatFor(url);
 
         DrmInfo drm = drmFor(e.drm);
 
         return new ResolveResult(url, headers, drm, format, 0L);
+    }
+
+    /**
+     * Tipo de medio que espera moai3 ("hls" | "dash" | "mpegts" | "directo").
+     * Antes todo lo que no era .m3u8 se marcaba DASH, lo que rompía los streams
+     * progresivos (MP4) y las radios AAC; "directo" deja que ExoPlayer deduzca
+     * el tipo por el Content-Type (radios y URLs que redirigen a un m3u8).
+     */
+    private static String formatFor(String url) {
+        String path = url;
+        int cut = path.indexOf('?');
+        if (cut >= 0) path = path.substring(0, cut);
+        cut = path.indexOf('#');
+        if (cut >= 0) path = path.substring(0, cut);
+        final String lower = path.toLowerCase();
+        if (lower.endsWith(".m3u8") || lower.endsWith(".m3u")) return FORMAT_HLS;
+        if (lower.endsWith(".mpd")) return FORMAT_DASH;
+        if (lower.endsWith(".ts")) return FORMAT_MPEGTS;
+        return FORMAT_DIRECTO;
     }
 
     // ------------------------------------------------------------------ DRM

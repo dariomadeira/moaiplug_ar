@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Genera MoaiCatalog.java (catálogo embebido) y ult_canales.json / manifest.json
-desde la copia reparada de pascua (assets/master.json).
+desde la copia reparada de pascua (assets/master.json) + el catálogo fusionado
+de moaiplug_free (tools/data/canales_free.json).
 
 Estructura de Grupos y Subgrupos:
   - Clasificación directa y precisa por grupo de origen en master.json.
@@ -10,14 +11,22 @@ Estructura de Grupos y Subgrupos:
   - Ordenamiento lógico por relevancia dentro de cada categoría (canales principales primero).
   - Filtro exhaustivo de basura (links telegram, apks, tutoriales).
   - Actualización masiva de logos hacia fuentes CDN estables (tv-logos raw GitHub).
+  - Fusión de moaiplug_free (v1.6.0): se suman SOLO los canales ausentes; en
+    cualquier duplicado gana el canal de pascua/AR (nada de lo que ya funciona
+    se toca). El diff queda en build/informe_merge_free.json.
 """
 import json
+import os
 import re
 import sys
 import unicodedata
 from urllib.parse import quote, urlsplit, urlunsplit
 
+ROOT = "/home/apogeo/moai/moaiplug_ar"
 MASTER = "/home/apogeo/pascua/assets/master.json"
+# Instantánea del catálogo de moaiplug_free (ver tools/import_free_catalog.py).
+FREE_SNAPSHOT = os.path.join(ROOT, "tools", "data", "canales_free.json")
+MERGE_REPORT = os.path.join(ROOT, "build", "informe_merge_free.json")
 
 # Configuración declarativa de los 30 grupos de master.json
 GROUP_CONFIG = {
@@ -335,6 +344,185 @@ def channel_priority(item):
     return (50, n)
 
 
+# ------------------------------------------------- fusión con moaiplug_free
+# Los nombres de Free traen el sufijo de calidad ("Canal 5 (1080p)") y avisos
+# de disponibilidad ("[Not 24/7]", "[Geo-blocked]"); AR los muestra limpios.
+# Para comparar identidades se quitan ambos, para mostrar solo la calidad.
+QUALITY_TAIL_RE = re.compile(r"\s*[\(\[]\s*\d{3,4}\s*[pi]\s*[\)\]]\s*$", re.I)
+NOTE_TAIL_RE = re.compile(
+    r"\s*\[\s*(?:not\s*24/7|geo-?blocked|geo-?block)\s*\]\s*$", re.I)
+
+# Variante regional de un canal que AR ya tiene, con otro nombre. free -> AR.
+FREE_ALIASES = {
+    "metrotv": "metro",
+    "telefebuenosaires": "telefe",
+    "telefesalta": "11salta",
+    "unifetv": "unife",
+    "adultswimlatinamerica": "adultswim",
+    "disneychannellatinamerica": "disneychannel",
+    "disneychannellatinamericapanregionalhd": "disneychannel",
+    "disneyjrlatinamericasouth": "disneyjunior",
+    "disneyjrlatinamericasouthhd": "disneyjunior",
+    "comedycentrallatinamerica": "comedycentral",
+}
+
+# Etiqueta de país entre paréntesis: es ruido para comparar identidades
+# ("Telefe (Argentina)" y "Telefe" son el mismo canal).
+GEO_TAG_RE = re.compile(
+    r"\(\s*(?:argentina|uruguay|paraguay|bolivia|brasil|chile|peru|"
+    r"internacional|latam|latinoamerica)\s*\)", re.I)
+
+# Los canales de Free que caen en "General" (su categoría iptv-org es genérica)
+# pero son de una ciudad/provincia: moai3 los muestra en "Interior", como los
+# que ya vienen de pascua ("8 Mar del Plata", "4 San Juan", ...).
+FREE_LOCAL_RE = re.compile(
+    r"\b(?:formosa|la pampa|las heras|pinamar|esquel|jujuy|teleaire|"
+    r"villa dolores|morteros|la costa|mar del plata|puan|santa clara|"
+    r"villa maza|pulpo|ciudad magica|magica|celta|senillosa|sicardi|"
+    r"villa mantero|bariloche|ushuaia|fueguina|gualeguay|venado tuerto|"
+    r"tacural|rafaela|salta|chepes|neuquen|santa fe|resistencia|san juan|"
+    r"corrientes|misiones|posadas|entre rios|catamarca|mendoza|rosario|"
+    r"cordoba|tucuman|buenos aires)\b", re.I)
+
+FREE_JUNK_RE = re.compile(
+    r"t\.me/|whatsapp|telegram|\.apk\b|playstore|blogspot|facebook\.com|"
+    r"pastebin", re.I)
+
+# Canales de Free caídos al auditarlos en vivo con tools/check_channels.py.
+# Mismo criterio que EXCLUDED_CHANNEL_IDS: no entran al catálogo.
+FREE_EXCLUDED_CHANNEL_IDS = {
+    # HTTP 404 (playlist borrada en el origen)
+    "eco_tv", "litus_tv_720p_not_24_7",
+    # HTTP 403 (Cloudflare / CDN rechaza el origen o bloquea la región)
+    "el_siete_1080p", "telefe_tucuman_1080p",
+}
+
+
+def clean_free_name(nombre):
+    """Quita el sufijo de calidad, los avisos y el etiqueta de país."""
+    s = (nombre or "").strip()
+    prev = None
+    while prev != s:
+        prev = s
+        s = NOTE_TAIL_RE.sub("", s.strip())
+        s = QUALITY_TAIL_RE.sub("", s.strip())
+        s = GEO_TAG_RE.sub("", s.strip())
+    return re.sub(r"\s{2,}", " ", s).strip() or (nombre or "").strip()
+
+
+def channel_key(nombre, cid=""):
+    """Clave de identidad de un canal: sin calidad, avisos, país ni espacios.
+
+    "Canal 8 Mar del Plata (720p) [Not 24/7]" y "8 Mar del Plata" dan la misma
+    clave ("8mardelplata"); "4 San Juan" y "8 San Juan" no.
+    """
+    s = norm(clean_free_name(nombre)).lower().replace(" ", "")
+    if s.startswith("canal"):
+        s = s[5:]
+    return s or cid
+
+
+def guess_type(url):
+    path = urlsplit(url).path.lower()
+    if path.endswith(".m3u8"):
+        return "HLS"
+    if path.endswith(".mpd"):
+        return "DASH"
+    if path.endswith(".ts"):
+        return "MPEGTS"
+    return "DIRECT"
+
+
+def merge_free_channels(rows):
+    """Agrega a `rows` los canales de moaiplug_free que AR no tiene.
+
+    Gana siempre el catálogo AR: se descarta un canal de Free si coincide el
+    id, la URL exacta o la identidad del canal (nombre canónico o alias).
+    Devuelve (nuevos, descartados) para el informe de merge.
+    """
+    if not os.path.isfile(FREE_SNAPSHOT):
+        print(f"[aviso] no existe {FREE_SNAPSHOT}: se omite la fusión de "
+              f"moaiplug_free (ver tools/import_free_catalog.py)")
+        return [], []
+
+    with open(FREE_SNAPSHOT, encoding="utf-8") as f:
+        libres = json.load(f).get("canales", [])
+
+    seen_ids = {r["id"] for r in rows}
+    seen_urls = {r["url"].strip().lower() for r in rows}
+    keys = {}
+    for r in rows:
+        keys.setdefault(channel_key(r["nombre"], r["id"]), r["id"])
+
+    nuevos, descartados = [], []
+    for c in libres:
+        cid = c.get("id", "").strip()
+        nombre = (c.get("nombre") or "").strip()
+        url = (c.get("url") or "").strip()
+        if not cid or not url or not nombre:
+            descartados.append({"id": cid, "nombre": nombre,
+                                "motivo": "incompleto"})
+            continue
+        if cid in FREE_EXCLUDED_CHANNEL_IDS:
+            descartados.append({"id": cid, "nombre": nombre,
+                                "motivo": "caído en la auditoría"})
+            continue
+        if FREE_JUNK_RE.search(url) or FREE_JUNK_RE.search(nombre):
+            descartados.append({"id": cid, "nombre": nombre,
+                                "motivo": "enlace no reproducible"})
+            continue
+        if cid in seen_ids:
+            descartados.append({"id": cid, "nombre": nombre,
+                                "motivo": "id duplicado", "gana": cid})
+            continue
+        if url.lower() in seen_urls:
+            match = next(r["id"] for r in rows
+                         if r["url"].strip().lower() == url.lower())
+            descartados.append({"id": cid, "nombre": nombre,
+                                "motivo": "url duplicada", "gana": match})
+            continue
+
+        key = channel_key(nombre, cid)
+        gana = FREE_ALIASES.get(key) or (keys.get(key))
+        if gana:
+            descartados.append({
+                "id": cid, "nombre": nombre,
+                "motivo": ("alias de un canal de AR"
+                           if key in FREE_ALIASES else "mismo canal"),
+                "gana": gana,
+            })
+            continue
+
+        # Id libre y único: se sanea por si el origen trajera algo raro.
+        new_id = cid if re.fullmatch(r"[a-z0-9_]+", cid) else slug(cid)
+        while new_id in seen_ids:
+            new_id += "_2"
+
+        cat = c.get("categoria") or "General"
+        nombre_limpio = clean_free_name(nombre)
+        if FREE_LOCAL_RE.search(nombre_limpio):
+            cat = "Interior"
+
+        row = {
+            "id": new_id,
+            "nombre": nombre_limpio,
+            "logo": clean_logo(new_id, nombre, (c.get("logo") or "").strip()),
+            "categoria": cat,
+            "pais": c.get("pais") or "Argentina",
+            "type": guess_type(url),
+            "url": url,
+            "drm": "",
+            "headers": {},
+        }
+        rows.append(row)
+        nuevos.append({"id": new_id, "nombre": row["nombre"],
+                       "categoria": row["categoria"], "tipo": row["type"]})
+        seen_ids.add(new_id)
+        seen_urls.add(url.lower())
+        keys[key] = new_id
+    return nuevos, descartados
+
+
 def main():
     with open(MASTER, encoding="utf-8") as f:
         data = json.load(f)
@@ -422,6 +610,10 @@ def main():
         "Adultos": 999,
     }
 
+    # Fusión con moaiplug_free (después del filtro de exclusión, para que la
+    # comparación sea contra el catálogo AR final; el orden se aplica después).
+    nuevos, descartados = merge_free_channels(rows)
+
     # Ordenamiento: primero por País, luego por Categoría (Adultos al final), y dentro por relevancia
     # Manteniendo Argentina primero
     def sort_key(r):
@@ -433,8 +625,26 @@ def main():
     rows.sort(key=sort_key)
 
     print(f"Total canales generados: {len(rows)}")
+    if nuevos or descartados:
+        print(f"Fusión moaiplug_free: +{len(nuevos)} nuevos, "
+              f"{len(descartados)} duplicados (gana AR)")
+        _write_merge_report(rows, nuevos, descartados)
     _write_java(rows)
     _write_manifest(rows)
+
+
+def _write_merge_report(rows, nuevos, descartados):
+    os.makedirs(os.path.dirname(MERGE_REPORT), exist_ok=True)
+    with open(MERGE_REPORT, "w", encoding="utf-8") as f:
+        json.dump({
+            "total_final": len(rows),
+            "total_ar_previo": len(rows) - len(nuevos),
+            "importados_de_free": len(nuevos),
+            "descartados_gana_ar": len(descartados),
+            "nuevos": nuevos,
+            "descartados": descartados,
+        }, f, ensure_ascii=False, indent=2)
+    print(f"Informe de fusión: {MERGE_REPORT}")
 
 
 def _escape_java(s):

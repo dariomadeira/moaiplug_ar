@@ -2,11 +2,11 @@
   "id": "moai_ar",
   "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "77b3c71ef779486a3896940d07d899b20a10ad0a863c9b6b7aef487a07f54af7",
+  "sha256": "7b050f7bd1c649c85571333c96f8e3bdde2b86cbf9e0559da15e9c382241c9e3",
   "canalInicial": "telefe",
   "canales": [
     {
@@ -34,6 +34,13 @@
       "id": "canal_90_digital",
       "nombre": "Canal 90 Digital",
       "logo": "https://i.postimg.cc/K8HLKxkr/Canal-90-Digital.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_99_miramar",
+      "nombre": "Canal 99 Miramar",
+      "logo": "https://i.imgur.com/PblsZxz.jpeg",
       "categoria": "Aire",
       "pais": "Argentina"
     },
@@ -66,9 +73,30 @@
       "pais": "Argentina"
     },
     {
+      "id": "5tv",
+      "nombre": "5tv",
+      "logo": "https://i.imgur.com/mSn7ACs.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
       "id": "argentinisima",
       "nombre": "Argentinísima",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/argentinisima-satelital-ar.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "argentinisima_satelital_540p",
+      "nombre": "Argentinisima Satelital",
+      "logo": "https://i.imgur.com/xFgJawa.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_5_del_pueblo_not_24_7",
+      "nombre": "Canal 5 Del Pueblo",
+      "logo": "https://i.ibb.co/XzcYYMc/Canal-5-alcorta-ver.jpg",
       "categoria": "Aire",
       "pais": "Argentina"
     },
@@ -101,6 +129,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "correa_radiovision",
+      "nombre": "Correa Radiovision",
+      "logo": "https://i.imgur.com/bNCGzjf.jpeg",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
       "id": "diputados_tv",
       "nombre": "Diputados TV",
       "logo": "https://i.postimg.cc/m2VyFnKH/Diputados.png",
@@ -115,9 +150,23 @@
       "pais": "Argentina"
     },
     {
+      "id": "folcloreando_tv",
+      "nombre": "Folcloreando TV",
+      "logo": "https://folcloreando.com/wp-content/uploads/elementor/thumbs/logo-qvcz16ulfxe7qqvftihvlcoku8l2hux59qcndiy3qo.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
       "id": "garage_tv",
       "nombre": "Garage TV",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/el-garage-tv-ar.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "itel_tv_canal_2",
+      "nombre": "Itel TV Canal 2",
+      "logo": "https://i.imgur.com/OxmpRDx.png",
       "categoria": "Aire",
       "pais": "Argentina"
     },
@@ -136,9 +185,51 @@
       "pais": "Argentina"
     },
     {
+      "id": "neo_tv_argentina",
+      "nombre": "Neo TV",
+      "logo": "https://i.imgur.com/Xtu85tb.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "neox_tv_not_24_7",
+      "nombre": "Neox TV",
+      "logo": "https://i.imgur.com/eIX71c9.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "norte_tv_720p_not_24_7",
+      "nombre": "Norte TV",
+      "logo": "https://i.imgur.com/jTX2vp0.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "radio_up_1080p",
+      "nombre": "Radio UP",
+      "logo": "https://radioup.com.ar/wp-content/uploads/2025/06/logo-radioup-footer.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "radiocanal_1080p",
+      "nombre": "Radiocanal",
+      "logo": "https://i.ibb.co/NNyDWsz/download-8.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
       "id": "rock_pop",
       "nombre": "Rock & Pop",
       "logo": "",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "tele_6_720p",
+      "nombre": "TELE 6",
+      "logo": "https://i.imgur.com/p7tt72X.png",
       "categoria": "Aire",
       "pais": "Argentina"
     },
@@ -153,6 +244,20 @@
       "id": "telemax",
       "nombre": "Telemax",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telemax-ar.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "telemundo_internacional_1080p",
+      "nombre": "Telemundo Internacional",
+      "logo": "https://i.imgur.com/j2O4ndp.png",
+      "categoria": "Aire",
+      "pais": "Argentina"
+    },
+    {
+      "id": "tv_canal_72",
+      "nombre": "TV Canal 72",
+      "logo": "https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png",
       "categoria": "Aire",
       "pais": "Argentina"
     },
@@ -199,6 +304,20 @@
       "pais": "Argentina"
     },
     {
+      "id": "ip_noticias_720p",
+      "nombre": "IP Noticias",
+      "logo": "https://i.imgur.com/dbu9nx4.png",
+      "categoria": "Noticias",
+      "pais": "Argentina"
+    },
+    {
+      "id": "24_7_canal_de_noticias",
+      "nombre": "24/7 Canal de Noticias",
+      "logo": "https://i.imgur.com/4hDCB1M.png",
+      "categoria": "Noticias",
+      "pais": "Argentina"
+    },
+    {
       "id": "argentina_12",
       "nombre": "Argentina 12",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/argentina-12-ar.png",
@@ -206,9 +325,37 @@
       "pais": "Argentina"
     },
     {
+      "id": "canal_e_720p",
+      "nombre": "Canal E",
+      "logo": "https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg",
+      "categoria": "Noticias",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_tdc",
+      "nombre": "Canal TDC",
+      "logo": "https://i.imgur.com/nPG38B2.png",
+      "categoria": "Noticias",
+      "pais": "Argentina"
+    },
+    {
+      "id": "mercurio_noticias",
+      "nombre": "Mercurio Noticias",
+      "logo": "https://i.imgur.com/sfd87LX.png",
+      "categoria": "Noticias",
+      "pais": "Argentina"
+    },
+    {
       "id": "perfil",
       "nombre": "+Perfil",
       "logo": "",
+      "categoria": "Noticias",
+      "pais": "Argentina"
+    },
+    {
+      "id": "quantica_tv",
+      "nombre": "Quantica TV",
+      "logo": "https://i.imgur.com/6f8EYC2.jpeg",
       "categoria": "Noticias",
       "pais": "Argentina"
     },
@@ -356,6 +503,13 @@
       "id": "america_sports",
       "nombre": "América Sports",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/america-sports-ar.png",
+      "categoria": "Deportes",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_showsport_720p",
+      "nombre": "Canal Showsport",
+      "logo": "https://i.imgur.com/0L9tW3Z.png",
       "categoria": "Deportes",
       "pais": "Argentina"
     },
@@ -535,6 +689,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "amc_latin_america_1080p",
+      "nombre": "AMC Latin America",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/AMC_logo_2019.svg?width=250",
+      "categoria": "Cine y Series",
+      "pais": "Argentina"
+    },
+    {
       "id": "amc_series",
       "nombre": "AMC Series",
       "logo": "https://i.postimg.cc/Hcd31vF7/AMC-Series.png",
@@ -545,6 +706,13 @@
       "id": "axn",
       "nombre": "AXN",
       "logo": "https://axn.hu/wp-content/uploads/2024/07/axn_neg_logo.png",
+      "categoria": "Cine y Series",
+      "pais": "Argentina"
+    },
+    {
+      "id": "axn_latin_america_south_1080p",
+      "nombre": "AXN Latin America South",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/AXN_logo_%282015%29.svg?width=250",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -594,6 +762,20 @@
       "id": "comedy_central",
       "nombre": "Comedy Central",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/comedy-central-ar.png",
+      "categoria": "Cine y Series",
+      "pais": "Argentina"
+    },
+    {
+      "id": "cosmos_tv",
+      "nombre": "Cosmos Tv",
+      "logo": "https://www.fmcosmos.com/images/custom/logo-social.jpg?_v=v3-37",
+      "categoria": "Cine y Series",
+      "pais": "Argentina"
+    },
+    {
+      "id": "cosmos_tv_sd",
+      "nombre": "Cosmos Tv SD",
+      "logo": "https://www.fmcosmos.com/images/custom/logo-social.jpg?_v=v3-37",
       "categoria": "Cine y Series",
       "pais": "Argentina"
     },
@@ -745,6 +927,20 @@
       "pais": "Argentina"
     },
     {
+      "id": "xtrema_accion",
+      "nombre": "Xtrema Accion",
+      "logo": "https://i.imgur.com/z5NwizH.png",
+      "categoria": "Cine y Series",
+      "pais": "Argentina"
+    },
+    {
+      "id": "xtrema_terror",
+      "nombre": "Xtrema Terror",
+      "logo": "https://i.imgur.com/FcaTUym.png",
+      "categoria": "Cine y Series",
+      "pais": "Argentina"
+    },
+    {
       "id": "baby_tv",
       "nombre": "Baby TV",
       "logo": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/695.png",
@@ -815,6 +1011,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "lamil35_tv_480p",
+      "nombre": "LAMIL35 TV",
+      "logo": "https://i.pinimg.com/736x/2d/fa/25/2dfa25f5d2e4d5c19886a3a263706317.jpg",
+      "categoria": "Infantil",
+      "pais": "Argentina"
+    },
+    {
       "id": "nick_jr",
       "nombre": "Nick Jr",
       "logo": "https://lokos.pages.dev/webp/logos/nickjr.webp",
@@ -850,6 +1053,20 @@
       "pais": "Argentina"
     },
     {
+      "id": "xtrema_cartoons",
+      "nombre": "Xtrema Cartoons",
+      "logo": "https://i.imgur.com/X2d8y4e.png",
+      "categoria": "Infantil",
+      "pais": "Argentina"
+    },
+    {
+      "id": "alternatv_720p_not_24_7",
+      "nombre": "AlternaTV",
+      "logo": "https://tv.alterna.ar/alternatv.png",
+      "categoria": "Cultural",
+      "pais": "Argentina"
+    },
+    {
       "id": "animal_planet",
       "nombre": "Animal Planet",
       "logo": "https://i.ibb.co/4nr56B4Y/2018-Animal-Planet-logo-svg.png",
@@ -860,6 +1077,13 @@
       "id": "canal_a",
       "nombre": "Canal (á)",
       "logo": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/canala.png",
+      "categoria": "Cultural",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_universidad",
+      "nombre": "Canal Universidad",
+      "logo": "https://i.imgur.com/trmPKYw.png",
       "categoria": "Cultural",
       "pais": "Argentina"
     },
@@ -969,9 +1193,23 @@
       "pais": "Argentina"
     },
     {
+      "id": "senal_u",
+      "nombre": "Senal U",
+      "logo": "https://i.ibb.co/yBYcKTj/Senal-U-Uncuyo-en-vivo-Online.png",
+      "categoria": "Cultural",
+      "pais": "Argentina"
+    },
+    {
       "id": "sun_channel",
       "nombre": "Sun Channel",
       "logo": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/771.png",
+      "categoria": "Cultural",
+      "pais": "Argentina"
+    },
+    {
+      "id": "tv_universidad",
+      "nombre": "TV Universidad",
+      "logo": "https://i.imgur.com/0MXsQ25.png",
       "categoria": "Cultural",
       "pais": "Argentina"
     },
@@ -1081,6 +1319,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "el_gourmet_south_1080p",
+      "nombre": "El Gourmet South",
+      "logo": "https://i.imgur.com/ByMyRI9.png",
+      "categoria": "Cocina",
+      "pais": "Argentina"
+    },
+    {
       "id": "food_network",
       "nombre": "Food Network",
       "logo": "https://static.flow.com.ar/images/-/-/0/0/87811089073450.png",
@@ -1123,6 +1368,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "chamame_tv",
+      "nombre": "Chamame TV",
+      "logo": "https://i.imgur.com/JigzJck.png",
+      "categoria": "Música",
+      "pais": "Argentina"
+    },
+    {
       "id": "cm",
       "nombre": "CM",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logocmtvargentina.png",
@@ -1133,6 +1385,13 @@
       "id": "concert_channel",
       "nombre": "Concert Channel",
       "logo": "",
+      "categoria": "Música",
+      "pais": "Argentina"
+    },
+    {
+      "id": "cumbia_mix_720p",
+      "nombre": "Cumbia Mix",
+      "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png",
       "categoria": "Música",
       "pais": "Argentina"
     },
@@ -1158,6 +1417,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "mas_fm_720p",
+      "nombre": "Mas FM",
+      "logo": "https://i.imgur.com/TJ4gWQM.png",
+      "categoria": "Música",
+      "pais": "Argentina"
+    },
+    {
       "id": "mtv",
       "nombre": "MTV",
       "logo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/MTVLA.png?raw=true",
@@ -1168,6 +1434,20 @@
       "id": "quiero_musica",
       "nombre": "Quiero Musica",
       "logo": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/3281.png",
+      "categoria": "Música",
+      "pais": "Argentina"
+    },
+    {
+      "id": "radio_conexion_web_tv_720p",
+      "nombre": "Radio Conexion Web TV",
+      "logo": "https://i.imgur.com/pXS38zo.png",
+      "categoria": "Música",
+      "pais": "Argentina"
+    },
+    {
+      "id": "radio_realpolitik_720p",
+      "nombre": "Radio Realpolitik",
+      "logo": "https://i.imgur.com/L9KCdTX.png",
       "categoria": "Música",
       "pais": "Argentina"
     },
@@ -1189,6 +1469,13 @@
       "id": "telehit_musica_plus",
       "nombre": "TeleHit Música Plus",
       "logo": "https://i.ibb.co/hg3bxH0/do-download.png",
+      "categoria": "Música",
+      "pais": "Argentina"
+    },
+    {
+      "id": "the_cabbin_fm",
+      "nombre": "The Cabbin FM",
+      "logo": "https://files.catbox.moe/2vlskg.png",
       "categoria": "Música",
       "pais": "Argentina"
     },
@@ -1389,6 +1676,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "canal_6_viento_recio",
+      "nombre": "Canal 6 Viento Recio",
+      "logo": "https://i.imgur.com/liyTNzK.png",
+      "categoria": "Religioso",
+      "pais": "Argentina"
+    },
+    {
       "id": "canal_luz",
       "nombre": "Canal Luz",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Canal_Luz_actual.png",
@@ -1424,6 +1718,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "radio_sublime_gracia_tv_720p",
+      "nombre": "Radio Sublime Gracia TV",
+      "logo": "https://i.ibb.co/P9jgTz4/c49b986afb751882bcbee57f9c9b20d7-350x210.png",
+      "categoria": "Religioso",
+      "pais": "Argentina"
+    },
+    {
       "id": "red_advenir",
       "nombre": "Red Advenir",
       "logo": "https://i.postimg.cc/KzyN2BxQ/advenr.jpg",
@@ -1434,6 +1735,13 @@
       "id": "santa_maria",
       "nombre": "Santa María",
       "logo": "https://i.postimg.cc/44zJdx6s/Santa-Maria.png",
+      "categoria": "Religioso",
+      "pais": "Argentina"
+    },
+    {
+      "id": "tv_mana_argentina_576p_not_24_7",
+      "nombre": "TV Mana Argentina",
+      "logo": "https://i.imgur.com/jars0mP.png",
       "categoria": "Religioso",
       "pais": "Argentina"
     },
@@ -1725,6 +2033,20 @@
       "pais": "Argentina"
     },
     {
+      "id": "abtv_bariloche",
+      "nombre": "ABTV Bariloche",
+      "logo": "https://i.imgur.com/l4TSfDr.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "aire_de_santa_fe_1080p",
+      "nombre": "Aire de Santa Fe",
+      "logo": "https://i.imgur.com/60vSWW0.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
       "id": "america_tucuman",
       "nombre": "América Tucumán",
       "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kN2LLsDht_pqHhwPk-HuwI-ijyPuual4EiYk3MAXoqsNk=s900-c-k-c0x00ffffff-no-rj",
@@ -1732,9 +2054,219 @@
       "pais": "Argentina"
     },
     {
+      "id": "canal_12_venado_tuerto_1080i",
+      "nombre": "Canal 12 Venado Tuerto",
+      "logo": "https://i.imgur.com/b93YC0V.jpeg",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_13_jujuy_720p",
+      "nombre": "Canal 13 Jujuy",
+      "logo": "https://i.imgur.com/lmKLiJ3.jpg",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_2_de_ushuaia_1080p",
+      "nombre": "Canal 2 de Ushuaia",
+      "logo": "https://i.ibb.co/q5NPdK2/canal2-logo.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_2_gualeguay",
+      "nombre": "Canal 2 Gualeguay",
+      "logo": "https://i.imgur.com/TOlncyp.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_2_mar_del_plata_720p",
+      "nombre": "Canal 2 Mar del Plata",
+      "logo": "https://i.imgur.com/wlKFPBW.jpeg",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_2_nextv_rafaela_720p",
+      "nombre": "Canal 2 NexTV Rafaela",
+      "logo": "https://i.imgur.com/hgj3CaR.jpeg",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_3_formosa",
+      "nombre": "Canal 3 Formosa",
+      "logo": "https://i.imgur.com/rVDrNIy.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_3_la_pampa_1080p",
+      "nombre": "Canal 3 La Pampa",
+      "logo": "https://i.imgur.com/SsNFudZ.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_3_las_heras_720p",
+      "nombre": "Canal 3 Las Heras",
+      "logo": "https://i.imgur.com/bd2afET.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_3_pinamar",
+      "nombre": "Canal 3 Pinamar",
+      "logo": "https://i.imgur.com/IABFaH1.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_3_tacural",
+      "nombre": "Canal 3 Tacural",
+      "logo": "https://i.imgur.com/RKvSa52.jpeg",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_4_esquel",
+      "nombre": "Canal 4 Esquel",
+      "logo": "https://i.imgur.com/6kbOr16.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_4_jujuy",
+      "nombre": "Canal 4 Jujuy",
+      "logo": "https://i.imgur.com/qB6I274.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_4_teleaire",
+      "nombre": "Canal 4 Teleaire",
+      "logo": "https://i.imgur.com/XyiNvbY.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_4_villa_dolores",
+      "nombre": "Canal 4 Villa Dolores",
+      "logo": "https://i.imgur.com/ZKSnGfw.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_5_tv_chepes",
+      "nombre": "Canal 5 TV Chepes",
+      "logo": "https://i.imgur.com/AzEqroq.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_50_morteros",
+      "nombre": "Canal 50 Morteros",
+      "logo": "https://i.imgur.com/IDhgBav.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_79_la_costa_240p",
+      "nombre": "Canal 79 La Costa",
+      "logo": "https://i.imgur.com/HYuSqJy.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_79_mar_del_plata",
+      "nombre": "Canal 79 Mar del Plata",
+      "logo": "https://i.imgur.com/I93ypGY.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_79_puan_240p",
+      "nombre": "Canal 79 Puan",
+      "logo": "https://i.imgur.com/HYuSqJy.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_79_santa_clara_del_mar_240p",
+      "nombre": "Canal 79 Santa Clara del Mar",
+      "logo": "https://i.imgur.com/I93ypGY.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_79_villa_maza",
+      "nombre": "Canal 79 Villa Maza",
+      "logo": "https://i.imgur.com/HYuSqJy.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_8_san_juan_720p_not_24_7",
+      "nombre": "Canal 8 San Juan",
+      "logo": "https://files.catbox.moe/f7jbdo.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_9_resistencia_720p",
+      "nombre": "Canal 9 Resistencia",
+      "logo": "https://i.imgur.com/xqgRFpC.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_pulpo_tv",
+      "nombre": "Canal Pulpo TV",
+      "logo": "https://new.opencaster.com/uploads/logos/logo_306_1756336707.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "catamarca_tv_720p",
+      "nombre": "Catamarca TV",
+      "logo": "https://i.imgur.com/CEuPoqG.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "celta_tv_240p",
+      "nombre": "Celta TV",
+      "logo": "https://i.imgur.com/rwoIF4w.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "ciudad_magica_720p",
+      "nombre": "Ciudad Magica",
+      "logo": "https://i.imgur.com/HJkSz2U.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "ciudad_tv_resistencia_720p",
+      "nombre": "Ciudad TV Resistencia",
+      "logo": "https://i.imgur.com/oL8SMTL.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
       "id": "corrientes",
       "nombre": "Corrientes",
       "logo": "https://i.ibb.co/Jy849HS/somos-corrientes.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "corrientes_tv",
+      "nombre": "Corrientes TV",
+      "logo": "https://i.imgur.com/7PBkvRp.png",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1753,6 +2285,13 @@
       "pais": "Argentina"
     },
     {
+      "id": "misiones_cuatro",
+      "nombre": "Misiones Cuatro",
+      "logo": "https://i.imgur.com/HXRpRlK.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
       "id": "next_tv_carlos_paz",
       "nombre": "Next TV (Carlos Paz)",
       "logo": "https://i.postimg.cc/g0DT51RQ/Logo_1.png",
@@ -1760,9 +2299,37 @@
       "pais": "Argentina"
     },
     {
+      "id": "radio_tv_neuquen_720p_not_24_7",
+      "nombre": "Radio TV Neuquen",
+      "logo": "https://i.imgur.com/HXBLozl.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
       "id": "rafaela",
       "nombre": "Rafaela",
       "logo": "",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "santa_fe_canal_1080p",
+      "nombre": "Santa Fe Canal",
+      "logo": "https://i.imgur.com/C1mY5X4.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "senillosa_tv",
+      "nombre": "Senillosa TV",
+      "logo": "https://yt3.ggpht.com/ytc/AKedOLTrvk7gv0uCQ8QdGREqv6Rtzm4F6UMetdxKub6D=s400-c-k-c0x00ffffff-no-rj",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "sicardi_tv_720p",
+      "nombre": "Sicardi TV",
+      "logo": "https://i.imgur.com/W2EUIL2.png",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1777,6 +2344,13 @@
       "id": "somos_el_valle",
       "nombre": "Somos El Valle",
       "logo": "https://i.postimg.cc/dVPqJ6j1/Somos_El_Valle.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "somos_entre_rios_360p",
+      "nombre": "Somos Entre Rios",
+      "logo": "https://files.catbox.moe/ufv5z0.png",
       "categoria": "Interior",
       "pais": "Argentina"
     },
@@ -1809,10 +2383,164 @@
       "pais": "Argentina"
     },
     {
+      "id": "tele_posadas_720p",
+      "nombre": "Tele Posadas",
+      "logo": "https://i.imgur.com/88MVgwX.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "tv_publica_fueguina_1080p",
+      "nombre": "TV Publica Fueguina",
+      "logo": "https://i.imgur.com/4dUvFqa.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
       "id": "unlp_tv",
       "nombre": "UNLP.tv",
       "logo": "https://tv.unlp.edu.ar/wp-content/uploads/2026/02/cropped-Marca-UNLP-TV-sin-fondo.png",
       "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "villa_mantero_tv",
+      "nombre": "Villa Mantero TV",
+      "logo": "https://i.imgur.com/mmEenTm.png",
+      "categoria": "Interior",
+      "pais": "Argentina"
+    },
+    {
+      "id": "bvc",
+      "nombre": "BVC",
+      "logo": "https://i.imgur.com/I06TSx0.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "cable_imagen_armstrong_540p_not_24_7",
+      "nombre": "Cable Imagen Armstrong",
+      "logo": "https://i.imgur.com/U9NuJQC.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "cadena103_tv",
+      "nombre": "Cadena103.TV",
+      "logo": "https://i.imgur.com/vBsry35.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_12_web",
+      "nombre": "Canal 12 Web",
+      "logo": "https://i.imgur.com/VYcTRbd.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_7_tv_720p",
+      "nombre": "Canal 7 TV",
+      "logo": "https://i.imgur.com/iJMH0UK.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "canal_9_link",
+      "nombre": "Canal 9 Link",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_9_ba_logo.png?width=250",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "e_latin_america_1080p",
+      "nombre": "E! Latin America",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/E%21_Logo_2012.svg?width=250",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "fx_latin_america_south_720p",
+      "nombre": "FX Latin America South",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/FX_International_logo.svg?width=250",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "kpop_mix_720p",
+      "nombre": "Kpop Mix",
+      "logo": "https://tvomix.com/Logos/Kpopmix.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "mtv_latin_america_1080p",
+      "nombre": "MTV Latin America",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/MTV_2021_%28brand_version%29.svg?width=250",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "power_max_radio_tv_720p",
+      "nombre": "Power Max Radio TV",
+      "logo": "https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "powerhd",
+      "nombre": "PowerHD",
+      "logo": "https://i.imgur.com/15gMDG0.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "rtn_argentina_720p_not_24_7",
+      "nombre": "RTN",
+      "logo": "https://i.imgur.com/8xqYg4C.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "san_pedro_tv_1080p_not_24_7",
+      "nombre": "San Pedro TV",
+      "logo": "https://i.imgur.com/UkpXogr.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "t5_satelital",
+      "nombre": "T5 Satelital",
+      "logo": "https://i.imgur.com/ZcD0rUP.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "tv_solidaria_576p",
+      "nombre": "TV Solidaria",
+      "logo": "https://i.imgur.com/M0fMypR.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "uniteve_720p_not_24_7",
+      "nombre": "Uniteve",
+      "logo": "https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "urban_mix_720p",
+      "nombre": "Urban Mix",
+      "logo": "https://tvomix.com/Logos/Urbanmix.png",
+      "categoria": "General",
+      "pais": "Argentina"
+    },
+    {
+      "id": "xtrema_cine_clasico",
+      "nombre": "Xtrema Cine Clasico",
+      "logo": "https://i.imgur.com/j91M4Yf.png",
+      "categoria": "General",
       "pais": "Argentina"
     },
     {

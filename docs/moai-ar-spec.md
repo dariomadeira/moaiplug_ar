@@ -1,10 +1,12 @@
 # MoaiAr Plugin — Spec (contrato moai v1)
 
 Plugin `moai_ar` del motor moai3. **Solo resuelve la señal**; la app la
-reproduce. El catálogo (398 canales 100% operativos, v1.5.1) se genera desde la copia reparada
-de pascua (`~/pascua/assets/master.json`) aplicando el filtro de exclusión auditado
-(`EXCLUDED_CHANNEL_IDS` en `generate_catalog.py`), y viaja en `manifest.json`; el dex
-aporta el resolver.
+reproduce. El catálogo (502 canales, v1.6.0) se genera desde dos fuentes: la copia
+reparada de pascua (`~/pascua/assets/master.json`, 398 canales) aplicando el filtro
+de exclusión auditado (`EXCLUDED_CHANNEL_IDS` en `generate_catalog.py`) y la
+instantánea del catálogo de `moaiplug_free` (`tools/data/canales_free.json`, 149
+canales), de la que se suman solo los ausentes. El catálogo viaja en
+`manifest.json`; el dex aporta el resolver.
 
 ## Automation
 - id: `moai_ar` · tag: `ar` · clase: `com.infomak.moai.ar.MoaiArPlugin`
@@ -37,7 +39,8 @@ aporta el resolver.
   de vida para el host).
 - **NG3**: No implementa Widevine nativo / L1: solo **ClearKey** (`tipo="clearkey"`).
 - **NG4**: No descifra contenido ni elimina DRM.
-- **NG5**: No admite canales fuera de `master.json`: el catálogo es derivativo.
+- **NG5**: No admite canales fuera de `master.json` o de la instantánea de
+  `moaiplug_free`: el catálogo sigue siendo derivativo (generado, no editado).
 - **NG6**: No sirve los ids `stream-N` de Daddylive ni otros layouts ajenos a
   pascua.
 
@@ -85,8 +88,8 @@ final**) → relevancia (`channel_priority`).
 
 El host SHALL leer la lista de canales desde `manifest.json` (`canales` +
 `canalInicial: telefe`); el dex embebido (`manifest()`) queda como fallback y
-coincide en versión e ids. La versión SHALL ser unificada en `1.5.1` en `build.sh`
-(env `PLUGIN_VERSION`, default `1.5.1`), `manifest.json` y en `MoaiArPlugin.manifest()`.
+coincide en versión e ids. La versión SHALL ser unificada en `1.6.0` en `build.sh`
+(env `PLUGIN_VERSION`, default `1.6.0`), `manifest.json` y en `MoaiArPlugin.manifest()`.
 
 El host decide si hay actualización **comparando solo el string de versión**
 (`PluginUpdateService.isNewer` en moai3, semver numérica); el `sha256` se usa
@@ -96,7 +99,7 @@ lo que todo cambio de artefacto obliga a subir la versión.
 
 #### Scenario: Host carga el plugin
 - **WHEN** se agrega la fuente (URLs de `manifest.json`/`plugin.dex`)
-- **THEN** el host deriva el gemelo, verifica el `sha256`, lee los 398 canales
+- **THEN** el host deriva el gemelo, verifica el `sha256`, lee los 502 canales
   del `manifest.json` y resuelve con el dex.
 
 ### Requirement: Lookup de canal
@@ -139,8 +142,11 @@ con TTL aleatorio **45–60 s**.
 
 ### Requirement: Selección de formato
 
-El formato SHALL ser `hls` si la URL termina en `.m3u8` (o contiene `.m3u8?`),
-`dash` en caso contrario.
+El formato SHALL ser `hls` si el path (sin query ni fragmento) termina en `.m3u8`
+o `.m3u`, `dash` si termina en `.mpd`, `mpegts` si termina en `.ts` y `directo`
+en cualquier otro caso (MP4, MP3/AAC, URLs sin extensión que redirigen a un
+`.m3u8`). `directo` deja la detección al Content-Type de la respuesta, que es lo
+que espera `moai3`.
 
 #### Scenario: Canal HLS directo (7 Salta)
 - **WHEN** el canal apunta a `…/canal7salta.m3u8`
@@ -149,6 +155,43 @@ El formato SHALL ser `hls` si la URL termina en `.m3u8` (o contiene `.m3u8?`),
 #### Scenario: Canal DASH CENC (Cazé FHD)
 - **WHEN** el canal apunta a un MPD
 - **THEN** `format="dash"` y `drm` con licencia ClearKey.
+
+#### Scenario: Radio progresiva
+- **WHEN** el canal apunta a `…/sc_rad1` o `…/FM999_56.mp3`
+- **THEN** `format="directo"` (no `dash`), y el motor reproduce por Content-Type.
+
+### Requirement: Fusión del catálogo de moaiplug_free
+
+`tools/import_free_catalog.py` SHALL extraer las filas `new Channel(...)` de
+`moaiplug_free/FreeCatalog.java` a `tools/data/canales_free.json` (id, nombre,
+logo, categoría, país, url; con el `sha256` del origen), rechazando el snapshot
+si hay ids repetidos, URLs vacías o categorías desconocidas. El build SHALL NOT
+depender del repo hermano: si el snapshot no existe, `generate_catalog.py` lo
+avisa y sigue con el catálogo de pascua.
+
+`generate_catalog.py` SHALL fusionar esa instantánea con la de pascua, **ganando
+siempre el canal de AR**: un canal de Free se descarta si coincide el `id`, la
+URL exacta, o la identidad del canal (`channel_key`: sin calidad, avisos, país ni
+espacios, y sin el prefijo `canal`; con alias curados en `FREE_ALIASES`), o si
+está en `FREE_EXCLUDED_CHANNEL_IDS` (caído en `tools/check_channels.py`). Los
+canales accepted SHALL limpiar el nombre (`clean_free_name`), heredar la categoría
+de Free salvo que sean de una localidad (`FREE_LOCAL_RE` → `Interior`), y_Type_
+derivarse de la extensión (`guess_type`). El orden relativo de los canales de AR
+SHALL preservarse y el diff SHALL quedar en `build/informe_merge_free.json`.
+
+#### Scenario: Duplicado por identidad
+- **WHEN** Free trae `Canal 8 Mar del Plata (720p) [Not 24/7]` y AR ya tiene
+  `8 Mar del Plata`
+- **THEN** solo entra el canal de AR y el de Free se registra en el informe con
+  motivo `mismo canal`.
+
+#### Scenario: Alias de canal
+- **WHEN** Free trae `Metro TV (Argentina)` y AR tiene `Metro`
+- **THEN** el de Free se descarta con motivo `alias de un canal de AR`.
+
+#### Scenario: Snapshot ausente
+- **WHEN** no existe `tools/data/canales_free.json`
+- **THEN** el build sigue y genera el catálogo solo desde `master.json`.
 
 ### Requirement: Conversión de DRM a ClearKey
 
