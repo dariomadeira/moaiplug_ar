@@ -120,26 +120,12 @@ public final class MoaiArPlugin implements IPlugin {
     private static long   sCachedAt;
     private static long   sCachedTtl;
 
-    private static final String FLAGS_BASE =
-        "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/";
-
-    private static String flagFor(String pais) {
-        if (pais == null) return "";
-        String p = pais.trim().toLowerCase();
-        if ("argentina".equals(p)) return FLAGS_BASE + "ar.png";
-        if ("brasil".equals(p) || "brazil".equals(p)) return FLAGS_BASE + "br.png";
-        if ("canadá".equals(p) || "canada".equals(p)) return FLAGS_BASE + "ca.png";
-        if ("paraguay".equals(p)) return FLAGS_BASE + "py.png";
-        if ("uruguay".equals(p)) return FLAGS_BASE + "uy.png";
-        return "";
-    }
-
     private static final List<PluginChannel> CANALES;
     static {
         List<PluginChannel> list = new ArrayList<PluginChannel>();
         for (MoaiCatalog.Entrada e : MoaiCatalog.all()) {
             list.add(new PluginChannel(
-                e.id, e.nombre, e.logo, e.categoria, e.pais, flagFor(e.pais)));
+                e.id, e.nombre, e.logo, e.categoria, e.pais));
         }
         CANALES = list;
     }
@@ -152,7 +138,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.7.0",
+            "1.7.1",
             1,
             1,
             CANALES,

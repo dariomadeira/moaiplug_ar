@@ -1,7 +1,7 @@
 # MoaiAr Plugin — Spec (contrato moai v1)
 
 Plugin `moai_ar` del motor moai3. **Solo resuelve la señal**; la app la
-reproduce. El catálogo (501 canales, v1.7.0) se genera desde dos fuentes: la copia
+reproduce. El catálogo (501 canales, v1.7.1) se genera desde dos fuentes: la copia
 reparada de pascua (`~/pascua/assets/master.json`, 398 canales) aplicando el filtro
 de exclusión auditado (`EXCLUDED_CHANNEL_IDS` en `generate_catalog.py`) y la
 instantánea del catálogo de `moaiplug_free` (`tools/data/canales_free.json`, 149
@@ -88,8 +88,8 @@ final**) → relevancia (`channel_priority`).
 
 El host SHALL leer la lista de canales desde `manifest.json` (`canales` +
 `canalInicial: telefe`); el dex embebido (`manifest()`) queda como fallback y
-coincide en versión e ids. La versión SHALL ser unificada en `1.7.0` en `build.sh`
-(env `PLUGIN_VERSION`, default `1.7.0`), `manifest.json` y en `MoaiArPlugin.manifest()`.
+coincide en versión e ids. La versión SHALL ser unificada en `1.7.1` en `build.sh`
+(env `PLUGIN_VERSION`, default `1.7.1`), `manifest.json` y en `MoaiArPlugin.manifest()`.
 
 El host decide si hay actualización **comparando solo el string de versión**
 (`PluginUpdateService.isNewer` en moai3, semver numérica); el `sha256` se usa

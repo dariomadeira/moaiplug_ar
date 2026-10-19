@@ -2,11 +2,11 @@
   "id": "moai_ar",
   "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "dce1379b91a32009315952917ebb0bbdb1a2666f172e1abe0d4b3acedcb4ff4a",
+  "sha256": "ba7dda8aea0578f96e8b8fc62a5ee1dc379b2d8b9a0e6711a500c2fbd5f5383b",
   "canalInicial": "telefe",
   "canales": [
     {
