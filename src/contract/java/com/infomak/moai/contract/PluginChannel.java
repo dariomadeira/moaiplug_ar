@@ -8,13 +8,19 @@ public class PluginChannel {
     private final String logo;
     private final String categoria;
     private final String pais;
+    private final String flag;
 
     public PluginChannel(String id, String nombre, String logo, String categoria, String pais) {
+        this(id, nombre, logo, categoria, pais, "");
+    }
+
+    public PluginChannel(String id, String nombre, String logo, String categoria, String pais, String flag) {
         this.id = id;
         this.nombre = nombre;
         this.logo = logo;
         this.categoria = categoria;
         this.pais = pais;
+        this.flag = flag != null ? flag : "";
     }
 
     public String getId() {
@@ -37,6 +43,10 @@ public class PluginChannel {
         return pais;
     }
 
+    public String getFlag() {
+        return flag;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -46,17 +56,18 @@ public class PluginChannel {
             && Objects.equals(nombre, that.nombre)
             && Objects.equals(logo, that.logo)
             && Objects.equals(categoria, that.categoria)
-            && Objects.equals(pais, that.pais);
+            && Objects.equals(pais, that.pais)
+            && Objects.equals(flag, that.flag);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, logo, categoria, pais);
+        return Objects.hash(id, nombre, logo, categoria, pais, flag);
     }
 
     @Override
     public String toString() {
         return "PluginChannel(id=" + id + ", nombre=" + nombre + ", logo=" + logo
-            + ", categoria=" + categoria + ", pais=" + pais + ")";
+            + ", categoria=" + categoria + ", pais=" + pais + ", flag=" + flag + ")";
     }
 }

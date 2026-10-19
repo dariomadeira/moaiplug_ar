@@ -138,7 +138,7 @@ Compila contra `com.infomak.moai.contract` (stubs Java en
 |---------------|---------------------------------------------------|
 | id            | `moai_ar`                                         |
 | tag           | `ar`                                              |
-| version       | `1.6.1`                                           |
+| version       | `1.7.0`                                           |
 | minContrato   | 1                                                 |
 | maxContrato   | 1                                                 |
 | canales       | 501 canales                                       |

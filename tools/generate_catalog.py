@@ -95,6 +95,23 @@ TV_CA = "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/coun
 TV_BR = "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil"
 TV_US = "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states"
 
+FLAGS_BASE = "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags"
+COUNTRY_FLAGS = {
+    "Argentina": f"{FLAGS_BASE}/ar.png",
+    "Brasil": f"{FLAGS_BASE}/br.png",
+    "Brazil": f"{FLAGS_BASE}/br.png",
+    "Canadá": f"{FLAGS_BASE}/ca.png",
+    "Canada": f"{FLAGS_BASE}/ca.png",
+    "Paraguay": f"{FLAGS_BASE}/py.png",
+    "Uruguay": f"{FLAGS_BASE}/uy.png",
+}
+
+
+def _flag_for(pais):
+    if not pais:
+        return ""
+    return COUNTRY_FLAGS.get(pais.strip(), "")
+
 LOGO_OVERRIDES = {
     # Aire Argentina
     "telefe": f"{TV_AR}/telefe-ar.png",
@@ -744,6 +761,7 @@ def _write_manifest(rows):
             "logo": r["logo"],
             "categoria": r["categoria"],
             "pais": r["pais"],
+            "flag": _flag_for(r["pais"]),
         }
         for r in rows
     ]
