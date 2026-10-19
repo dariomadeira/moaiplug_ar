@@ -2,11 +2,11 @@
   "id": "moai_ar",
   "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "7b050f7bd1c649c85571333c96f8e3bdde2b86cbf9e0559da15e9c382241c9e3",
+  "sha256": "782424126518fbdecb33dad55660a62de8875b8fd4df1d5e87cf55b75f7b3aab",
   "canalInicial": "telefe",
   "canales": [
     {
@@ -83,13 +83,6 @@
       "id": "argentinisima",
       "nombre": "Argentinísima",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/argentinisima-satelital-ar.png",
-      "categoria": "Aire",
-      "pais": "Argentina"
-    },
-    {
-      "id": "argentinisima_satelital_540p",
-      "nombre": "Argentinisima Satelital",
-      "logo": "https://i.imgur.com/xFgJawa.png",
       "categoria": "Aire",
       "pais": "Argentina"
     },

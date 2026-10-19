@@ -6,7 +6,7 @@ Plugin del motor moai3 que aporta canales de Argentina resueltos con el
 
 ## Catálogo
 
-**502 canales** de Argentina y Latinaamérica, agrupados por país y categoría
+**501 canales** de Argentina y Latinaamérica, agrupados por país y categoría
 (Aire, Noticias, Deportes, Interior, Radios, Cine y Series, Infantil, Cultural,
 Novelas, Música, Cocina, Religioso, Adultos). El catálogo es **derivativo**: lo
 genera `tools/generate_catalog.py` desde dos fuentes y nunca se edita a mano.
@@ -18,8 +18,9 @@ genera `tools/generate_catalog.py` desde dos fuentes y nunca se edita a mano.
 
 En la fusión **gana siempre el canal de AR**: uno de Free solo entra si no
 coincide el `id`, la URL ni la identidad del canal (nombre canónico o alias
-curado). Con los 149 de Free entran **104 canales nuevos** y se descartan 45
-(id/URL/nombre repetidos, alias, 4 caídos en la auditoría). El detalle queda en
+curado). Con los 149 de Free entran **103 canales nuevos** y se descartan 46
+(id/URL/nombre repetidos, alias, 4 caídos en la auditoría y el HLS
+duplicado de Argentinisima Satelital). El detalle queda en
 `build/informe_merge_free.json` y el orden relativo de los canales de AR no se
 altera.
 
@@ -137,9 +138,9 @@ Compila contra `com.infomak.moai.contract` (stubs Java en
 |---------------|---------------------------------------------------|
 | id            | `moai_ar`                                         |
 | tag           | `ar`                                              |
-| version       | `1.6.0`                                           |
+| version       | `1.6.1`                                           |
 | minContrato   | 1                                                 |
 | maxContrato   | 1                                                 |
-| canales       | 502 canales (498 operativos en la última auditoría)|
+| canales       | 501 canales                                       |
 | con logo      | 466 verificados en vivo (36 sin logo)              |
 | canalInicial  | `telefe` → Telefe (Argentina)                     |

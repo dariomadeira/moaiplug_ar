@@ -20,6 +20,10 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo optimizado (canales operativos desde master.json de pascua).
  *
+ * v1.6.1:
+ *  - Se quita Argentinisima Satelital (HLS de Sersat). Queda Argentinísima
+ *    de Flow (ClearKey).
+ *
  * v1.6.0:
  *  - Fusión con moaiplug_free: +104 canales nuevos (interiores, radios, series
  *    internacionales y musicales). En todo duplicado gana el catálogo AR: los
@@ -130,7 +134,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.6.0",
+            "1.6.1",
             1,
             1,
             CANALES,

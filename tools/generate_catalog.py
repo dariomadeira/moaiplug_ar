@@ -395,6 +395,8 @@ FREE_EXCLUDED_CHANNEL_IDS = {
     "eco_tv", "litus_tv_720p_not_24_7",
     # HTTP 403 (Cloudflare / CDN rechaza el origen o bloquea la región)
     "el_siete_1080p", "telefe_tucuman_1080p",
+    # Duplicado de argentinisima (Flow CLEARKEY). Se deja solo ese.
+    "argentinisima_satelital_540p",
 }
 
 
