@@ -20,7 +20,7 @@ import os
 import re
 import sys
 import unicodedata
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import parse_qs, quote, unquote, urlencode, urlsplit, urlunsplit
 
 ROOT = "/home/apogeo/moai/moaiplug_ar"
 MASTER = "/home/apogeo/pascua/assets/master.json"
@@ -241,15 +241,13 @@ DEAD_LOGO_IDS = {
     "allegro", "lu5_de_neuquen",
 }
 
-# /thumb/ de Wikimedia devuelve HTTP 400 si el ancho no es uno de los
-# estandar, y los anchos validos cambian segun el archivo (para
-# Norte_Grande_Federal valen 120/250/330/500/1280/1920; 320 no val nunca).
-# Special:FilePath?width=N si genera la miniatura correcta para cualquier N.
-WIKIMEDIA_THUMB_RE = re.compile(
-    r"^https?://upload\.wikimedia\.org/wikipedia/commons/thumb/"
-    r"(?:[0-9a-f]{1,2}/){1,3}([^/]+?)/\d+px-", re.I
+# Special:FilePath es una página wiki (HTML). En moai3 un path que termina
+# en .svg se parsea como vector y el HTML tira XmlParserException.
+# thumb.php sirve PNG rasterizado; el path no termina en .svg.
+WIKIMEDIA_FILEPATH_RE = re.compile(
+    r"^https?://commons\.wikimedia\.org/wiki/Special:FilePath/([^?]+)",
+    re.I,
 )
-WIKIMEDIA_WIDTH = 250
 
 
 def norm(s):
@@ -296,11 +294,14 @@ def normalize_logo_url(url):
     """Deja la URL en una forma que el player y los CDNs puedan cargar."""
     if not url:
         return url
-    # Anchos de /thumb/ de Wikimedia -> Special:FilePath (siempre valido).
-    m = WIKIMEDIA_THUMB_RE.match(url)
+    m = WIKIMEDIA_FILEPATH_RE.match(url)
     if m:
-        return (f"https://commons.wikimedia.org/wiki/Special:FilePath/"
-                f"{m.group(1)}?width={WIKIMEDIA_WIDTH}")
+        fname = unquote(m.group(1))
+        qs = parse_qs(urlsplit(url).query)
+        width = (qs.get("width") or qs.get("w") or ["250"])[0]
+        return "https://commons.wikimedia.org/w/thumb.php?" + urlencode(
+            {"f": fname, "w": width}
+        )
     # El master.json trae no-ASCII crudo en el path (p.ej. "CNN_en_Español.png").
     # Sin percent-encoding, la carga falla con UnicodeEncodeError.
     parts = urlsplit(url)

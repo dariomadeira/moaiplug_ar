@@ -25,7 +25,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import parse_qs, quote, unquote, urlencode, urlsplit, urlunsplit
 
 DEFAULT_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -36,20 +36,12 @@ DEFAULT_UA = (
 # política de robots pide un UA descriptivo con contacto. Sin esto, la mitad
 # de los logos de upload.wikimedia.org da 429 y parece que están caídos.
 WIKIMEDIA_HOSTS = ("upload.wikimedia.org", "commons.wikimedia.org", "thumb.wikimedia.org")
-# Ancho de la miniatura que pedimos a Special:FilePath. 250px alcanza para
-# los logos de la grilla del reproductor y pesa poco.
-WIKIMEDIA_WIDTH = 250
-
 WIKIMEDIA_UA = "moaiplug_ar-logos-audit/1.0 (https://github.com/; canal TV catalog check)"
 
-# Wikimedia rechaza /thumb/ con anchos no estandar: devuelve HTTP 400
-# "Use thumbnail sizes listed on https://w.wiki/GHai". Y los anchos validos
-# varian por archivo (120/250/330/500/1280/1920 para unos, 320 para ninguno),
-# asi que adivinar no sirve. Special:FilePath?width=N si o si genera la
-# miniatura correcta para cualquier N.
-WIKIMEDIA_THUMB_RE = re.compile(
-    r"^https?://upload\.wikimedia\.org/wikipedia/commons/thumb/"
-    r"(?:[0-9a-f]{1,2}/){1,3}([^/]+?)/\d+px-", re.I
+# Special:FilePath es HTML wiki; thumb.php sirve PNG (igual que generate_catalog).
+WIKIMEDIA_FILEPATH_RE = re.compile(
+    r"^https?://commons\.wikimedia\.org/wiki/Special:FilePath/([^?]+)",
+    re.I,
 )
 
 
@@ -102,10 +94,14 @@ def _is_image(content_type, sample):
 
 def _fixup_logo_url(url):
     """Normaliza URLs que fallan por formato, no por estar caidas."""
-    m = WIKIMEDIA_THUMB_RE.match(url)
+    m = WIKIMEDIA_FILEPATH_RE.match(url)
     if m:
-        fname = m.group(1)
-        return f"https://commons.wikimedia.org/wiki/Special:FilePath/{fname}?width={WIKIMEDIA_WIDTH}"
+        fname = unquote(m.group(1))
+        qs = parse_qs(urlsplit(url).query)
+        width = (qs.get("width") or qs.get("w") or ["250"])[0]
+        return "https://commons.wikimedia.org/w/thumb.php?" + urlencode(
+            {"f": fname, "w": width}
+        )
     return url
 
 

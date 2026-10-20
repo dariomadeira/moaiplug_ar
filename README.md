@@ -65,9 +65,9 @@ muestran el ícono por defecto de la app. **Ninguna URL del catálogo está rota
 
 Dos detalles que importan al momento de elegir un CDN:
 
-- **Wikimedia Commons** rechaza `/thumb/` con anchos no estándar (HTTP 400), y
-  los anchos válidos cambian según el archivo. El generador los reescribe a
-  `Special:FilePath?width=250`, que siempre funciona.
+- **Wikimedia Commons**: `Special:FilePath` devuelve HTML wiki (no SVG). El
+  generador lo reescribe a `thumb.php?f=…&w=250`, que sirve PNG y no termina
+  en `.svg` (moai3 no intenta parsear HTML como SVG).
 - **User-Agent**: Wikimedia devuelve 429 a los UA genéricos de navegador. Al
   auditar hay que usar un UA descriptivo o la mitad de los logos parece caída.
 
@@ -138,7 +138,7 @@ Compila contra `com.infomak.moai.contract` (stubs Java en
 |---------------|---------------------------------------------------|
 | id            | `moai_ar`                                         |
 | tag           | `ar`                                              |
-| version       | `1.7.1`                                           |
+| version       | `1.7.2`                                           |
 | minContrato   | 1                                                 |
 | maxContrato   | 1                                                 |
 | canales       | 501 canales                                       |

@@ -2,11 +2,11 @@
   "id": "moai_ar",
   "tag": "ar",
   "nombre": "Moai Argentina",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "minContrato": 1,
   "maxContrato": 1,
   "clase": "com.infomak.moai.ar.MoaiArPlugin",
-  "sha256": "ba7dda8aea0578f96e8b8fc62a5ee1dc379b2d8b9a0e6711a500c2fbd5f5383b",
+  "sha256": "9d229439fdf63074edf929b61423665f65bbc281fd293e96f3fc83edbf6324e2",
   "canalInicial": "telefe",
   "canales": [
     {
@@ -780,7 +780,7 @@
     {
       "id": "amc_latin_america_1080p",
       "nombre": "AMC Latin America",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/AMC_logo_2019.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=AMC_logo_2019.svg&w=250",
       "categoria": "Cine y Series",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -804,7 +804,7 @@
     {
       "id": "axn_latin_america_south_1080p",
       "nombre": "AXN Latin America South",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/AXN_logo_%282015%29.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=AXN_logo_%282015%29.svg&w=250",
       "categoria": "Cine y Series",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -1028,7 +1028,7 @@
     {
       "id": "usa_network",
       "nombre": "USA Network",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/USA_Network_2025_logo.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=USA_Network_2025_logo.svg&w=250",
       "categoria": "Cine y Series",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -1860,7 +1860,7 @@
     {
       "id": "radio_10",
       "nombre": "Radio 10",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-radio10.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Logo-radio10.svg&w=250",
       "categoria": "Radios",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -1996,7 +1996,7 @@
     {
       "id": "10_cordoba",
       "nombre": "10 Córdoba",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_10_C%C3%B3rdoba_%28Logo_2025%29.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Canal_10_C%C3%B3rdoba_%28Logo_2025%29.svg&w=250",
       "categoria": "Interior",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2068,7 +2068,7 @@
     {
       "id": "13_rio_cuarto",
       "nombre": "13 Río Cuarto",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png&w=250",
       "categoria": "Interior",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2084,7 +2084,7 @@
     {
       "id": "2_posadas",
       "nombre": "2 Posadas",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_2_Posadas_%28Logo_2022%29.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Canal_2_Posadas_%28Logo_2022%29.png&w=250",
       "categoria": "Interior",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2180,7 +2180,7 @@
     {
       "id": "50_ng_federal",
       "nombre": "50 NG Federal",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Norte_Grande_Federal.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Norte_Grande_Federal.png&w=250",
       "categoria": "Interior",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2196,7 +2196,7 @@
     {
       "id": "7_bahia_blanca",
       "nombre": "7 Bahía Blanca",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Eltrece_logotipo_2018.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Eltrece_logotipo_2018.png&w=250",
       "categoria": "Interior",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2204,7 +2204,7 @@
     {
       "id": "7_jujuy",
       "nombre": "7 Jujuy",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_Siete_Jujuy_%28Logo_2026%29.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Canal_Siete_Jujuy_%28Logo_2026%29.png&w=250",
       "categoria": "Interior",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2788,7 +2788,7 @@
     {
       "id": "canal_9_link",
       "nombre": "Canal 9 Link",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_9_ba_logo.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Canal_9_ba_logo.png&w=250",
       "categoria": "General",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2796,7 +2796,7 @@
     {
       "id": "e_latin_america_1080p",
       "nombre": "E! Latin America",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/E%21_Logo_2012.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=E%21_Logo_2012.svg&w=250",
       "categoria": "General",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2804,7 +2804,7 @@
     {
       "id": "fx_latin_america_south_720p",
       "nombre": "FX Latin America South",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/FX_International_logo.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=FX_International_logo.svg&w=250",
       "categoria": "General",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -2820,7 +2820,7 @@
     {
       "id": "mtv_latin_america_1080p",
       "nombre": "MTV Latin America",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/MTV_2021_%28brand_version%29.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=MTV_2021_%28brand_version%29.svg&w=250",
       "categoria": "General",
       "pais": "Argentina",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/ar.png"
@@ -3748,7 +3748,7 @@
     {
       "id": "tve",
       "nombre": "🇪🇸 TVE",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/TVE.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=TVE.svg&w=250",
       "categoria": "General",
       "pais": "Internacional",
       "flag": ""
@@ -3836,7 +3836,7 @@
     {
       "id": "mega_tv",
       "nombre": "MEGA TV",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/MEGA.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=MEGA.svg&w=250",
       "categoria": "General",
       "pais": "Paraguay",
       "flag": "https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/refs/heads/main/assets/flags/py.png"

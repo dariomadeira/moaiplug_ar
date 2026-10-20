@@ -462,7 +462,7 @@
     {
       "id": "disney_channel_latin_america_1080p",
       "nombre": "Disney Channel Latin America (1080p)",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/2024_Disney_Channel_text_logo.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=2024_Disney_Channel_text_logo.svg&w=250",
       "categoria": "Infantil",
       "pais": "Argentina",
       "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8"
@@ -470,7 +470,7 @@
     {
       "id": "disney_channel_latin_america_panregional_hd_1080p",
       "nombre": "Disney Channel Latin America Panregional HD (1080p)",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/2024_Disney_Channel_text_logo.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=2024_Disney_Channel_text_logo.svg&w=250",
       "categoria": "Infantil",
       "pais": "Argentina",
       "url": "http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8"
@@ -478,7 +478,7 @@
     {
       "id": "disney_jr_latin_america_south_1080p",
       "nombre": "Disney Jr. Latin America South (1080p)",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/2024_Disney_Jr._Logo.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=2024_Disney_Jr._Logo.svg&w=250",
       "categoria": "Infantil",
       "pais": "Argentina",
       "url": "http://45.185.163.75:8000/play/a016/index.m3u8"
@@ -486,7 +486,7 @@
     {
       "id": "disney_jr_latin_america_south_hd_1080p",
       "nombre": "Disney Jr. Latin America South HD (1080p)",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/2024_Disney_Jr._Logo.svg?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=2024_Disney_Jr._Logo.svg&w=250",
       "categoria": "Infantil",
       "pais": "Argentina",
       "url": "http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8"
@@ -942,7 +942,7 @@
     {
       "id": "canal_9_link",
       "nombre": "Canal 9 Link",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Canal_9_ba_logo.png?width=250",
+      "logo": "https://commons.wikimedia.org/w/thumb.php?f=Canal_9_ba_logo.png&w=250",
       "categoria": "General",
       "pais": "Argentina",
       "url": "https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8"

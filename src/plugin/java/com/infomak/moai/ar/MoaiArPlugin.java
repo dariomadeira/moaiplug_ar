@@ -20,6 +20,9 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo optimizado (canales operativos desde master.json de pascua).
  *
+ * v1.7.2:
+ *  - Logos Wikimedia: Special:FilePath (HTML wiki) -> thumb.php PNG.
+ *
  * v1.7.0:
  *  - Soporte de banderas de países en formato PNG (assets/flags/{pais}.png).
  *  - Campo 'flag' provisto a nivel de cada canal en PluginChannel y manifest.json.
@@ -37,7 +40,7 @@ import java.util.regex.Pattern;
  *
  * v1.5.1:
  *  - Saneamiento de logos: 22 URLs rotas corregidas/eliminadas, 0 logos caidos.
- *    Wikimedia /thumb/ con ancho invalido -> Special:FilePath?width=250 (14).
+ *    Wikimedia Special:FilePath (HTML wiki) -> thumb.php PNG (14).
  *    4 archivos renombrados en Commons -> URL nueva (Construir TV, SNT,
  *    Paravision, Paraguay TV). 8 logos muertos -> "" (la app usa el default).
  *    Percent-encoding de paths con no-ASCII (ej. "CNN_en_Espanol.png").
@@ -138,7 +141,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.7.1",
+            "1.7.2",
             1,
             1,
             CANALES,
