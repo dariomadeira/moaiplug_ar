@@ -20,6 +20,11 @@ import java.util.regex.Pattern;
 /**
  * Plugin .dex v1 — catálogo optimizado (canales operativos desde master.json de pascua).
  *
+ * v1.8.0:
+ *  - Logos por tema: logoLight / logoDark en manifest.json, servidos desde
+ *    assets/logos/{light,dark}/<id>.png (tools/build_logos.py). "logo" sin
+ *    cambios: las versiones actuales de moai3 siguen igual.
+ *
  * v1.7.2:
  *  - Logos Wikimedia: Special:FilePath (HTML wiki) -> thumb.php PNG.
  *
@@ -141,7 +146,7 @@ public final class MoaiArPlugin implements IPlugin {
         return new PluginManifest(
             "moai_ar",
             "Moai Argentina",
-            "1.7.2",
+            "1.8.0",
             1,
             1,
             CANALES,

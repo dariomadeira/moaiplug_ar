@@ -71,6 +71,47 @@ Dos detalles que importan al momento de elegir un CDN:
 - **User-Agent**: Wikimedia devuelve 429 a los UA genéricos de navegador. Al
   auditar hay que usar un UA descriptivo o la mitad de los logos parece caída.
 
+### Logos para tema claro y oscuro
+
+`tools/build_logos.py` baja cada logo y genera dos PNG de 384×384 servidos desde
+este repo (`assets/logos/light/<id>.png` y `assets/logos/dark/<id>.png`). El
+manifest los publica en dos campos nuevos; `logo` **no cambia**, así que las
+versiones actuales de moai3 siguen igual:
+
+```json
+"logo":      "<origen de siempre>",
+"logoLight": ".../assets/logos/light/telefe.png?v=57f1067e",
+"logoDark":  ".../assets/logos/dark/telefe.png?v=57f1067e"
+```
+
+El `?v=` cambia cuando cambia la imagen, para que la app no muestre una copia
+vieja de su caché. Si un canal no tiene versión generada, ambos campos repiten
+`logo`.
+
+Qué hace con cada logo:
+
+- **Lienzo liso**: un logo sobre fondo blanco o negro liso pierde ese fondo. Si
+  el fondo es de color (un "tile" de marca) o es una foto, se conserva entero
+  con esquinas redondeadas.
+- **Recoloreado**: en tema oscuro, el texto negro o gris que toca el fondo pasa
+  a blanco y los colores muy oscuros (azul marino, bordó) se aclaran sin cambiar
+  el tono. En tema claro, el texto blanco pasa a gris oscuro. Lo que está dentro
+  de una insignia (letras blancas en un círculo negro) no se toca.
+- **Placa**: solo si casi todo el logo desaparece contra el fondo, va sobre una
+  placa redondeada.
+
+Correcciones a mano en `tools/data/logo_overrides.json` (por id: `source`, `bg`,
+`light`, `dark`). Para revisar, abrir `build/logos_preview.html`, que muestra
+original, claro y oscuro de cada canal sobre ambos fondos.
+
+```bash
+py -3 tools/build_logos.py --apply-manifest   # Windows (python3 en Linux)
+```
+
+Solo reprocesa lo que cambió (`--force` para todo, `--only id1,id2` para
+algunos). Si el build cambia la URL de origen de un logo, correr `./build.sh` y
+después `build_logos.py --apply-manifest`.
+
 ## Instalación en moai3
 
 Desde **Fuentes** en la app, pegar cualquiera de estas URLs (HTTPS):
@@ -138,7 +179,7 @@ Compila contra `com.infomak.moai.contract` (stubs Java en
 |---------------|---------------------------------------------------|
 | id            | `moai_ar`                                         |
 | tag           | `ar`                                              |
-| version       | `1.7.2`                                           |
+| version       | `1.8.0`                                           |
 | minContrato   | 1                                                 |
 | maxContrato   | 1                                                 |
 | canales       | 501 canales                                       |

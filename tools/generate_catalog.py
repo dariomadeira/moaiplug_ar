@@ -754,12 +754,43 @@ def _write_java(rows):
     print(f"Escribí {path}")
 
 
+LOGOS_INDEX = os.path.join(ROOT, "assets", "logos", "index.json")
+LOGOS_BASE = ("https://raw.githubusercontent.com/dariomadeira/moaiplug_ar/"
+              "refs/heads/main/assets/logos")
+
+
+def _theme_logos():
+    """Logos por tema generados por tools/build_logos.py (id -> urls).
+
+    Si un canal no tiene versión generada (sin logo, o el origen no se pudo
+    bajar), ambos temas usan el logo original.
+    """
+    if not os.path.exists(LOGOS_INDEX):
+        print("AVISO: falta assets/logos/index.json; logoLight/logoDark = logo. "
+              "Correr tools/build_logos.py.", file=sys.stderr)
+        return {}
+    with open(LOGOS_INDEX, encoding="utf-8") as f:
+        index = json.load(f)
+    out = {}
+    for cid, info in index.items():
+        if "error" in info or "light_sha1" not in info:
+            continue
+        out[cid] = (
+            f"{LOGOS_BASE}/light/{cid}.png?v={info['light_sha1'][:8]}",
+            f"{LOGOS_BASE}/dark/{cid}.png?v={info['dark_sha1'][:8]}",
+        )
+    return out
+
+
 def _write_manifest(rows):
+    theme = _theme_logos()
     canales = [
         {
             "id": r["id"],
             "nombre": r["nombre"],
             "logo": r["logo"],
+            "logoLight": theme.get(r["id"], (r["logo"], r["logo"]))[0],
+            "logoDark": theme.get(r["id"], (r["logo"], r["logo"]))[1],
             "categoria": r["categoria"],
             "pais": r["pais"],
             "flag": _flag_for(r["pais"]),

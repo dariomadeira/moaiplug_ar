@@ -68,7 +68,7 @@ with io.open('manifest.json', 'r', encoding='utf-8') as f:
     m = json.load(f)
 
 m['sha256'] = '$sha'
-m['version'] = '1.7.2'
+m['version'] = '1.8.0'
 for c in m.get('canales', []):
     n = norm(c.get('pais', ''))
     c['flag'] = base + flag_map[n] if n in flag_map else ''

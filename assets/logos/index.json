@@ -1,0 +1,5907 @@
+{
+ "10_cordoba": {
+  "dark": "keep",
+  "dark_sha1": "d15ba051c488ac3592e11ff112feefb5c487545a",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d15ba051c488ac3592e11ff112feefb5c487545a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=Canal_10_C%C3%B3rdoba_%28Logo_2025%29.svg&w=250"
+  },
+  "source_sha1": "54d6f68dfbee224f2cd12bb3db6012c52f6ebd85"
+ },
+ "10_mar_del_plata": {
+  "dark": "keep",
+  "dark_sha1": "d4e3c8be45555debce20bb7a49ed326f6f67be52",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d4e3c8be45555debce20bb7a49ed326f6f67be52",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-10-ar.png"
+  },
+  "source_sha1": "c6018c17708daedd8db171075e72f7ae6d0da6cd"
+ },
+ "10_u_cba": {
+  "dark": "keep",
+  "dark_sha1": "2463c9219f57a147c71914cdb5a8ec64b2dc03ad",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "1033538b5d5996893c96307c1baa2a1d8a85d892",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/K2sJwVC/canal-u.png"
+  },
+  "source_sha1": "e675088a09aa77e48ffa562f0c9d60a2cac0975b"
+ },
+ "11_salta": {
+  "dark": "keep",
+  "dark_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png"
+  },
+  "source_sha1": "0621eeb02d71cb7f027110eb618a764ebaed44d7"
+ },
+ "12_cordoba": {
+  "dark": "keep",
+  "dark_sha1": "bace99859ef5017c5b7c1df6ecb3dffc5efa151c",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "bace99859ef5017c5b7c1df6ecb3dffc5efa151c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/94/El_doce_tv_cba_logo.png"
+  },
+  "source_sha1": "1ece31ad42a4f56975c85567bb88121983e3e450"
+ },
+ "13_corrientes": {
+  "dark": "keep",
+  "dark_sha1": "08bc3fcbccd965aadada96a494c6d48c9f252950",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "ade98e61a175aea8d6e0c60369126dae8ced6920",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/13max-hd-ar.png"
+  },
+  "source_sha1": "43505fa9c036748c7d8e1ed738c41e39bdb4a68f"
+ },
+ "13_rio_cuarto": {
+  "dark": "keep",
+  "dark_sha1": "c5a274cb0a73abe3c89dec959e2fdac6adceeb5c",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "c5a274cb0a73abe3c89dec959e2fdac6adceeb5c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=Canal_13_R%C3%ADo_Cuarto_%28Logo_2008%29.png&w=250"
+  },
+  "source_sha1": "06aacbcea0eb9b5dd3c5557e1b697923816286f0"
+ },
+ "21_posadas": {
+  "dark": "recolor",
+  "dark_sha1": "2f24fe61875b5ffd876187e87e75c65cf8cda49a",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "386fb7f2669b87863f75a6907b360330d68cc4bb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.canal21tv.com.ar/images/logo.png"
+  },
+  "source_sha1": "7672f04f1c55724bd739e77c5f422f3c83aa5f57"
+ },
+ "24_7_canal_de_noticias": {
+  "dark": "keep",
+  "dark_sha1": "e7fae9a71a0261b9dd0e44e276fa565c9cda80cc",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "e7fae9a71a0261b9dd0e44e276fa565c9cda80cc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/4hDCB1M.png"
+  },
+  "source_sha1": "926ecd00cbc13897e578aee2affd364f3408ceab"
+ },
+ "29_rts": {
+  "dark": "keep",
+  "dark_sha1": "74385e78e97b11387319e5c8dcfd423faf551626",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "f649b27453436602a3f284ccdd5a8b02186fe5ad",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://rtsmedios.com.ar/wp-content/uploads/2025/01/logo_rtsw.png"
+  },
+  "source_sha1": "67cbc1e1ffb94b14accf05a8840848cbece4e4fe"
+ },
+ "2_canal_c_cba": {
+  "dark": "recolor",
+  "dark_sha1": "ec1897fe2e8bebe3deeb7e73c39d3632ddff8e51",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "aff2a02c4265db3be4cb01379bb2c593a186fdbb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://infonegocios.info/content/companies/logos/81031_Canal%20C.png"
+  },
+  "source_sha1": "541ab0fe7604f6b8b9a9b24efdd240dacc9eeb55"
+ },
+ "2_posadas": {
+  "dark": "keep",
+  "dark_sha1": "f9871fd40a06154039cec40dd57c59aa22cfd58b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f9871fd40a06154039cec40dd57c59aa22cfd58b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-2-posadas-ar.png"
+  },
+  "source_sha1": "2ecd537d7363e49678275cc9675019e1ae41662c"
+ },
+ "2_san_luis": {
+  "dark": "recolor",
+  "dark_sha1": "342827fbdada1b9d63c5a4020b378f4924060217",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "c7378f2a1b386c1fbdb930ce782821de01971ab9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.sanluisctv.com.ar/assets/images/logo-sl-ctv-2-240x240.png"
+  },
+  "source_sha1": "d4a82eb972d14427e47fb11bd1242b1882df878a"
+ },
+ "34_san_juan": {
+  "dark": "recolor",
+  "dark_sha1": "1b83a8e0f5f71d8b4fc72891e4fd4cc1153d03e0",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "e5e68e0ae313e8671486ea6e39b9e11e42f9dccd",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/ySBWJKL/canal-34-san-juan.png"
+  },
+  "source_sha1": "120a399cf931f6d00ec8642cfc480d6ca71331cb"
+ },
+ "3_rosario": {
+  "dark": "keep",
+  "dark_sha1": "155454b03a3f1fac17298322b4144ba1def6e50e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "155454b03a3f1fac17298322b4144ba1def6e50e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvlogo.org/argentina/eltres-tv-ar.png"
+  },
+  "source_sha1": "67bf2eb45820379d7db7c2ffddd26a9300e53d4c"
+ },
+ "4_san_juan": {
+  "dark": "keep",
+  "dark_sha1": "bf777f6aac79178234214ff463a09582d8bf0314",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "bf777f6aac79178234214ff463a09582d8bf0314",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-4-ar.png"
+  },
+  "source_sha1": "ba2ae7703944ab70854512e4abcf7a9019b31156"
+ },
+ "50_ng_federal": {
+  "dark": "keep",
+  "dark_sha1": "8187ca4b50b00b0456e19cf3ad5af881371112ee",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8187ca4b50b00b0456e19cf3ad5af881371112ee",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=Norte_Grande_Federal.png&w=250"
+  },
+  "source_sha1": "ad7b17d879f574a5526c787e7e62195004420332"
+ },
+ "5_corrientes": {
+  "dark": "keep",
+  "dark_sha1": "f5bb8d3a63735d801c6b0bef7a6e262418855418",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f5bb8d3a63735d801c6b0bef7a6e262418855418",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.tvcinco.com/images/logo-transparente.png"
+  },
+  "source_sha1": "7cdd9b9519de9c5e13b948a745762eab117064b3"
+ },
+ "5_dias": {
+  "dark": "recolor",
+  "dark_sha1": "953ebf3cab00cea2b6622da973e380d1e77237a4",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d70bf8fbdae95bb30d12124f4ab7c4a723b788ba",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/5dias.png"
+  },
+  "source_sha1": "4f4cb9d3e2151897d8464a93bb16ff920d7d9f6e"
+ },
+ "5_santa_fe": {
+  "dark": "keep",
+  "dark_sha1": "300dbe28de3b22b6344df4701115c03c7c5ad577",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "300dbe28de3b22b6344df4701115c03c7c5ad577",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.c5sf.com/wp-content/uploads/2018/07/CANAL-5.png"
+  },
+  "source_sha1": "0be42756412f0850e61bc1c11ae5034733a75d7c"
+ },
+ "5tv": {
+  "dark": "keep",
+  "dark_sha1": "da7ba9ca8a6e1e2ba8ed19879b899e809ad2226f",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "da7ba9ca8a6e1e2ba8ed19879b899e809ad2226f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPJcvr3hmpjicr5Sp2AEBkCtKwjgreapB-FL6iVuMEwQ&s=10"
+  },
+  "source_sha1": "5dd825540c5b8b3c43e1b02b118d6eadeeea5314"
+ },
+ "6_posadas": {
+  "dark": "keep",
+  "dark_sha1": "b32faac6febb60bd29afaa9270042bca6f53478e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b32faac6febb60bd29afaa9270042bca6f53478e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/42/Canal_6_Digital_Posadas_%28Logo_2025%29.png"
+  },
+  "source_sha1": "0b80859e067f1f64222b641edd1b76f3ad4079e3"
+ },
+ "7_bahia_blanca": {
+  "dark": "keep",
+  "dark_sha1": "0bcf4f900ecae59cf165b50e072144b20198d021",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "0bcf4f900ecae59cf165b50e072144b20198d021",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Canal_Siete_Bahia_Blanca.png"
+  },
+  "source_sha1": "12a0c4e7232d11c3f586d8fa52389046e719d27c"
+ },
+ "7_jujuy": {
+  "dark": "keep",
+  "dark_sha1": "939925f0f48caf76bd72220ac59d2afafe1363e1",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "939925f0f48caf76bd72220ac59d2afafe1363e1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Canal_Siete_Jujuy.png"
+  },
+  "source_sha1": "c8630b92bea62b4f98e1a0d37f95fbb20bae5024"
+ },
+ "7_mendoza": {
+  "dark": "keep",
+  "dark_sha1": "adda549744aacd199956c58ddf1d5d268cb08d39",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "9a46295a6e7d66808b4b25105ae3188193b61f01",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png"
+  },
+  "source_sha1": "d62f045d94e445cdfcadde3ccb3bc16aa2d831bd"
+ },
+ "7_neuquen": {
+  "dark": "keep",
+  "dark_sha1": "3864a7331807cc0e768d574489670f34c933007d",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "3864a7331807cc0e768d574489670f34c933007d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-neuquen-ar.png"
+  },
+  "source_sha1": "f45f5a1fe7a0b51e3ecf861034698136ae2d27f9"
+ },
+ "7_salta": {
+  "dark": "keep",
+  "dark_sha1": "adda549744aacd199956c58ddf1d5d268cb08d39",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "9a46295a6e7d66808b4b25105ae3188193b61f01",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png"
+  },
+  "source_sha1": "d62f045d94e445cdfcadde3ccb3bc16aa2d831bd"
+ },
+ "7_sgo_estero": {
+  "dark": "keep",
+  "dark_sha1": "adda549744aacd199956c58ddf1d5d268cb08d39",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "9a46295a6e7d66808b4b25105ae3188193b61f01",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-7-hd-ar.png"
+  },
+  "source_sha1": "d62f045d94e445cdfcadde3ccb3bc16aa2d831bd"
+ },
+ "8_la_rioja": {
+  "dark": "keep",
+  "dark_sha1": "b5ebf43ae0d984958999ef8de9cd3c61ced53edb",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "191f336f093efc23cf229cf5c0e0f9777fb18619",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvocho.ar/wp-content/uploads/2024/05/teveoh3.png"
+  },
+  "source_sha1": "f0b0a261eb7104b88f3f90ac9d1ca76c8e9c833e"
+ },
+ "8_mar_del_plata": {
+  "dark": "recolor",
+  "dark_sha1": "c74a9622f000eab3e87476368ab574931fb4281b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "6d7d35c5d29d84c7a1f169e7a66796f583dc0748",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-8-mar-del-plata-ar.png"
+  },
+  "source_sha1": "1217db33410d7e3ef9f89ebef038b2933dee5f0c"
+ },
+ "8_telefe_cordoba": {
+  "dark": "keep",
+  "dark_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png"
+  },
+  "source_sha1": "0621eeb02d71cb7f027110eb618a764ebaed44d7"
+ },
+ "8_tucuman": {
+  "dark": "keep",
+  "dark_sha1": "b956e5b3cd961917f66903d0381d4b04d5b9af5f",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b956e5b3cd961917f66903d0381d4b04d5b9af5f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-ocho-ar.png"
+  },
+  "source_sha1": "42bedb7e47581b309b499822b6cffaeb7c57f2bb"
+ },
+ "9_bahia_blanca": {
+  "dark": "keep",
+  "dark_sha1": "de9a15f2d9bcd0197819756e6b234a9d517c8ce8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "de9a15f2d9bcd0197819756e6b234a9d517c8ce8",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png"
+  },
+  "source_sha1": "0773ee4f4c06d18e3d7c8f976d38f010bab3810e"
+ },
+ "9_nordeste": {
+  "dark": "keep",
+  "dark_sha1": "de9a15f2d9bcd0197819756e6b234a9d517c8ce8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "de9a15f2d9bcd0197819756e6b234a9d517c8ce8",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png"
+  },
+  "source_sha1": "0773ee4f4c06d18e3d7c8f976d38f010bab3810e"
+ },
+ "9_parana": {
+  "dark": "keep",
+  "dark_sha1": "de9a15f2d9bcd0197819756e6b234a9d517c8ce8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "de9a15f2d9bcd0197819756e6b234a9d517c8ce8",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-9-televida-ar.png"
+  },
+  "source_sha1": "0773ee4f4c06d18e3d7c8f976d38f010bab3810e"
+ },
+ "9_santa_cruz": {
+  "dark": "keep",
+  "dark_sha1": "2f792ab169b9ab58ba10e0b6be40d7b29a688220",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "2f792ab169b9ab58ba10e0b6be40d7b29a688220",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Canal_9_R%C3%ADo_Gallegos_%28Logo_2025%29.png"
+  },
+  "source_sha1": "09441a872c29d045391f104f4ccf3daf07388ec3"
+ },
+ "a24": {
+  "dark": "keep",
+  "dark_sha1": "65881c36181f1eb1813f14343c8645824fe1418e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "65881c36181f1eb1813f14343c8645824fe1418e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/a24-ar.png"
+  },
+  "source_sha1": "318505460eabfbf01814a7c4d8554870229a0351"
+ },
+ "a24_py": {
+  "dark": "keep",
+  "dark_sha1": "9a2e58e3cf99e6dd67002a50daccdbce9dae724b",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "9a2e58e3cf99e6dd67002a50daccdbce9dae724b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/w5iC0gGyzTvJSRMSyOfYSawUrFevmivHTELSXP4O6Nzyw2Dr9UgBuRbTy77mXKFgHxxhjI2H=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "40a9894a30c14c913a1d67c29bab3fe788d8ed3c"
+ },
+ "a3cine": {
+  "dark": "keep",
+  "dark_sha1": "9810cb63c7817a0c8de6b868d3711e97d2e0f0c6",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "9810cb63c7817a0c8de6b868d3711e97d2e0f0c6",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "keep"
+   },
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/A3Cine.png/960px-A3Cine.png"
+  },
+  "source_sha1": "ec4f6d9d7097d908f1ee7232c75222ab2ddcc644"
+ },
+ "a3series": {
+  "dark": "keep",
+  "dark_sha1": "febb8dda9cc1e25105e62cf70841d9596be7a4a1",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "439a5f39cf14004cfcb440289aa45ab1df75492a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/A3SER.png?raw=true"
+  },
+  "source_sha1": "7a169e6ae8415ea41cfc85b88a5cfa29bd2ee22b"
+ },
+ "a_bocados": {
+  "dark": "keep",
+  "dark_sha1": "65f73301b08afead5b01651d9d96bc4d99c09b06",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "c5439e93a0a6e0dac54dec994f51c8bcc3af8816",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/a3ff2a9f-2532-4be8-a872-1f1214d8c59d-width308-quality90.png"
+  },
+  "source_sha1": "ada389348324b414b9bbd8a54a72b0e3b7de0b8f"
+ },
+ "a_e": {
+  "dark": "keep",
+  "dark_sha1": "84a8edb9e75fc2586044a3c6c33a255467cc798b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "7ac60b638df09f0f439a510b3072edf62f9fc142",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/AETV.png?raw=true"
+  },
+  "source_sha1": "b9305ac731c657f31c9e0a8eab39a034667a7659"
+ },
+ "abc_tv": {
+  "dark": "tile",
+  "dark_sha1": "46fb1c9d672105e8ef7fea8371cd824304d063bb",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "46fb1c9d672105e8ef7fea8371cd824304d063bb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/abc.png"
+  },
+  "source_sha1": "3b3b6e2ebad5fd4833ad0e40fc1a6a79fc7c978c"
+ },
+ "abtv_bariloche": {
+  "dark": "keep",
+  "dark_sha1": "ab044906f79a4e4c8e7425121718055ae1616b29",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ab044906f79a4e4c8e7425121718055ae1616b29",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/l4TSfDr.png"
+  },
+  "source_sha1": "e47d37168003b458f8bcdbc4d3d8c38c0364f9d4"
+ },
+ "adult_swim": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/adultswim.png"
+  }
+ },
+ "aire_de_santa_fe_1080p": {
+  "dark": "recolor",
+  "dark_sha1": "fea5fb2056dcad61bdd1076a0ec7ace33988caf9",
+  "kind": "removed",
+  "light": "recolor",
+  "light_sha1": "1f9b8af19d1a5cd42c2c3a690d2916aeaf62de5c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/60vSWW0.png"
+  },
+  "source_sha1": "f20dcc96a78b451405b6611e0cabd6e4d605de22"
+ },
+ "al_jazeera": {
+  "dark": "keep",
+  "dark_sha1": "7fd1d0c7351a32e9e2ed842ee7cbc8ca01e0e573",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "7fd1d0c7351a32e9e2ed842ee7cbc8ca01e0e573",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Aljazeera_eng.svg/960px-Aljazeera_eng.svg.png"
+  },
+  "source_sha1": "3841f41669745b67d1fff833613f39fd1850d0f5"
+ },
+ "alternatv_720p_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "d139fb39f1ef5219e76e6be4aa4aab6f1895c268",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "01dca67c61849bb6a90114bdf536836185d9b410",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tv.alterna.ar/alternatv.png"
+  },
+  "source_sha1": "f6d6a1a3277d26dc4a3fca7b332d802ffd017fa4"
+ },
+ "am_910": {
+  "dark": "recolor",
+  "dark_sha1": "6f05973cf9234d6a107d319ffd372c2b8da3529a",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "598cf65afd52d30247db3e0052260cb8e44411d3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/64/Radio_La_Red_AM_910.png"
+  },
+  "source_sha1": "4fa7cbf8df2380e5922231ade0e84333757fce38"
+ },
+ "amc": {
+  "dark": "keep",
+  "dark_sha1": "5cdd4fb42c85ff01615888cdf3e60104cf55ffc8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "5cdd4fb42c85ff01615888cdf3e60104cf55ffc8",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AMC_logo.png/960px-AMC_logo.png"
+  },
+  "source_sha1": "3cfa32c7d884096a489543e54d03bccd894bc873"
+ },
+ "amc_latin_america_1080p": {
+  "dark": "recolor",
+  "dark_sha1": "351bd7c477f86356459b7e67461cb7c2e80acac4",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "9e579dcf5cc6182b9e22426162762b112ebf23bc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=AMC_logo_2019.svg&w=250"
+  },
+  "source_sha1": "507f983b67e516b91ee796faee221d77247e85e0"
+ },
+ "amc_series": {
+  "dark": "keep",
+  "dark_sha1": "086958589e3f6af5ad629b0e3393cf075f952223",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "48a718bdff8831660fcee31edaf105ed2d577cf7",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/Hcd31vF7/AMC-Series.png"
+  },
+  "source_sha1": "d80be878e2021b6456d9b1a10fd6e42711a0cf79"
+ },
+ "america_sports": {
+  "dark": "recolor",
+  "dark_sha1": "966b0b001e923ec37661c08108dbf74e5669b954",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "dedd1b7a9376e0b21efdaee8beafe13bf31174a0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/america-sports-ar.png"
+  },
+  "source_sha1": "0a75adfbb4687711a5ab346eb42303349e352246"
+ },
+ "america_tucuman": {
+  "dark": "keep",
+  "dark_sha1": "3536c5cdbdf8bb760c5dce14be9b27a09592ae3e",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "3536c5cdbdf8bb760c5dce14be9b27a09592ae3e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/ytc/AIdro_kN2LLsDht_pqHhwPk-HuwI-ijyPuual4EiYk3MAXoqsNk=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "37caacfc1da1e4ec309bb3ee401eaf71f240fc28"
+ },
+ "america_tv": {
+  "dark": "keep",
+  "dark_sha1": "3aaaee5324d993ad323fd987a8e0a8f6fe124277",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "cdb14355a20805d94e90f2f0f650d3b0c4399bc2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/america-ar.png"
+  },
+  "source_sha1": "a70fed6666f084224fb7fe03c564edd0f148e3c3"
+ },
+ "america_tv_py": {
+  "dark": "keep",
+  "dark_sha1": "07cee74f74f7c2e063650663cdf83afcf7cdc5e8",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "5d6f399f73d8959f777b4382dfdf9829b2a9601f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://latvqueseviene.com/wp-content/uploads/2024/05/America-Paraguay-Logo.png"
+  },
+  "source_sha1": "14dd20f5a11012b98b76d66844d6ea2151855b9f"
+ },
+ "animal_planet": {
+  "dark": "recolor",
+  "dark_sha1": "a41182568d7ea7162b0619b164d595345627ef2b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8b5223f907dd005ac17f9aa5d9465c0426da5391",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/4nr56B4Y/2018-Animal-Planet-logo-svg.png"
+  },
+  "source_sha1": "3b6a41e7c407d2af5d3f33b59a06ded0fe90dec6"
+ },
+ "antena_3": {
+  "dark": "keep",
+  "dark_sha1": "5c7f10650678719146fafa72d93424a2afb82ac3",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "5c7f10650678719146fafa72d93424a2afb82ac3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/antena-3-es.png"
+  },
+  "source_sha1": "62f07bc472abc1433e02daa89076f8bf95f13231"
+ },
+ "antena_3_internacional": {
+  "dark": "keep",
+  "dark_sha1": "3b84c2725d618d837051c1bac2788c482231ee5e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "3b84c2725d618d837051c1bac2788c482231ee5e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/gwmHw85z/Antena-3-Internacional.png"
+  },
+  "source_sha1": "faf511d7fcea1ca200c0f1ede2e409d85bfd3ed6"
+ },
+ "argentina_12": {
+  "dark": "keep",
+  "dark_sha1": "8838730a626bdcd1e012bd0901380b1fcf345cdc",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "97ac51a3473e91622d12a9fa52246ed52e152175",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/argentina-12-ar.png"
+  },
+  "source_sha1": "d56ccc4b69518baaa980e4dbd6cf124755cb4733"
+ },
+ "argentinisima": {
+  "dark": "keep",
+  "dark_sha1": "66c45ca0a1f2da29774e0745dd4d9d0662ae6d86",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "9d3e79e5296d00d2d393d2bfdebb324c67c0f453",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/argentinisima-satelital-ar.png"
+  },
+  "source_sha1": "6da88c842f474090a65a81f7d3284ef85dc2db2f"
+ },
+ "arirang": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/322.png"
+  }
+ },
+ "axn": {
+  "dark": "keep",
+  "dark_sha1": "b83b15524f754af85ebff6d87598fbf405455afd",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "3683fa972280149f73886a0b391f68568621e405",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://axn.hu/wp-content/uploads/2024/07/axn_neg_logo.png"
+  },
+  "source_sha1": "be0c4144a31c4d8a225e1230f6d0d1fb17394c6a"
+ },
+ "axn_latin_america_south_1080p": {
+  "dark": "recolor",
+  "dark_sha1": "31d6e8fe580f3f46e9f99804e6352e3ac25f1d6d",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b9fca73cccc241376e0487d4c81d2aec7d11d644",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=AXN_logo_%282015%29.svg&w=250"
+  },
+  "source_sha1": "c524d53496f1e67e3ebf8f554a70fab62f95ed5a"
+ },
+ "azteca_uno": {
+  "dark": "keep",
+  "dark_sha1": "d8d36b11b210b8d5128183b620daa8915d23de8c",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "0f8ebcf91251b975d7981f6550f42d4a60388526",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvazteca.brightspotcdn.com/10/57/ee810ae644028eb1793e34aeeb1f/logo-uno.png"
+  },
+  "source_sha1": "9028e099d22e492f2b51e05d1137589939e1ce54"
+ },
+ "baby_tv": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/695.png"
+  }
+ },
+ "band_news_tv": {
+  "dark": "keep",
+  "dark_sha1": "7a6bd89d4997f0739dfb593938292df208230325",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "be41e00465f93726ac104db44cad20194b8cc3a2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/band-news-br.png"
+  },
+  "source_sha1": "f127f556aeb5f8934f70c088e5f8c1cbcc137ea9"
+ },
+ "barca_tv": {
+  "dark": "tile",
+  "dark_sha1": "9498e0fd2dca0e3b7512431349be3bc80ff115f9",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "9498e0fd2dca0e3b7512431349be3bc80ff115f9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://m.media-amazon.com/images/I/519HRnFsO8L.png"
+  },
+  "source_sha1": "d30e1dd9aeb00a5d711481319019c3659a71b359"
+ },
+ "bbc_news": {
+  "dark": "tile",
+  "dark_sha1": "641e198fdca1970be9de155cc35da8d65f92e2dc",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "641e198fdca1970be9de155cc35da8d65f92e2dc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/NfhTZDt4/BBC_News.png"
+  },
+  "source_sha1": "ea6d02a8fc5cf9f89a32dad421d649a0568100f2"
+ },
+ "beats_radio": {
+  "dark": "plate",
+  "dark_sha1": "ce41b5b2a53c0aa8a9f06eea75b20d91754f9083",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "5a55af5bcfe79c99351b0358aa8be1c7f4b76fa1",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "plate"
+   },
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_r%C3%A1dio_BEAT.png"
+  },
+  "source_sha1": "511ebf12248cadb01324a8d45494eca7c1c9d02c"
+ },
+ "bein_sports_1": {
+  "dark": "keep",
+  "dark_sha1": "eeb9e2cfb30ac8aa9aa30d6989fb66ed79e3b2bc",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "eeb9e2cfb30ac8aa9aa30d6989fb66ed79e3b2bc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-us.png"
+  },
+  "source_sha1": "1cf2c6f9a3fbb214e7c8048a87d6cd41f3df3cce"
+ },
+ "bein_sports_2": {
+  "dark": "tile",
+  "dark_sha1": "86b0747b7753a4b90254809c3babe0f10c829a90",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "86b0747b7753a4b90254809c3babe0f10c829a90",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-2-us.png"
+  },
+  "source_sha1": "2ec2fecc070fc01ec655d8d746619c4f0f11a100"
+ },
+ "bein_sports_3": {
+  "dark": "tile",
+  "dark_sha1": "d0fa72bc090f6a19cc756e9d4aae19e7c9cf84c9",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "d0fa72bc090f6a19cc756e9d4aae19e7c9cf84c9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-3-us.png"
+  },
+  "source_sha1": "e9bd86ce06f17ef4558c05aa94d35486b71233c6"
+ },
+ "bein_sports_extra_n": {
+  "dark": "tile",
+  "dark_sha1": "380d31e211acfa24607b01448a9340c5056d4f09",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "380d31e211acfa24607b01448a9340c5056d4f09",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/MHsyq36G/descarga-6.jpg"
+  },
+  "source_sha1": "abec05bdb8487f4c026600d99e4b80d23b29751e"
+ },
+ "billboard": {
+  "dark": "keep",
+  "dark_sha1": "7b942aa5c6939abd42420e0c97fc58e2111a713d",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "6e9741637a3e774f7108239b5c95bb8b94c2d303",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://geo.edge.pontiscloud.com:9002/images/901/CH_LOGO/200/200/0/0/12050400077728.png"
+  },
+  "source_sha1": "15654b804c9632ed59ff4c97cdf24c1a0d4066b0"
+ },
+ "bloomberg": {
+  "dark": "keep",
+  "dark_sha1": "c509ea104d506f30208be339d4328eea15648c5e",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "c509ea104d506f30208be339d4328eea15648c5e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/1RNPfcqM/Bloomberg.png"
+  },
+  "source_sha1": "d30e8ac08008d012a9abc01b1cacad5bc78dcee6"
+ },
+ "blue_fm_100_7": {
+  "dark": "tile",
+  "dark_sha1": "ef62b7ea118414912314d07a55630d7313863fd2",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "ef62b7ea118414912314d07a55630d7313863fd2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://myradioenvivo.ar/public/uploads/radio_img/blue-fm-100-7/play_250_250.webp"
+  },
+  "source_sha1": "6779e0268c72878132e6eb4dffb8a0cbe97f7bfc"
+ },
+ "brazzers": {
+  "dark": "keep",
+  "dark_sha1": "da1084bf9ced2da4c6a9cc100269f8782c7d5560",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "5e1d8393422bad85f45e1c0bd32e0831e9910549",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://logos-world.net/wp-content/uploads/2021/08/Brazzers-Emblem.png"
+  },
+  "source_sha1": "dd2556d59f8da03d2b1c34261dfabaddeefa2055"
+ },
+ "bvc": {
+  "dark": "keep",
+  "dark_sha1": "81bc0e71361e33a9ff72b201bf3155131089af0b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "8d8d8c6f4cadb8c1c8226e6e0380ee0f42c46595",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/I06TSx0.png"
+  },
+  "source_sha1": "07c58ed7d3ac381a573222902c205e1e332b1776"
+ },
+ "c5n": {
+  "dark": "keep",
+  "dark_sha1": "78c9964dcb200b2b2ceb4a2e10b995db53f5d3a0",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "e390305aca9d59949ee1ba74f5b84b4277146ab1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/c5n-ar.png"
+  },
+  "source_sha1": "cd35bc23dc33ae9df736bdfc93a2930f353a6b6f"
+ },
+ "c9n": {
+  "dark": "keep",
+  "dark_sha1": "d7a3b49a4cef008059258298f941008adf23d9e1",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "063e60f760878cfbcfdd93cbf35c0573e9199873",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/c9n.png"
+  },
+  "source_sha1": "6cb4519fd33dceaf643405408864a118f7e2eb06"
+ },
+ "cable_imagen_armstrong_540p_not_24_7": {
+  "dark": "recolor",
+  "dark_sha1": "8ee615062a543de9b2e09aabcb5f7360e48fe750",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "7acf9e8ccfee909d3603a7f6d2986cd494de8220",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/U9NuJQC.png"
+  },
+  "source_sha1": "41df2f18d5058e25138b7da1f56b162e93e10800"
+ },
+ "cadena103_tv": {
+  "dark": "keep",
+  "dark_sha1": "afe8e74173ebbb82d817bd7327853646b5a349dc",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "60406af666bc337317d5da63adde25f548e042cd",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/vBsry35.png"
+  },
+  "source_sha1": "9d264c433297eccc32a703da8178845f89c154e5"
+ },
+ "cadena_103": {
+  "dark": "tile",
+  "dark_sha1": "046dd8a57a3a571b20f0327c8edd8cef57683843",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "046dd8a57a3a571b20f0327c8edd8cef57683843",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/RkjIuCskfUzr4PFSjEE3I54CX074c1Z5EUuBe1ij8uhYrYWyfFC8-xh3rJutiU_0eCWxxkS0JA=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "ad9f1729632fa989f703f2efe194adc996e39f00"
+ },
+ "cadena_tres": {
+  "dark": "recolor",
+  "dark_sha1": "f5e76cab88f84592eb06fd1400643ec846ddbc84",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "156ebb2cc1a00bcc302aba68a7d76a9bc681c16d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.cadena3.com/img/conductores-placas/generica.jpg"
+  },
+  "source_sha1": "d0793455ba2249f3c5a15bd36e50661ec317445a"
+ },
+ "canal_12_venado_tuerto_1080i": {
+  "dark": "tile",
+  "dark_sha1": "07ceecd4f57140a0d75ca28e6eaf3243b0bfd618",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "07ceecd4f57140a0d75ca28e6eaf3243b0bfd618",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/b93YC0V.jpeg"
+  },
+  "source_sha1": "2b26600b0f8925ebad5d9d18a531000c7dea7503"
+ },
+ "canal_12_web": {
+  "dark": "keep",
+  "dark_sha1": "c8a6ecf8953fc9b4265023b986e8c5da74edeae5",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "c8a6ecf8953fc9b4265023b986e8c5da74edeae5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/VYcTRbd.png"
+  },
+  "source_sha1": "632eadce53cbed5769b00b1a3f17fd5aee6c116e"
+ },
+ "canal_13_jujuy_720p": {
+  "dark": "tile",
+  "dark_sha1": "fe8485814a4d14b7391396ef1a837aa5867426b7",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "fe8485814a4d14b7391396ef1a837aa5867426b7",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/lmKLiJ3.jpg"
+  },
+  "source_sha1": "6697a9e3877fe6d19de0ebb373456c8ac46c68a4"
+ },
+ "canal_26": {
+  "dark": "keep",
+  "dark_sha1": "039390b670998209525fc30b9fec1248fc01afaa",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "039390b670998209525fc30b9fec1248fc01afaa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-26-ar.png"
+  },
+  "source_sha1": "922d649b879a0e072494531a762f2f5b7bd240cd"
+ },
+ "canal_2_de_ushuaia_1080p": {
+  "dark": "keep",
+  "dark_sha1": "001240bdab9e12d04869bb9588ec9da575429433",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "001240bdab9e12d04869bb9588ec9da575429433",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/q5NPdK2/canal2-logo.png"
+  },
+  "source_sha1": "6e6095e1eab8674c7a31f2af2417ae5329a92fc8"
+ },
+ "canal_2_gualeguay": {
+  "dark": "recolor",
+  "dark_sha1": "73c43f7dccfbe805ac597670d2fd50b85ae6d115",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ae083c61397e146a963d304be55bacc90ebc7382",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/TOlncyp.png"
+  },
+  "source_sha1": "3cf5f01d55e9a786f7240dc0e15f2316cad6b072"
+ },
+ "canal_2_mar_del_plata_720p": {
+  "dark": "tile",
+  "dark_sha1": "8bf0b0cdeecb3860614102b42124b62be61540a5",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "8bf0b0cdeecb3860614102b42124b62be61540a5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/wlKFPBW.jpeg"
+  },
+  "source_sha1": "8805504866f705ec6777e7450dc7ac31f4ef3a7f"
+ },
+ "canal_2_nextv_rafaela_720p": {
+  "dark": "recolor",
+  "dark_sha1": "a2316596ad4017cb4862c6d45a84b45a9e0cfb34",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "9fe7b3d2057ffa258936ba00005e81cab138f921",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/hgj3CaR.jpeg"
+  },
+  "source_sha1": "9af35fe73a4f69106c86067bac465d024e6fd646"
+ },
+ "canal_3_formosa": {
+  "dark": "recolor",
+  "dark_sha1": "24f8c3a0ce69ec7958908f20bbb0b348010781f3",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "6b32ad3f24b2ce5516efe5651ab7aca6956cacd9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/rVDrNIy.png"
+  },
+  "source_sha1": "11653a17af34cf2922e812c3ea77a5fc57b19e99"
+ },
+ "canal_3_la_pampa_1080p": {
+  "dark": "recolor",
+  "dark_sha1": "8e28ebe66f7af504f7aa4a3e57f3c0809eaa55c8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "77bbc1abedfbd5ae4e9ae227e47e03192acee22c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/SsNFudZ.png"
+  },
+  "source_sha1": "b1cf2d52b794d7f7ed415071b673df9de27e4458"
+ },
+ "canal_3_las_heras_720p": {
+  "dark": "keep",
+  "dark_sha1": "acc7607a53de773f64a16f7a14aa5eaddc294bea",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "acc7607a53de773f64a16f7a14aa5eaddc294bea",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/bd2afET.png"
+  },
+  "source_sha1": "fa2312403d2e7495dfb6639db4c3b1aa01e08aef"
+ },
+ "canal_3_pinamar": {
+  "dark": "recolor",
+  "dark_sha1": "b4fd22d9dc135af20111fa44724e461e0be7fd20",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d144773a089b91254e90930ccdc4d30e45b00e3f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/IABFaH1.png"
+  },
+  "source_sha1": "c79f2af27313c9a70beee0c51f4532cec6fba558"
+ },
+ "canal_3_tacural": {
+  "dark": "recolor",
+  "dark_sha1": "dfdbe510305dcc22ab0a084bd83f46e3d1efb5a7",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "bd5874b3922555590342ab62f2a38fe15ba9b5f0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/RKvSa52.jpeg"
+  },
+  "source_sha1": "81a08e3b8216c8f1fc7e8da89e1f4b8278fb2336"
+ },
+ "canal_4_esquel": {
+  "dark": "recolor",
+  "dark_sha1": "d473508a971c937e3529f6cd572622fe7db3cc67",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "e838066f616225d45016aadb395b5d6364b13ff9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/6kbOr16.png"
+  },
+  "source_sha1": "c001aa6ac986aa6f210b9f79957b6e1a8cf8c453"
+ },
+ "canal_4_jujuy": {
+  "dark": "keep",
+  "dark_sha1": "2a01432c02f084a4cb3d3b1e36766fa44059590f",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "33103aa3c81f391e74ee5a256c271a6913e2e44e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/qB6I274.png"
+  },
+  "source_sha1": "93d6f55fac134289a2f69bef2081d42216b173b2"
+ },
+ "canal_4_teleaire": {
+  "dark": "keep",
+  "dark_sha1": "524370d1815ff3f8466ee257f121fea7fc4b8874",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "524370d1815ff3f8466ee257f121fea7fc4b8874",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/XyiNvbY.png"
+  },
+  "source_sha1": "248e0182e7db0f3dfe3c60629968dc6268755381"
+ },
+ "canal_4_villa_dolores": {
+  "dark": "recolor",
+  "dark_sha1": "40ea9c9c4247377121c3c3a4ddbea66f0bcc48b3",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "1ea121a509f534b92d78d3ebe011e42ae22588f5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/ZKSnGfw.png"
+  },
+  "source_sha1": "9706d419819ae136667b292fc45fe1e99fc3f3fa"
+ },
+ "canal_5": {
+  "dark": "tile",
+  "dark_sha1": "20c0dd9d53ef9e5b053a8e080267d3065c65b230",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "20c0dd9d53ef9e5b053a8e080267d3065c65b230",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://pbs.twimg.com/profile_images/1923331092339154944/euZMnOVL_400x400.png"
+  },
+  "source_sha1": "350277608a03378547915d957b4d29196d2a2fcb"
+ },
+ "canal_50_morteros": {
+  "dark": "recolor",
+  "dark_sha1": "90dc04b356b1eb067dde96903f70b9c902758f08",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "60ff873e3f0632eca07a91a82a82f571da98b3d1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/IDhgBav.png"
+  },
+  "source_sha1": "dc606b34fcd725a432a94f7d74447e2c4da1490a"
+ },
+ "canal_5_del_pueblo_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "28b4a1b5b7dad621b2660b3b84f58f3454ee497d",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "28b4a1b5b7dad621b2660b3b84f58f3454ee497d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/XzcYYMc/Canal-5-alcorta-ver.jpg"
+  },
+  "source_sha1": "9c24ac8128efd3f126141f0d29bebdf36861387f"
+ },
+ "canal_5_tv_chepes": {
+  "dark": "keep",
+  "dark_sha1": "61589990eea74b09948d816680f39088091ef97e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "61589990eea74b09948d816680f39088091ef97e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/AzEqroq.png"
+  },
+  "source_sha1": "740deb0b3e62523495c5a8aef380afd52c5a8fe1"
+ },
+ "canal_6_viento_recio": {
+  "dark": "recolor",
+  "dark_sha1": "3f4ac649879b2ccf6cf14e46281a8ca3b21402f5",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ff37ec80722bf016e47b4b1e8b0823e783d3c633",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/liyTNzK.png"
+  },
+  "source_sha1": "b17679f3adf8b75964051e9bc764e19497d5e030"
+ },
+ "canal_79_la_costa_240p": {
+  "dark": "keep",
+  "dark_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/HYuSqJy.png"
+  },
+  "source_sha1": "89cf7486bf626fa616d9df20f1a2e19b101b8e2f"
+ },
+ "canal_79_mar_del_plata": {
+  "dark": "keep",
+  "dark_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/I93ypGY.png"
+  },
+  "source_sha1": "89cf7486bf626fa616d9df20f1a2e19b101b8e2f"
+ },
+ "canal_79_puan_240p": {
+  "dark": "keep",
+  "dark_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/HYuSqJy.png"
+  },
+  "source_sha1": "89cf7486bf626fa616d9df20f1a2e19b101b8e2f"
+ },
+ "canal_79_santa_clara_del_mar_240p": {
+  "dark": "keep",
+  "dark_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/I93ypGY.png"
+  },
+  "source_sha1": "89cf7486bf626fa616d9df20f1a2e19b101b8e2f"
+ },
+ "canal_79_villa_maza": {
+  "dark": "keep",
+  "dark_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "817e77bfb436b2a3a702ccf4e808306c43d43d82",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/HYuSqJy.png"
+  },
+  "source_sha1": "89cf7486bf626fa616d9df20f1a2e19b101b8e2f"
+ },
+ "canal_7_tv_720p": {
+  "dark": "keep",
+  "dark_sha1": "ecac45d97ff6a5e9020ee854f89e3826f59a0f33",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "ecac45d97ff6a5e9020ee854f89e3826f59a0f33",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/iJMH0UK.png"
+  },
+  "source_sha1": "db0cb3d70989e83cdd48b044975ede0c0c6673ff"
+ },
+ "canal_8_san_juan_720p_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "b34106929202ab57a82237d81162edd0fcc00577",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "676ad9c560743efde5c4f16983bcd8db35eee027",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://files.catbox.moe/f7jbdo.png"
+  },
+  "source_sha1": "b495f922a739c7829eb05be852efdc159ce46b49"
+ },
+ "canal_90_digital": {
+  "dark": "keep",
+  "dark_sha1": "d772d5670a1c92ac1391f5ed584f64b90c02a7ab",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d772d5670a1c92ac1391f5ed584f64b90c02a7ab",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/K8HLKxkr/Canal-90-Digital.png"
+  },
+  "source_sha1": "4a23804cfd749a9fde81147760e8385a34ff6387"
+ },
+ "canal_99_miramar": {
+  "dark": "tile",
+  "dark_sha1": "117f661ca26d0156034e0ffc3fd37137bde4546c",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "117f661ca26d0156034e0ffc3fd37137bde4546c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/PblsZxz.jpeg"
+  },
+  "source_sha1": "61936a9f1416300b3f9c1b68cf7a34dc44d63ee9"
+ },
+ "canal_9_link": {
+  "dark": "keep",
+  "dark_sha1": "84f7226c0c53a3b94c13b33669bd1b24eb25190a",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "84f7226c0c53a3b94c13b33669bd1b24eb25190a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=Canal_9_ba_logo.png&w=250"
+  },
+  "source_sha1": "f289572033dbd0789ef4abe8a8af0ca88d846d44"
+ },
+ "canal_9_resistencia_720p": {
+  "dark": "keep",
+  "dark_sha1": "bd63c1b3c2250fedefc9481e03b743dda8c3eff1",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "0efb6bf20363af945b3f290a4f4c9d9b96c4c71d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/xqgRFpC.png"
+  },
+  "source_sha1": "9a10b9e2a2d564d3764c0e4f212efcf703922af9"
+ },
+ "canal_a": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/canala.png"
+  }
+ },
+ "canal_de_la_ciudad": {
+  "dark": "keep",
+  "dark_sha1": "2c8fbae07109bf9af92a006cccfe738c54516281",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "2c8fbae07109bf9af92a006cccfe738c54516281",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Logo_Canal_de_la_Ciudad.png"
+  },
+  "source_sha1": "34a7bc342e824420c22d46c0ea88b362c16fa967"
+ },
+ "canal_de_las_estrellas": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/9.png"
+  }
+ },
+ "canal_e_720p": {
+  "dark": "tile",
+  "dark_sha1": "f3ff78d40f1ee1db51f92157b1e3b9b8d31b0648",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "f3ff78d40f1ee1db51f92157b1e3b9b8d31b0648",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg"
+  },
+  "source_sha1": "18e7cbe98469a1b2693cb7e74b2ba7b51625310b"
+ },
+ "canal_encuentro": {
+  "dark": "keep",
+  "dark_sha1": "595a8ac869ea9b0a0444e40c41bbee2b00d86154",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "95cc7f1c91005e8fa77f27c0b4248f04e58c1ad0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/encuentro-ar.png"
+  },
+  "source_sha1": "9a0b6ebb685a3f89111b5a2184414f875b08e759"
+ },
+ "canal_luz": {
+  "dark": "keep",
+  "dark_sha1": "442361eadf7b0d8d12d2a75d3f998a9f7bd908c5",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "442361eadf7b0d8d12d2a75d3f998a9f7bd908c5",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "light": "keep"
+   },
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/50/Canal_Luz_actual.png"
+  },
+  "source_sha1": "c87ec170dedc90b18ec3848ca437ae5bc44c0b76"
+ },
+ "canal_orbe_21": {
+  "dark": "keep",
+  "dark_sha1": "e133ef410b3ade2c87a1bfb39d38d395b23fb59e",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "df83fb409f621ae98f3ac05b9bf461b098cdce17",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/9FQ2PBGZ/Logo_1.png"
+  },
+  "source_sha1": "9031283cc8b5b10382b94ce9d17691c72090d48f"
+ },
+ "canal_pro": {
+  "dark": "keep",
+  "dark_sha1": "efd37814710f7a2ad804147db074ee26be93b76d",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "09328ee9d6f64c9929fb510fe180853928ee264b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/pro.png"
+  },
+  "source_sha1": "ce084ef6dd816015afe05bcee8d1e2fb67730584"
+ },
+ "canal_pulpo_tv": {
+  "dark": "tile",
+  "dark_sha1": "1aee83b459ae73cdf9bd449c87036c8fe6db32d0",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "1aee83b459ae73cdf9bd449c87036c8fe6db32d0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://new.opencaster.com/uploads/logos/logo_306_1756336707.png"
+  },
+  "source_sha1": "de52ad08d55403fc41f625d69847d6985860f9da"
+ },
+ "canal_rural": {
+  "dark": "keep",
+  "dark_sha1": "a07a6ff9bafd0cb0938e6008a35b8c72f148ee57",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a07a6ff9bafd0cb0938e6008a35b8c72f148ee57",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-rural-ar.png"
+  },
+  "source_sha1": "be09fba59fb0642d27dc1bd792f357fde0a92f34"
+ },
+ "canal_showsport_720p": {
+  "dark": "keep",
+  "dark_sha1": "b7577a3764905b1a9cd388e6a9fd178a5cc7536a",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "2110da8950784e0548740c26db87614899364125",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/0L9tW3Z.png"
+  },
+  "source_sha1": "fbd49523cf7bef2bf1c372111db89f2049211226"
+ },
+ "canal_tdc": {
+  "dark": "tile",
+  "dark_sha1": "1340835bedf61cc2476974d0520657909b7fa762",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "1340835bedf61cc2476974d0520657909b7fa762",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/nPG38B2.png"
+  },
+  "source_sha1": "571dffe6af1972047e5ae4d8ec398759ef39e56d"
+ },
+ "canal_universidad": {
+  "dark": "tile",
+  "dark_sha1": "98ad439029f42744f452b7dc378f377b3c9d03f5",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "98ad439029f42744f452b7dc378f377b3c9d03f5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/trmPKYw.png"
+  },
+  "source_sha1": "678c3a766bc0873682f8068df87928594a539068"
+ },
+ "canela": {
+  "dark": "keep",
+  "dark_sha1": "b247ab791230efb8d0e8c53cfcd7c81c74d37d39",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b247ab791230efb8d0e8c53cfcd7c81c74d37d39",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/iLusoR_ZTaY42j1sndiQnyKOTk48R2VMkg0mK6r-yjXaqP8wttXbrMPswQxjY9wiDSh0Zg2JEztUmJBQsUv2gw"
+  },
+  "source_sha1": "530615ec0c787c4c5ad9b73694f918b991fde380"
+ },
+ "caras_tv": {
+  "dark": "tile",
+  "dark_sha1": "8990311a2bb07307b9d31e6cae6e61c702e5e424",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "8990311a2bb07307b9d31e6cae6e61c702e5e424",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/CARAS.png?raw=true"
+  },
+  "source_sha1": "b5d82d992b23287c08bcd96e025e869171a6821f"
+ },
+ "cartoon_network": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/226.png"
+  }
+ },
+ "cartoonito": {
+  "dark": "keep",
+  "dark_sha1": "c90b8dcb2e9bce509ecd08c60b1b9fb6317d9cbd",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "c90b8dcb2e9bce509ecd08c60b1b9fb6317d9cbd",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/rlxooZ1FOBJ3YlXGuLr2Y02dE0eo6B5-1wy9X7vCPBXM7sVc5YFqSyGgUGGwfHpw3xI"
+  },
+  "source_sha1": "2fc561b437b2746a1d9cfccbf6c5300b0f1529f7"
+ },
+ "catamarca_tv_720p": {
+  "dark": "keep",
+  "dark_sha1": "dba30c2e4a98f286ed0a5a42af104b492378c614",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "dba30c2e4a98f286ed0a5a42af104b492378c614",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/CEuPoqG.png"
+  },
+  "source_sha1": "ce9fb18a252303813189c5fff8b3febbdd772a75"
+ },
+ "cazetv": {
+  "dark": "tile",
+  "dark_sha1": "a9eed9c68ef0e444d9b4b3997ea408bc81247588",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "a9eed9c68ef0e444d9b4b3997ea408bc81247588",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/R-NJzpNfFCOxdwRZGFsCzCDK4pLDpfU0MN77CYXf8S9UP4YDbA4YgE_1WIshV2zz54A-Bns=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "cc44fbbc609743a1f89026d140eefa109d13982d"
+ },
+ "cazetv_2": {
+  "dark": "tile",
+  "dark_sha1": "a9eed9c68ef0e444d9b4b3997ea408bc81247588",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "a9eed9c68ef0e444d9b4b3997ea408bc81247588",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/R-NJzpNfFCOxdwRZGFsCzCDK4pLDpfU0MN77CYXf8S9UP4YDbA4YgE_1WIshV2zz54A-Bns=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "cc44fbbc609743a1f89026d140eefa109d13982d"
+ },
+ "cazetv_3": {
+  "dark": "tile",
+  "dark_sha1": "a9eed9c68ef0e444d9b4b3997ea408bc81247588",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "a9eed9c68ef0e444d9b4b3997ea408bc81247588",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/R-NJzpNfFCOxdwRZGFsCzCDK4pLDpfU0MN77CYXf8S9UP4YDbA4YgE_1WIshV2zz54A-Bns=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "cc44fbbc609743a1f89026d140eefa109d13982d"
+ },
+ "cbs_sport": {
+  "dark": "tile",
+  "dark_sha1": "95e7cd9db1ccfd7f4092473f28812aeb2697abc3",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "95e7cd9db1ccfd7f4092473f28812aeb2697abc3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/BXgSjOd8a04_W7Bu-CNrwsUhN6_nz7PCLfVvkZjPO9Gmj0z2zHm3J9-1yA8G-XbnOVTPafcaln0LbHwFxTALlA"
+  },
+  "source_sha1": "b4a013bb5661c1c3be89be0d0d147a540e762d98"
+ },
+ "celta_tv_240p": {
+  "dark": "keep",
+  "dark_sha1": "ef93966746f399afab8777a14e5d15c95b5a64cf",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "602319add1f297fa77ea44efa125e34c70c6aaaa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/rwoIF4w.png"
+  },
+  "source_sha1": "cb84c47589bb29399d13a307863a1cccc6c44cbb"
+ },
+ "chamame_tv": {
+  "dark": "keep",
+  "dark_sha1": "68ff28a1d68afb7b73cdb3b0503efe27e69c3ad2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "68ff28a1d68afb7b73cdb3b0503efe27e69c3ad2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/JigzJck.png"
+  },
+  "source_sha1": "a407a9677d0ce0180ad54f3b624e46eddb82f5f7"
+ },
+ "cine_ar": {
+  "dark": "keep",
+  "dark_sha1": "2d332d6df8abf6452dafdfe25a994b7544b58f38",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "debb5e978cdc060816b930028dc63e104308ae9a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/Gtxdz729/Fondo-Oscuro.png"
+  },
+  "source_sha1": "1333bab81a2cf0c11b2643fd384f3c47fc0ea58e"
+ },
+ "cinecanal": {
+  "dark": "keep",
+  "dark_sha1": "a71bfa83bfa78a260b2ffeed698b9ed12218d222",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "d375645ba3af75b9ff1bf8bea348f67c768c8d9f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/cvghCHq/cinecanal.png"
+  },
+  "source_sha1": "325bb0eea0e8d12bb5a8fb7a704cd8c8e51595cc"
+ },
+ "cinemax": {
+  "dark": "keep",
+  "dark_sha1": "16d179991e5691ded053ba028be7d8e4bf3a85cf",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "16d179991e5691ded053ba028be7d8e4bf3a85cf",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/dmgX2Ww/Cinemax-LA.png"
+  },
+  "source_sha1": "26155c1c44b7737a8336278f2c727fb2fb9c0791"
+ },
+ "ciudad_magazine": {
+  "dark": "keep",
+  "dark_sha1": "2706e6cf914d33c7b9c515093b26b70fe845d30a",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "32cee1c07d50d0895adfe23ea068644f05d15630",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/mDHT4mgR/Logo-2.png"
+  },
+  "source_sha1": "3481693b946e2df91aac911c5d376a5e01520593"
+ },
+ "ciudad_magica_720p": {
+  "dark": "keep",
+  "dark_sha1": "16dc3c9297729d3b5db82ff18ff99b17de4e3c50",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "16dc3c9297729d3b5db82ff18ff99b17de4e3c50",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "keep"
+   },
+   "source": "https://i.imgur.com/HJkSz2U.png"
+  },
+  "source_sha1": "ceaff536ee6b1f115982872ccff7e35e5040cd76"
+ },
+ "ciudad_tv_resistencia_720p": {
+  "dark": "recolor",
+  "dark_sha1": "2e25fe03b15634109cc45b04d8fb31b66a95fe1c",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "31ec63583d533ef1e330a14ed07d27b4550d037a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/oL8SMTL.png"
+  },
+  "source_sha1": "51aafa4f49c2fb06b0aed6ff522f589876232368"
+ },
+ "claro_sports": {
+  "dark": "keep",
+  "dark_sha1": "f9c06b6c61614c2e852b82a48b0c6d708c55c14b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "65cb636720a8c2d1b12c74efe49da2c064af59fc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/claro-sports-lam.png"
+  },
+  "source_sha1": "4e9ee4542028fdffd6df3c8bdae052b02683fe1b"
+ },
+ "cm": {
+  "dark": "keep",
+  "dark_sha1": "8e415fc8767f38cc53f11eadc18d1aa8fecd68e2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8e415fc8767f38cc53f11eadc18d1aa8fecd68e2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logocmtvargentina.png"
+  },
+  "source_sha1": "a3424514e339b4a4a916eb346f17964943b5d4d4"
+ },
+ "cnn_en_espanol": {
+  "dark": "keep",
+  "dark_sha1": "f2f12d5e76e5991f02ff959390e23f347c52a250",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f2f12d5e76e5991f02ff959390e23f347c52a250",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/cnn-en-espanol-lam.png"
+  },
+  "source_sha1": "60769f61af75c21b37717d8964835ab79b667eaf"
+ },
+ "cnn_international": {
+  "dark": "keep",
+  "dark_sha1": "532753d6b8e2d1f36113d12f52414474a0753ae9",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "532753d6b8e2d1f36113d12f52414474a0753ae9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/960px-CNN-International-Logo.svg.png"
+  },
+  "source_sha1": "391603859538644da7ed1d3e9ccf1a11541c297c"
+ },
+ "comedy_central": {
+  "dark": "keep",
+  "dark_sha1": "745a916d66359f0c8dfb8801842e6b328c5ff53e",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "b24eb07755a9a6c8df67215b5899033768302866",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/comedy-central-ar.png"
+  },
+  "source_sha1": "54929e3465350aa0358ed472bbba8b103c2efbdb"
+ },
+ "con_vos": {
+  "dark": "tile",
+  "dark_sha1": "57f4bffe23fffe9cc84cbde9256932b196c04675",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "57f4bffe23fffe9cc84cbde9256932b196c04675",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.googleusercontent.com/T0kc3wJIrewoTiJTESM7Pkk0VeGSy04fSiwexJDD6MLVL9z8i2WnT4YX7vhlLtPzVOkCaZM2_A=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "e263657eb9f1ab13d3a630bd661f927eab8760f5"
+ },
+ "construir_tv": {
+  "dark": "keep",
+  "dark_sha1": "1d721363e30b7669543da658e72fe4acc6a2d175",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "1d721363e30b7669543da658e72fe4acc6a2d175",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/LogoCTVpng.png"
+  },
+  "source_sha1": "fce707a12da810c6dc75a89c343f2e0a33175dd2"
+ },
+ "correa_radiovision": {
+  "dark": "tile",
+  "dark_sha1": "c0810256ab3676682fe72636398b23d5c7d4d763",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "c0810256ab3676682fe72636398b23d5c7d4d763",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/bNCGzjf.jpeg"
+  },
+  "source_sha1": "3305acf1a8dea512d05f2b9c025c77eb947778b7"
+ },
+ "corrientes": {
+  "dark": "keep",
+  "dark_sha1": "43375f5219ab1d1675cdb206fec15a490f9d39f7",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "42663a63e2620330410e4ea7590f3ecf5d5c4461",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/Jy849HS/somos-corrientes.png"
+  },
+  "source_sha1": "00d6d2ac75254e4e82808fc9e8c468145ea2a2cc"
+ },
+ "corrientes_tv": {
+  "dark": "tile",
+  "dark_sha1": "1532ffa32ce3d037354275df2b9feeefb333dd95",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "1532ffa32ce3d037354275df2b9feeefb333dd95",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/7PBkvRp.png"
+  },
+  "source_sha1": "86d2b574be4b9600da3325a2ba6311a506a92fae"
+ },
+ "cosmos_tv": {
+  "dark": "keep",
+  "dark_sha1": "afdcd8c9b45c833eedeeb826302c736230fcbaaa",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "afdcd8c9b45c833eedeeb826302c736230fcbaaa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.fmcosmos.com/images/custom/logo-social.jpg?_v=v3-37"
+  },
+  "source_sha1": "30cf69717b11f1f620e7c19f92481b85da5b5f76"
+ },
+ "cosmos_tv_sd": {
+  "dark": "keep",
+  "dark_sha1": "afdcd8c9b45c833eedeeb826302c736230fcbaaa",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "afdcd8c9b45c833eedeeb826302c736230fcbaaa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.fmcosmos.com/images/custom/logo-social.jpg?_v=v3-37"
+  },
+  "source_sha1": "30cf69717b11f1f620e7c19f92481b85da5b5f76"
+ },
+ "cronica_tv": {
+  "dark": "tile",
+  "dark_sha1": "4f56c13f7f0693f99cb432e0994ffa467aa4a893",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "4f56c13f7f0693f99cb432e0994ffa467aa4a893",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/cronica-hd-ar.png"
+  },
+  "source_sha1": "18e98b040549eedb279c24715580b86b6eba9973"
+ },
+ "cumbia_mix_720p": {
+  "dark": "keep",
+  "dark_sha1": "2ba9d67fc6974e77c53ac6435e4fc83703267c8b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "2ba9d67fc6974e77c53ac6435e4fc83703267c8b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png"
+  },
+  "source_sha1": "b8bdb5271d05a1cb0b80df10ecc4990027fdabd9"
+ },
+ "dazn_fast": {
+  "dark": "tile",
+  "dark_sha1": "c41b7006ff2a97622ee0f49ab66b0e3af45a9bb6",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "c41b7006ff2a97622ee0f49ab66b0e3af45a9bb6",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.dwdl.de/images/1692002750_dazn-fast.jpg"
+  },
+  "source_sha1": "0a9f82fd612d26855ca7acdc5d841e3e90f20bc0"
+ },
+ "dazn_ringside": {
+  "dark": "tile",
+  "dark_sha1": "8b533e74be683439cbd62e63ec2a89d872e72f95",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "8b533e74be683439cbd62e63ec2a89d872e72f95",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images.pluto.tv/channels/64d626ac9b414d000820e2fc/thumbnail.jpg?auto=&ixlib=react-9.1.5&w=224&h=124&dpr=2&q=50"
+  },
+  "source_sha1": "04ab657e3dc9dd02516d34add1277fe857b0fb77"
+ },
+ "del_valle_99_1": {
+  "dark": "tile",
+  "dark_sha1": "6c125a28cd6684d3e36030b2f1c76b776198fc92",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "6c125a28cd6684d3e36030b2f1c76b776198fc92",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://github.com/luisoddone/virus/blob/main/RDV_F.png?raw=true"
+  },
+  "source_sha1": "09f95d4e9322995d094fb3177045e00ff94de791"
+ },
+ "deportv": {
+  "dark": "keep",
+  "dark_sha1": "552b151ef20e9900c7756b7d6ccbe55c1b431623",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "552b151ef20e9900c7756b7d6ccbe55c1b431623",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/deportv-ar.png"
+  },
+  "source_sha1": "59307ed8c931026bf5cc2901446e85b7e7c21975"
+ },
+ "dhe": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/dhe.png"
+  }
+ },
+ "diputados_tv": {
+  "dark": "recolor",
+  "dark_sha1": "fa13f0119976bcbeb02cc50686fe0f58fe183537",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "bbb0c9b332a0a48c173b863108400b735ad36de0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/m2VyFnKH/Diputados.png"
+  },
+  "source_sha1": "7fa369b648c45258ec8d9a74f80d6469c78ab47b"
+ },
+ "discovery_channel": {
+  "dark": "keep",
+  "dark_sha1": "2ede0cf86d22fe20c45750a95005c04b8c3ad355",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "70d583c99c00170b975afa5e419951ff66b0b044",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/bNnyx0B/3328310f-6d31-30a1-be18-d17a7ecb95cd.png"
+  },
+  "source_sha1": "5c572feea976bce1bb64684bc61a372e5f3cae57"
+ },
+ "discovery_h_h": {
+  "dark": "keep",
+  "dark_sha1": "80ba5f018936f753fc0ab6b384a9ba5e4271e874",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "80ba5f018936f753fc0ab6b384a9ba5e4271e874",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Discovery_H%26H.png"
+  },
+  "source_sha1": "6a2041bd7792b4e0485aa74ddc438eda0d77e255"
+ },
+ "discovery_id": {
+  "dark": "keep",
+  "dark_sha1": "656909e23a066e8243aa206344f92aabfaaf8c1f",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "e17e36501028c846e357cb04b6d3a63c723d16b9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/id-investigation-discovery-ar.png"
+  },
+  "source_sha1": "58a9a41b2bf575bb7307c7820ac9f68eaa5e26d3"
+ },
+ "discovery_kids": {
+  "dark": "keep",
+  "dark_sha1": "944134e311d4755125b763439891730d83c56095",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "944134e311d4755125b763439891730d83c56095",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://lokos.pages.dev/webp/logos/diskids.webp"
+  },
+  "source_sha1": "4f58ebb536c7088a378d6d2fcab067082acc57cd"
+ },
+ "discovery_science": {
+  "dark": "recolor",
+  "dark_sha1": "27248bb4eb1732c54f17ac7c7223f045850d9543",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a718d3a8aa2e2721623bdb611d3deaabe7532063",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/Xy2WV2N/discovery-science-logo.png"
+  },
+  "source_sha1": "38dc5647dd2bac9e9f7af1aa2ffd0d0102456875"
+ },
+ "discovery_theater": {
+  "dark": "keep",
+  "dark_sha1": "14b6f933562189349505dea16288bce51a96b157",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "14b6f933562189349505dea16288bce51a96b157",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/TD6cKXF0/2015-Discovery-theater-HD-logo-svg.png"
+  },
+  "source_sha1": "d71fb792841baaaf5003f9bae20d67e3bb833b20"
+ },
+ "discovery_tlc": {
+  "dark": "keep",
+  "dark_sha1": "5203e7f87222bd7c078259ef83b8dc19a15912d6",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "5203e7f87222bd7c078259ef83b8dc19a15912d6",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"
+  },
+  "source_sha1": "0010c9280b9b97d22f3c42771a195abd8e27278c"
+ },
+ "discovery_turbo": {
+  "dark": "keep",
+  "dark_sha1": "7e8781d3c8815afd8794103b52ecbb86761664d9",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "89cedae70cf6472e510cfdd563016f79b077e98b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/KvXqQtH8/DTurbo.png"
+  },
+  "source_sha1": "c23523953d9ef1e6d555adde1ff233c1f34c55f5"
+ },
+ "discovery_world": {
+  "dark": "keep",
+  "dark_sha1": "311a8b044ba5a659e0d544a6e282598a9385c6f2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "311a8b044ba5a659e0d544a6e282598a9385c6f2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://a-qiio.onrender.com/webp/logos/disworld.webp"
+  },
+  "source_sha1": "22b8ed6cda154c2ae8b6c227373021ac9a78a9d1"
+ },
+ "disney": {
+  "dark": "recolor",
+  "dark_sha1": "935d1a76908a5086ecf84d0951f5aadd16844f82",
+  "kind": "removed",
+  "light": "plate",
+  "light_sha1": "74433269f0decb7dfe6f9f4d3363dc2d2dbe198b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://myradioenvivo.ar/public/uploads/radio_img/radio-disney/fb_cover.jpg"
+  },
+  "source_sha1": "2d8f19e5dfbd6479abc98faab88061d193155216"
+ },
+ "disney_channel": {
+  "dark": "recolor",
+  "dark_sha1": "f70db1866d2809d22e146e51787573ae3693a4d3",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8742ccf23557ec8e476e966d18f06e30c290a3f5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://lokos.pages.dev/webp/logos/disney.webp"
+  },
+  "source_sha1": "94c5c826da4a770614a758e0181d80773ac49d1f"
+ },
+ "disney_junior": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/756.png"
+  }
+ },
+ "dnews": {
+  "dark": "keep",
+  "dark_sha1": "d935544730c31d40843f1d0465202bba294889bc",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d935544730c31d40843f1d0465202bba294889bc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/DNews.svg/960px-DNews.svg.png"
+  },
+  "source_sha1": "2bff80e18ea57e589c14889e45caee0f3cc2b521"
+ },
+ "dreamworks_tv": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/dreamworks.png"
+  }
+ },
+ "dsports": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_2": {
+  "dark": "keep",
+  "dark_sha1": "ee1fc1862314f2b4f3aa69d8c1b44be2cec79429",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ee1fc1862314f2b4f3aa69d8c1b44be2cec79429",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png"
+  },
+  "source_sha1": "491a1a59dc2d1b7aaa328d6e952b91e6cde09aa6"
+ },
+ "dsports_2_2": {
+  "dark": "keep",
+  "dark_sha1": "ee1fc1862314f2b4f3aa69d8c1b44be2cec79429",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ee1fc1862314f2b4f3aa69d8c1b44be2cec79429",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png"
+  },
+  "source_sha1": "491a1a59dc2d1b7aaa328d6e952b91e6cde09aa6"
+ },
+ "dsports_3": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_4": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_5": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_6": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_7": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_premium": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_radio": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dsports_uruguay": {
+  "dark": "keep",
+  "dark_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "db2c95bf7dff738547602289d9e72fe77db7202b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"
+  },
+  "source_sha1": "bc1d78b868822e74d2e3a1642910109fa014a735"
+ },
+ "dw_espanol": {
+  "dark": "keep",
+  "dark_sha1": "ecadd61f95bfbf54b9dfeeb24720d6ce1a758dd1",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "06e76897b563f52eff9a6f1a174d055a5c037d00",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/28pvgGY2/DW_Espa%C3%B1ol.png"
+  },
+  "source_sha1": "59a270d6666171a3d651dcb2164bbf236fe4264e"
+ },
+ "e_entertaiment": {
+  "dark": "keep",
+  "dark_sha1": "c9ca1cc2d60e51d27a3c44751b0460731009f1a9",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "c9ca1cc2d60e51d27a3c44751b0460731009f1a9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn.bo.flow.com.ar/images/content/800/542/cgvTJ4y2ivlSqdwg8dRBvg?tags=CH_LOGO"
+  },
+  "source_sha1": "b6981b744a489721c7199b7695305b985eef299d"
+ },
+ "e_latin_america_1080p": {
+  "dark": "recolor",
+  "dark_sha1": "5965fce0e3f11f29fb525068ca2236b2d3c9579f",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "da3ca2466b4eb911b6230b7cae12df0fc14557bf",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=E%21_Logo_2012.svg&w=250"
+  },
+  "source_sha1": "d97256280ec165af8eee122263cfea51278d6ec8"
+ },
+ "el_destape": {
+  "dark": "keep",
+  "dark_sha1": "9330ff3ec4a72364e49c447332b199fdedaca893",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "9330ff3ec4a72364e49c447332b199fdedaca893",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "keep"
+   },
+   "source": "https://geo.edge.pontiscloud.com:9002/images/4126/CH_LOGO/400/400/0/0/49015720078226.png"
+  },
+  "source_sha1": "b30b01b9ded6d1c3f4fa445bd5397ed8764f45ef"
+ },
+ "el_folklorico": {
+  "dark": "recolor",
+  "dark_sha1": "a14393d99b711a729161f284b0a3169ef6e5eb1c",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a90a07280059bce49d68942fa5d493a99740236d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://geo.edge.pontiscloud.com:9002/images/4061/CH_LOGO/160/160/0/0/37904303079132.png"
+  },
+  "source_sha1": "3a765b19872b8e0a13328dcf55b4046f7e947ae9"
+ },
+ "el_gourmet": {
+  "dark": "keep",
+  "dark_sha1": "0fbcd9330216ba225fe7c5b95d203edacdb1eeed",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "0fbcd9330216ba225fe7c5b95d203edacdb1eeed",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/36/Elgourmetlogo2015.png"
+  },
+  "source_sha1": "6816f1cf30cb4bbb16ea0bc8d9929bd98421e693"
+ },
+ "el_gourmet_south_1080p": {
+  "dark": "keep",
+  "dark_sha1": "0239614a3820d8f105af228177634889922393ec",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "0239614a3820d8f105af228177634889922393ec",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/ByMyRI9.png"
+  },
+  "source_sha1": "a9329e18c4d6b2be7470031a4e24702bf27b524b"
+ },
+ "el_pais": {
+  "dark": "recolor",
+  "dark_sha1": "c0f1dd53e56d7cb4bc83ec4ec883bc5da3a5784d",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "761ec3235bea902b231a46aa76272541ada8f084",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "recolor"
+   },
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/El_Pais_Uruguay.svg/960px-El_Pais_Uruguay.svg.png"
+  },
+  "source_sha1": "73c0735e03caa87920c13ba875b0d513eaedbae0"
+ },
+ "el_reino_infantil": {
+  "dark": "keep",
+  "dark_sha1": "428ef43bd64fac4f6692eb7b240558f0165f8f02",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "f2b4f69c90e2c651b958c7ca53b12887bcd24f1e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn.bo.flow.com.ar/images/content/800/542/VZirRVsFrCclyGZf9mHQlg?tags=CH_LOGO"
+  },
+  "source_sha1": "9fc04e684bc8ea0c71c959917b2a1390db118a99"
+ },
+ "el_trece": {
+  "dark": "keep",
+  "dark_sha1": "f4622a43dde1f187aefd9c7ad3fa1831ce709781",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f4622a43dde1f187aefd9c7ad3fa1831ce709781",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/eltrece-ar.png"
+  },
+  "source_sha1": "5316a6b95536b69fc17a67ca7b1edcbefd64bbd6"
+ },
+ "el_trece_internacional": {
+  "dark": "keep",
+  "dark_sha1": "f4622a43dde1f187aefd9c7ad3fa1831ce709781",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f4622a43dde1f187aefd9c7ad3fa1831ce709781",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/eltrece-ar.png"
+  },
+  "source_sha1": "5316a6b95536b69fc17a67ca7b1edcbefd64bbd6"
+ },
+ "elnueve": {
+  "dark": "keep",
+  "dark_sha1": "4d33d4c76dde5e19edd9ddfc01ceb6370d6592c8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "4d33d4c76dde5e19edd9ddfc01ceb6370d6592c8",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/elnueve-ar.png"
+  },
+  "source_sha1": "6d0644fc1300b0b4d4cce99cb41036abbda824a7"
+ },
+ "enlace": {
+  "dark": "recolor",
+  "dark_sha1": "e2381a0d26e08ac669046b88facaa4b52103efc2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "6c8465abc54bf9e5458373f5680412e1db657dbb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cablego.com.pe/cache/logos/ENLACE.png"
+  },
+  "source_sha1": "7083642a87f76480b71e3003a6e8588a51ac07a1"
+ },
+ "espn": {
+  "dark": "keep",
+  "dark_sha1": "1941c699f0dcb8ca9a1b4b649ddf9702e32d5153",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "1941c699f0dcb8ca9a1b4b649ddf9702e32d5153",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-ar.png"
+  },
+  "source_sha1": "11a5aa782601541c55454cbf393c9cc211abba4e"
+ },
+ "espn_2": {
+  "dark": "keep",
+  "dark_sha1": "3fd56b95343f61be892f65c17c0273ffd628d8aa",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "3fd56b95343f61be892f65c17c0273ffd628d8aa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png"
+  },
+  "source_sha1": "418975b6154338a64e1f406d9ecb76ddde37b161"
+ },
+ "espn_2_2": {
+  "dark": "keep",
+  "dark_sha1": "3fd56b95343f61be892f65c17c0273ffd628d8aa",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "3fd56b95343f61be892f65c17c0273ffd628d8aa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png"
+  },
+  "source_sha1": "418975b6154338a64e1f406d9ecb76ddde37b161"
+ },
+ "espn_3": {
+  "dark": "keep",
+  "dark_sha1": "a4003d0574ac511b38fb6ce1cd2cc2a1f87c595d",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a4003d0574ac511b38fb6ce1cd2cc2a1f87c595d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png"
+  },
+  "source_sha1": "c5ae0135df29f99aea848817ec0595978904ec8f"
+ },
+ "espn_3_2": {
+  "dark": "keep",
+  "dark_sha1": "a4003d0574ac511b38fb6ce1cd2cc2a1f87c595d",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a4003d0574ac511b38fb6ce1cd2cc2a1f87c595d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png"
+  },
+  "source_sha1": "c5ae0135df29f99aea848817ec0595978904ec8f"
+ },
+ "espn_4": {
+  "dark": "keep",
+  "dark_sha1": "03053e8e911376ec88c596af3ff101daa5a2e9d1",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "03053e8e911376ec88c596af3ff101daa5a2e9d1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-4-lam.png"
+  },
+  "source_sha1": "64e50d07eeb445624a2b52de7cd9bfe30a91f67f"
+ },
+ "espn_4_2": {
+  "dark": "keep",
+  "dark_sha1": "03053e8e911376ec88c596af3ff101daa5a2e9d1",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "03053e8e911376ec88c596af3ff101daa5a2e9d1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-4-lam.png"
+  },
+  "source_sha1": "64e50d07eeb445624a2b52de7cd9bfe30a91f67f"
+ },
+ "espn_5": {
+  "dark": "keep",
+  "dark_sha1": "dc8a4d9103f3e07d23beba80e6000674d114f928",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "dc8a4d9103f3e07d23beba80e6000674d114f928",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-5-lam.png"
+  },
+  "source_sha1": "0252af7522f042042195ee534592a5b9ff86edcd"
+ },
+ "espn_5_2": {
+  "dark": "keep",
+  "dark_sha1": "dc8a4d9103f3e07d23beba80e6000674d114f928",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "dc8a4d9103f3e07d23beba80e6000674d114f928",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-5-lam.png"
+  },
+  "source_sha1": "0252af7522f042042195ee534592a5b9ff86edcd"
+ },
+ "espn_6": {
+  "dark": "keep",
+  "dark_sha1": "5931f11c114dc21d2480d02d3525052d226a5ece",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "5931f11c114dc21d2480d02d3525052d226a5ece",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-6-lam.png"
+  },
+  "source_sha1": "7ed0aa52f725a8c9822b2b6e7bfece5d8da86b19"
+ },
+ "espn_7": {
+  "dark": "keep",
+  "dark_sha1": "ec011cd9e325f89726a9aa4be2555bd265aabbd5",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ec011cd9e325f89726a9aa4be2555bd265aabbd5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/espn-7-lam.png"
+  },
+  "source_sha1": "80d39d24cdb0626d2aac4845e282e6f9acf6bade"
+ },
+ "espn_8_the_ocho": {
+  "dark": "keep",
+  "dark_sha1": "1941c699f0dcb8ca9a1b4b649ddf9702e32d5153",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "1941c699f0dcb8ca9a1b4b649ddf9702e32d5153",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-ar.png"
+  },
+  "source_sha1": "11a5aa782601541c55454cbf393c9cc211abba4e"
+ },
+ "espn_premium": {
+  "dark": "keep",
+  "dark_sha1": "169b676f533c4c50e2d935097f45b34bdef8f574",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "169b676f533c4c50e2d935097f45b34bdef8f574",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-premium-ar.png"
+  },
+  "source_sha1": "3be54158998f9b37ac610701bfd5d00db67ec625"
+ },
+ "eurochannel": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/337.png"
+  }
+ },
+ "euronews": {
+  "dark": "keep",
+  "dark_sha1": "62d658000416b146e12f9f31b6fae79ccc577bda",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "62d658000416b146e12f9f31b6fae79ccc577bda",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/dtqDTdH4/Euronews.png"
+  },
+  "source_sha1": "d71c315127cc048e9c468d56f5dfef48cd50a1d0"
+ },
+ "europa_europa": {
+  "dark": "tile",
+  "dark_sha1": "510324396dc2d453ad71dfe30a2dd65f2c053b95",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "510324396dc2d453ad71dfe30a2dd65f2c053b95",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/europa-europa-ar.png"
+  },
+  "source_sha1": "3d739034efbb665ab2c6d774f22783f0f46343bf"
+ },
+ "eventos": {
+  "dark": "keep",
+  "dark_sha1": "505d861c471341295f46f599c365199b2f46b462",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "505d861c471341295f46f599c365199b2f46b462",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/RpQLdrKk/flow.png"
+  },
+  "source_sha1": "006000095174ad835152bbae5450483b5507eb2d"
+ },
+ "ewtn": {
+  "dark": "recolor",
+  "dark_sha1": "ad5a2c64611e89ec61e2ece9ac09f67643807f85",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "99561f1f00e70d9f49392c5379fd38c97a71c525",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn.mitvstatic.com/channels/cl_ewtn_m.png"
+  },
+  "source_sha1": "73ee45ae2118f043f5232ac5e6932a1bef25a3a8"
+ },
+ "fifa": {
+  "dark": "tile",
+  "dark_sha1": "82f3a37f6c35d2bd6f4e598406d5ec220654d823",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "82f3a37f6c35d2bd6f4e598406d5ec220654d823",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/381e0e02-e3e4-4bf8-af7d-0751ec0cd395.png"
+  },
+  "source_sha1": "f5f45ea67211f26245440763da8a98d963326eb6"
+ },
+ "fifa_2": {
+  "dark": "tile",
+  "dark_sha1": "25f5658f62e7017d0c608817b90985f1c94b2002",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "25f5658f62e7017d0c608817b90985f1c94b2002",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images.pluto.tv/channels/66997d18a1b69e00082ee85f/featuredImage_1749841167282.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5"
+  },
+  "source_sha1": "46d7eb65ac49c64b43f9dbbb70776fe5ce62a715"
+ },
+ "film_arts": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/3391.png"
+  }
+ },
+ "flow_music": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/673/CH_LOGO/500/500/0/0/95156350075299.png"
+  }
+ },
+ "flow_sports": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/673/CH_LOGO/500/500/0/0/53028730071359.png"
+  }
+ },
+ "flow_sports_2": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/673/CH_LOGO/500/500/0/0/81153935071360.png"
+  }
+ },
+ "fm_cordoba": {
+  "dark": "keep",
+  "dark_sha1": "04e2ea79196d380edb49fe9d39befd69be39ecac",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "04e2ea79196d380edb49fe9d39befd69be39ecac",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/42/FM_C%C3%B3rdoba_91.9.jpg"
+  },
+  "source_sha1": "5deb7a3ca7728e9d26bcc228b2a1fdaace72a386"
+ },
+ "folcloreando_tv": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 404: Not Found",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://folcloreando.com/wp-content/uploads/elementor/thumbs/logo-qvcz16ulfxe7qqvftihvlcoku8l2hux59qcndiy3qo.png"
+  }
+ },
+ "food_network": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/-/-/0/0/87811089073450.png"
+  }
+ },
+ "fox_deportes": {
+  "dark": "recolor",
+  "dark_sha1": "1278fd14f5c4789e5bbbe30fccd7d027fb30051e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "562a2deb04314059528391ecf2d94632b9574191",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.freepnglogos.com/uploads/fox-news-png-logo/fox-deportes-png-logo-30.png"
+  },
+  "source_sha1": "dbef01b1fa959e8d19cd74c23d0fd328a61ba771"
+ },
+ "fox_news": {
+  "dark": "recolor",
+  "dark_sha1": "a6d9ac8eb7a39981d9706406afc4ea3753be9bcb",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "09e3984411e1165bca05527750bcd471aaff6f17",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/fox-news-framed-us.png"
+  },
+  "source_sha1": "9257188fd8fba7768f5e6111b93fc76c5434e1d2"
+ },
+ "fox_sports": {
+  "dark": "keep",
+  "dark_sha1": "cf9acd114c5c6d65e5bc529b3e8f8d871f0cf7e2",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "e7b7a6cfc570a112350985a047a3c659ffdf0ef0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/fox-sports-ar.png"
+  },
+  "source_sha1": "02f56f9734680b61629be8ccc5baf2ebd5ca5351"
+ },
+ "fox_sports_2": {
+  "dark": "keep",
+  "dark_sha1": "261279fae7b56220896fbf518295cb09c47b1108",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "f89a6d94695897fe9919bcca8f2e2a4ac54a5f04",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/fox-sports-2-ar.png"
+  },
+  "source_sha1": "8686e21d94fa9b12c5ab1ad2f2c3ce0e5ca408aa"
+ },
+ "fox_sports_3": {
+  "dark": "keep",
+  "dark_sha1": "f500424c3aa4b4c7e5f87d7b83fad68ad872ac72",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "09a87f39ba1cd4fe1111816bac93cd7df38b543a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/fox-sports-3-ar.png"
+  },
+  "source_sha1": "72bcf35cc72f04b243ea78343085417b6911040c"
+ },
+ "fox_tubi": {
+  "dark": "keep",
+  "dark_sha1": "73cea912cc3b1a5510a6d722d90c882497cb23b0",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "4b54aec58ecb4f1aeecfbcec63531d55afc0cf25",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://foxone.asset.viewlift.com/images/2025/12/01/fox-tubi-logo-1764604643459.png"
+  },
+  "source_sha1": "7e0cd6deb690def49daae7229efc1fca4df738cd"
+ },
+ "france_24_espanol": {
+  "dark": "keep",
+  "dark_sha1": "aa3958678ee6a6aefc9f148a84fe255b1cd12e84",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "aa3958678ee6a6aefc9f148a84fe255b1cd12e84",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/4m5NVvh1/FR24-ES.png"
+  },
+  "source_sha1": "1bf0410900b789b62cb3b05eb48334948110f04c"
+ },
+ "france_24_frances": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/2864.png"
+  }
+ },
+ "fuel_tv": {
+  "dark": "tile",
+  "dark_sha1": "83fba9930b8d2f0f9adc593f5b033c8756190268",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "83fba9930b8d2f0f9adc593f5b033c8756190268",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/d7755b9a-5d95-4d1c-8615-d061c709ea2d.jpeg"
+  },
+  "source_sha1": "5a59301146be605481d1eb8dbfac480558df4463"
+ },
+ "fx": {
+  "dark": "keep",
+  "dark_sha1": "52948e836b4b28b88c12c9d21e6fc7e426326301",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "df77e497430fb1a77b4ebfbc06d7a5eca8512835",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/5LvDcdV/587595.png"
+  },
+  "source_sha1": "d60a62ef849f4ea9603cfcb5f40dbdb3413fdfea"
+ },
+ "fx_latin_america_south_720p": {
+  "dark": "recolor",
+  "dark_sha1": "5116dfcc67bfde83feb22a5336f5438803a2fdcf",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "657072bee261e39121f6d065a4b2a34dbcd52dc0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=FX_International_logo.svg&w=250"
+  },
+  "source_sha1": "5cbe3f0a245849a313b1a5ba55aedf300fd34a50"
+ },
+ "garage_tv": {
+  "dark": "recolor",
+  "dark_sha1": "3e117956d9ad7b87b564b3f6e7d624de9678d635",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "405c717124c7b71959acab0632000c52d5e3427a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/el-garage-tv-ar.png"
+  },
+  "source_sha1": "3575dbae4eec5db962e68d84d7a577b26dbc9e1d"
+ },
+ "glory_kickboxing": {
+  "dark": "tile",
+  "dark_sha1": "3a1d0570e8ce1d762d25ce914cff613cd9528c24",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "3a1d0570e8ce1d762d25ce914cff613cd9528c24",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/0a96318f-fb4e-444c-950b-91f0524ca77c.jpeg"
+  },
+  "source_sha1": "62c986e1dd5d434735eaa1b480f7f50f84b798a0"
+ },
+ "golden": {
+  "dark": "keep",
+  "dark_sha1": "23b9a0b58b7a46ce5c66efe40397194380cba78b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "7e0ee6549e997f1dc6728da96c3d3b823a619376",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/s1yPj71/19d8ad2b2b4e8ec851d2bcbf42691efe.png"
+  },
+  "source_sha1": "adf5e5932ed2016c66c971655266fb3b2ab101d8"
+ },
+ "golden_edge": {
+  "dark": "keep",
+  "dark_sha1": "069f877c7d6042f58af114a70de891566ff431a4",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "c342c7fff3d45fdd5131b2187575dc67864c9c75",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Golden_Edge._SL500_FMpng_.png"
+  },
+  "source_sha1": "339f4542e1ee1ed1a1d5dffc192c3d587b0a359e"
+ },
+ "golden_plus": {
+  "dark": "keep",
+  "dark_sha1": "a7594a76c20afd9302d6de6624cf2c5e933890e7",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "7d552717949dcd226341b6b85212c865fb127e4f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/NyNYXrx/golden-plus.png"
+  },
+  "source_sha1": "39660a78fee5e10e106adaba5338feb9bf9d2626"
+ },
+ "golden_premier": {
+  "dark": "keep",
+  "dark_sha1": "4eaa411478ee8efba8b72f0aacfd1008b1ee49fc",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "34b4f20d25500a9bb80cbfd557b6050a8788d4f2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/6D60Brn/golden-premier.png"
+  },
+  "source_sha1": "93ebb38261109b8957437c9f95250ba3036a7c4d"
+ },
+ "golf_channel": {
+  "dark": "keep",
+  "dark_sha1": "26cf669df1a903826a5ca2a7ac8dc35264a19da1",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "e52fafaa19d87f6aef73c800ad37c8b554f23f88",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/xTrHB5Q3/Golf_Channel_Latin_America.png"
+  },
+  "source_sha1": "6cc71fc14e3932155f582900e3c58533f74b8c18"
+ },
+ "golf_channel_us": {
+  "dark": "keep",
+  "dark_sha1": "c7d88cf1751bd9d00c1a591b4852a8605f6a34ce",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "a7569b8c8cb1ece828c6b42911676a2d370cc0f2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://gn-images-stb-opus.cdn.avp.telus.net/assets/s65385_ld_h15_ab.png?w=400"
+  },
+  "source_sha1": "f65d63a070d82827f8a79100342b3909221046dd"
+ },
+ "good_101_1_fm": {
+  "dark": "recolor",
+  "dark_sha1": "e51331fe67f7e5d99e8ed1cbeb225ff210f81d74",
+  "kind": "removed",
+  "light": "recolor",
+  "light_sha1": "6f38da670261db3bfebb57fb993d5276d996bb16",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static-media.streema.com/media/cache/d5/ba/d5ba149726ecc1db33a41e1e9c802959.jpg"
+  },
+  "source_sha1": "7595de64c481ff928847803cd005aec006f79ac3"
+ },
+ "gptv": {
+  "dark": "recolor",
+  "dark_sha1": "2094daef1fe5ac980776dd0ebe82c58c37057d13",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "bb20155270576dc47e72781a5c0521555815e2ad",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/0pMCYd9G/Picsart-26-04-15-13-34-15-590.png"
+  },
+  "source_sha1": "e7a3371c125e8e298cadf4120d7813d7c77730ca"
+ },
+ "grjngo": {
+  "dark": "tile",
+  "dark_sha1": "969b184101e3e15ef706fd1f61a7b34821d5de29",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "969b184101e3e15ef706fd1f61a7b34821d5de29",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tse1.mm.bing.net/th/id/OIP.cz3dWFe5nyXVR46GXjNdegHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  "source_sha1": "e023264abe541a65bcb2d115a9fb9591c546aa7f"
+ },
+ "gusto_tv": {
+  "dark": "keep",
+  "dark_sha1": "5b0b145f8091a568e3eac34edade58b6accf24b1",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "e40763663f1b0e80557b8e584387c31dd2a0add0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images.fubo.tv/station_logos/gustotv_m.png"
+  },
+  "source_sha1": "1a9af9fd4ebbd22dd39fc983bec3b785292bedfc"
+ },
+ "hard_knocks": {
+  "dark": "keep",
+  "dark_sha1": "4e409bce33d710cc4e143503100e13ae67719644",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "4e409bce33d710cc4e143503100e13ae67719644",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/MGq0gyX/hard-knocks.webp"
+  },
+  "source_sha1": "ac13b17f593c95d8bac74984031cb4a258d19c63"
+ },
+ "hbo": {
+  "dark": "keep",
+  "dark_sha1": "d2219eb083d68da34f19759391f55fe7db7ba28a",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "74617f540c82a7061cd9c5a7b9019e852378eae5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/zfmjcgb/HBO.png"
+  },
+  "source_sha1": "882e699ca85cebb42257a6ff5ce0fb419a60976d"
+ },
+ "hbo_2": {
+  "dark": "keep",
+  "dark_sha1": "3839031f3e1d5cf53167d03b1209862be00cd2a7",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "bca16b84387caa823f6f154741c88977c37c4d56",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://weiss.mc.rocstar.tv/sb/image/10687423"
+  },
+  "source_sha1": "ee54884663eba672b45821a2b52dcc45ce0f0bb5"
+ },
+ "hbo_boxeo": {
+  "dark": "tile",
+  "dark_sha1": "2709db8f0f18eda614a461ddb036b3845c71a742",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "2709db8f0f18eda614a461ddb036b3845c71a742",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/ychkPS6K/https-i-cdn-trutv-com-assets-tru-prod-images-2025-09-HBOBoxing-1600x900.jpg"
+  },
+  "source_sha1": "31bbc656d848a82fc1b3dd94de62e99e346ce68f"
+ },
+ "hbo_family": {
+  "dark": "keep",
+  "dark_sha1": "b0511a3a484947ad798c4c974ccdceab77ed5aa1",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "93c9a477dcea09200b0b20e8864fa0ad1e9229bc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/ynkwLW3/hbofam.webp"
+  },
+  "source_sha1": "914dd2ffb14bda2e5758fea5bec5f0ba112f5767"
+ },
+ "hbo_mundi": {
+  "dark": "keep",
+  "dark_sha1": "519b02801726a01a3ce416fefa728cedb39827a3",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "ede195d05771c703fb74f2ba80eb9ce9e40d00ca",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/9sFvgPb/HBO-MUNDI.png"
+  },
+  "source_sha1": "715690f689981a66869f2f2d98699d538c2fb611"
+ },
+ "hbo_plus": {
+  "dark": "keep",
+  "dark_sha1": "c7b4f9eb001d3b401a33255737f47027edcd17db",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "3d57c47262c86c293ac5e2799c74484ecfa07411",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/4RvrQtL/hbomas.png"
+  },
+  "source_sha1": "da28b72376557f0769cb68cac8e67612af947619"
+ },
+ "hbo_pop": {
+  "dark": "keep",
+  "dark_sha1": "dde935294a2c9b1c8e95c17e1394b7a59e581976",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "fee25326ccf3776a7e76c6d8a8535a75b8c9b9de",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://weiss.mc.rocstar.tv/sb/image/10687419"
+  },
+  "source_sha1": "c5b90a0f973f0963f666bb3953b6fdb873fe51ad"
+ },
+ "hbo_signature": {
+  "dark": "keep",
+  "dark_sha1": "681821cdf1fd5121744b1852bd63fa3c869cb9c6",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "f7afc5b269b479716afb28f0f65f6a4607c05de2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://weiss.mc.rocstar.tv/sb/image/10687420"
+  },
+  "source_sha1": "a4d688cb9ee575a1906ef80772443cb6a46f1dfa"
+ },
+ "hbo_xtreme": {
+  "dark": "keep",
+  "dark_sha1": "45768e3b5ba16d341a47981593a0899da26d83c0",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "508e282435ee668d701ab6c89a65a90b15731834",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://weiss.mc.rocstar.tv/sb/image/10687421"
+  },
+  "source_sha1": "16aa4af8bddffdd58fa3fb842b2ad866b4005dc9"
+ },
+ "hei_now": {
+  "dark": "keep",
+  "dark_sha1": "143d8c6067e6c763ee16b430e4c3806696627b95",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "b75b58829e8584c0fa7e50a64d32cb592b79cfcb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/hei.png"
+  },
+  "source_sha1": "19ff8d0e9e3c5865cdc737e15e0b67d230073b16"
+ },
+ "hgtv": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/hgtv.png"
+  }
+ },
+ "history": {
+  "dark": "recolor",
+  "dark_sha1": "79b7c4843d354b565ad1c93b905ac9b1ebea1fce",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "5b90859d958107d20fb5832bf07f6b57518d75c9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/cSf474qK/History-Logo-svg.png"
+  },
+  "source_sha1": "ae005495e4f781d4cb731ac664b34d73dff0a478"
+ },
+ "history_2": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/3621.png"
+  }
+ },
+ "hola_tv": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/2669.png"
+  }
+ },
+ "htv": {
+  "dark": "keep",
+  "dark_sha1": "10badb570e1703e78eac6690ea3f01ca5d4d511e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "10badb570e1703e78eac6690ea3f01ca5d4d511e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/HTVLA.png?raw=true"
+  },
+  "source_sha1": "b66d9020327edd62ba15f1a709310a3459872cce"
+ },
+ "hustler_mature": {
+  "dark": "keep",
+  "dark_sha1": "051bf18d3c7a5e653db0488d479f10b84c70002b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "87e63bebc82963ddaee498759c9dde338fa915e5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/x8ZQzNsf/Hustler-mature.png"
+  },
+  "source_sha1": "8d27e75a0bcd5ff039d71e5e6d9ebd2938a873ca"
+ },
+ "inter_24_7": {
+  "dark": "recolor",
+  "dark_sha1": "ec45d7961fc5deb5a6a4843c0681987f188a216b",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "4f2947736250cbdacb4dfa693d64315508e36ccc",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/3519342e-d891-46ef-923e-27b698550a13.jpeg"
+  },
+  "source_sha1": "7193a754df0ffa6f3f250a7aad20a64b3ae0ed40"
+ },
+ "ip_noticias_720p": {
+  "dark": "keep",
+  "dark_sha1": "6364f280ea67abfc249b30e015b0e4fc43e6768d",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "6364f280ea67abfc249b30e015b0e4fc43e6768d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/dbu9nx4.png"
+  },
+  "source_sha1": "13ead4fe4a603851ea963908e26c61e3350bbae9"
+ },
+ "itel_tv_canal_2": {
+  "dark": "recolor",
+  "dark_sha1": "d4007ff074ddcdfc6ed55853fd0bee2f40d7fafa",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b28c40d8fcf5763a372abf6559caa4c861b7ec00",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/OxmpRDx.png"
+  },
+  "source_sha1": "b1386ababe4ef8ffb177a138659a7c17da20b697"
+ },
+ "kidoo": {
+  "dark": "keep",
+  "dark_sha1": "0d96c6d239ae50c263d10c0426a3fa7067069996",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "4f02289e1fdc76db2300f25fc3f262375f6a8425",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/Z5y6RpDq/Logo-1.png"
+  },
+  "source_sha1": "1a33a294b8e81521d165a6933227d5d8fab17354"
+ },
+ "kingdom_tv": {
+  "dark": "recolor",
+  "dark_sha1": "062c9a817d5e7dc381d1cdac0f68f437c3a78acf",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "11d4572b8805cf464eb9bae9147624de61b4c2f3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.hectorbonarrico.com/wp-content/uploads/2020/06/gg-1.png"
+  },
+  "source_sha1": "f4c53c35f8358047328a728e41e57fb2f6359d62"
+ },
+ "kpop_mix_720p": {
+  "dark": "keep",
+  "dark_sha1": "7195f38be3ea38b6ff734a360c55ef0fa1c81cdb",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "7195f38be3ea38b6ff734a360c55ef0fa1c81cdb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvomix.com/Logos/Kpopmix.png"
+  },
+  "source_sha1": "03ba9a0262f4651b77a12d2e0e8ad643a3249dfa"
+ },
+ "kzo_entertaiment": {
+  "dark": "keep",
+  "dark_sha1": "d51ae3daebaafe35cc83a4539a360a6d2a8034ff",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "db0c459cc1af48c390067c61e1c5260034fcc9b5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/GWyrYZY/kzo.png"
+  },
+  "source_sha1": "df3d2bdb1b1af48f5c3a3940cbace7d366f7c4c1"
+ },
+ "la_100": {
+  "dark": "keep",
+  "dark_sha1": "e5d494aa2f902b2409b6f7c168a0f32d80360034",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "07cb8747d5b511dc9eeeb192aea270f6917fc378",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "keep"
+   },
+   "source": "https://cloudfront-arc.cienradios.com/la100/logo/logoog.png"
+  },
+  "source_sha1": "94415efe80943e87b7679e40ec2f165cf60bd5e1"
+ },
+ "la_elegida": {
+  "dark": "tile",
+  "dark_sha1": "77c0684d83021dc0717e2c8a552bd1159a216fd6",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "77c0684d83021dc0717e2c8a552bd1159a216fd6",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/q3QzdCWt/69dd2983a13d71-51079915.png"
+  },
+  "source_sha1": "df8c35fb7216bd4ea3ffe80610d3b26a8852750b"
+ },
+ "la_elegida_fm": {
+  "dark": "recolor",
+  "dark_sha1": "ff23a38315553788d11b7e17d698783726d90af3",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "cdf3351350bf6b3adedb224d8de29d4dfd73a099",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/TDwYSzQw/69dd2a056021e1-24734593.png"
+  },
+  "source_sha1": "513e6dc46f7f27c08a85fcd4f43ce9ce41e0fe51"
+ },
+ "la_nacion": {
+  "dark": "keep",
+  "dark_sha1": "5ef29fcb5d8acf4e7001ae8d343f31e081b75f10",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "5ef29fcb5d8acf4e7001ae8d343f31e081b75f10",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/la-nacion-mas-ar.png"
+  },
+  "source_sha1": "9a14a35d462447cd3e512c0e4c7c9746ec586705"
+ },
+ "la_red": {
+  "dark": "recolor",
+  "dark_sha1": "6f05973cf9234d6a107d319ffd372c2b8da3529a",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "598cf65afd52d30247db3e0052260cb8e44411d3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/64/Radio_La_Red_AM_910.png"
+  },
+  "source_sha1": "4fa7cbf8df2380e5922231ade0e84333757fce38"
+ },
+ "lamil35_tv_480p": {
+  "dark": "keep",
+  "dark_sha1": "7b981dbe83b3945e2993e783a35b2ddb3f0b23ad",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "7b981dbe83b3945e2993e783a35b2ddb3f0b23ad",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.pinimg.com/736x/2d/fa/25/2dfa25f5d2e4d5c19886a3a263706317.jpg"
+  },
+  "source_sha1": "480d68ea152913c3ee3528d5307b176f4480879d"
+ },
+ "lapacho_tv": {
+  "dark": "keep",
+  "dark_sha1": "6a84137e9d173d3802e05995ebd6adc1f5252bec",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "1e6fbb39cba37532dc2b237a31c5320e2686cf84",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/m5bbjySK/LOGO2.png"
+  },
+  "source_sha1": "f74b6207ac8859ef3c1658068d06e4f9753ae557"
+ },
+ "las_estrellas": {
+  "dark": "keep",
+  "dark_sha1": "de0a2754f79b79b40c8dfb6e49cc56e2ee8eb564",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "de0a2754f79b79b40c8dfb6e49cc56e2ee8eb564",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Canal_de_las_Estrellas_logo.svg/960px-Canal_de_las_Estrellas_logo.svg.png"
+  },
+  "source_sha1": "8a73ecc9386b9e8ade869d5749c78fa0e913c5cc"
+ },
+ "lifetime": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/2788.png"
+  }
+ },
+ "liga_smartbank": {
+  "dark": "keep",
+  "dark_sha1": "28893edc148469b89e78756ec8fbf58498a0d4c9",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "28893edc148469b89e78756ec8fbf58498a0d4c9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/LaLigaHypermotion.png"
+  },
+  "source_sha1": "9f2603f4af3d265582adc3fa00379451913a3e97"
+ },
+ "liga_smartbank_2": {
+  "dark": "keep",
+  "dark_sha1": "d4340ba851fc4d7b8dd41905385cfe5e8560bd58",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d4340ba851fc4d7b8dd41905385cfe5e8560bd58",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Hypermotion2.png"
+  },
+  "source_sha1": "c2c83ccc153613e2c62159afad515d9d99cbe98b"
+ },
+ "liga_smartbank_3": {
+  "dark": "keep",
+  "dark_sha1": "aca4e680db8a3fa9d8b2e2760ddf8f9871bb75a8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "aca4e680db8a3fa9d8b2e2760ddf8f9871bb75a8",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Hypermotion3.png"
+  },
+  "source_sha1": "65b0aff3f2a2793a48c154b60760debfd22180bd"
+ },
+ "mas_fm_720p": {
+  "dark": "keep",
+  "dark_sha1": "80c213ac515ba5722c8833fc17720396fb98ae65",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "80c213ac515ba5722c8833fc17720396fb98ae65",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/TJ4gWQM.png"
+  },
+  "source_sha1": "aa3a7e636a8c9bb2d8ccb9e783d754aa1e6c9bfb"
+ },
+ "mega_tv": {
+  "dark": "keep",
+  "dark_sha1": "8c53176fd298affdc32e6b8e74230bdce3a83d17",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8c53176fd298affdc32e6b8e74230bdce3a83d17",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=MEGA.svg&w=250"
+  },
+  "source_sha1": "a8ccaf08230f217eaaff6977f5da1195fb342453"
+ },
+ "mercurio_noticias": {
+  "dark": "keep",
+  "dark_sha1": "946d563966e9b9cfe043c22af129a382c35c3091",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "946d563966e9b9cfe043c22af129a382c35c3091",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/sfd87LX.png"
+  },
+  "source_sha1": "bfcf03b2770349f198031a74b70b228a4e6619e9"
+ },
+ "metro": {
+  "dark": "keep",
+  "dark_sha1": "8648a8f271d5e7970f93b97fe5ffd897d78e89df",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8648a8f271d5e7970f93b97fe5ffd897d78e89df",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/metro-ar.png"
+  },
+  "source_sha1": "4b2e32a79f0053f577e47347926b3bd7cf3ce311"
+ },
+ "mi_coche_clasico": {
+  "dark": "recolor",
+  "dark_sha1": "950467f0badfefca445570054be75b511ff4e16f",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "296f8f803a254d028abdcc134e5da095243c1827",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/S42qWG8Z/Clasi.png"
+  },
+  "source_sha1": "e7bfacea7b4663b420da6eb8963f5d71ee28c5b1"
+ },
+ "mia": {
+  "dark": "tile",
+  "dark_sha1": "9694239cfc11489e81e3515ab8328204ea21e446",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "9694239cfc11489e81e3515ab8328204ea21e446",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://myradioenvivo.ar/public/uploads/radio_img/mia-fm/fb_cover.jpg"
+  },
+  "source_sha1": "b65bfd3e3c9c6f462af981b6f0b2b86e11bcae60"
+ },
+ "misiones_cuatro": {
+  "dark": "keep",
+  "dark_sha1": "affce81cb737c45b61d5ea6dc87cfd5857acb02f",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "affce81cb737c45b61d5ea6dc87cfd5857acb02f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/09/Misionescuatro_logo.png"
+  },
+  "source_sha1": "c3fcd936668ecf2b369b35d2cea8cf93f24b1357"
+ },
+ "mix_tv": {
+  "dark": "recolor",
+  "dark_sha1": "b010df0b44c2464b4b9139163695c38e5e33cf51",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "ac7d13f86a67805e1507fee56874de2c55d73d9a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/L5rVsDRX/Logo.png"
+  },
+  "source_sha1": "0b6463d9535e06f0a4d2e3b944b14b18b2dcee8d"
+ },
+ "motogp": {
+  "dark": "keep",
+  "dark_sha1": "a107b25b114d531e312b99f1e6f509ee401c23df",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "6525b7e7cbb4c3b6ee71afed2a7d687978865475",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fd5b19340-b4d9-498d-8f89-2a69bc30fc4b%2FMotoGPChannel_1500x1000_logo_for_dark_bgd_-_Eddie_Hunter-Higgins.png"
+  },
+  "source_sha1": "7391c0ff057c949340963e20647c0f9201597bbc"
+ },
+ "motor_sur": {
+  "dark": "recolor",
+  "dark_sha1": "260aa2a3f94cc0afe486e6d3030480ff0059bd93",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "471cce14510d700becb7ee84c46970226b5bedad",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/RpRsNLpc/Picsart-26-04-15-00-41-24-258.png"
+  },
+  "source_sha1": "10456a3d971cf15c4ff36b674790d81314e4d345"
+ },
+ "motorsport": {
+  "dark": "recolor",
+  "dark_sha1": "5f9b3631568917c5d0204768751fe349ce768b30",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "97580a54151ceba4e74a56d4ba6242f827784430",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/CNLKVVk/mos.png"
+  },
+  "source_sha1": "4fe330d5ed883b6fc23557028d10f80b146be8c0"
+ },
+ "mtv": {
+  "dark": "keep",
+  "dark_sha1": "8b090097448ce222c0cb23e81c96192af5a705cc",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "2a3216b53b69487ff545e82072d7a86c4f7c9d50",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/MTVLA.png?raw=true"
+  },
+  "source_sha1": "4356047dc23df8e5c424b932270f9b5ef3c9ebad"
+ },
+ "mtv_latin_america_1080p": {
+  "dark": "keep",
+  "dark_sha1": "7d9c762e005d7cdeb29a8784cdbcc9bc1c80a6f2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "7d9c762e005d7cdeb29a8784cdbcc9bc1c80a6f2",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "light": "keep"
+   },
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=MTV_2021_%28brand_version%29.svg&w=250"
+  },
+  "source_sha1": "cc82a97f0cacd0cfcf4befdb49b4eccd52bae1e3"
+ },
+ "nacional": {
+  "dark": "keep",
+  "dark_sha1": "58eb579a70b04c705be94e9bf7267387e27e93a3",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "58eb579a70b04c705be94e9bf7267387e27e93a3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.argentina.gob.ar/sites/default/files/2022/07/web-smycp_nacional01_3.png"
+  },
+  "source_sha1": "bcbac0233bfbfe6bf9fa05707ce258fc004acacf"
+ },
+ "nanduti_tv": {
+  "dark": "keep",
+  "dark_sha1": "7528ba00b9f83ffa85454c0880f882a850b12a3c",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "7528ba00b9f83ffa85454c0880f882a850b12a3c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i1.sndcdn.com/avatars-Iwz9FWj6GyABKhnn-Gvabnw-t1080x1080.jpg"
+  },
+  "source_sha1": "6ec543e002c1045fa50c72800f7ad050817c3e50"
+ },
+ "nascar": {
+  "dark": "recolor",
+  "dark_sha1": "b6224f2315d18e141741ad5f72d3b067f51cab81",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "bef10728b6dbc47fba812b6e2352346a98e38564",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/wZt2vYbY/Picsart-26-04-15-11-25-23-215.png"
+  },
+  "source_sha1": "7feabb04c39667dda905cd9d682568bd37e1fd2f"
+ },
+ "national_geographic": {
+  "dark": "recolor",
+  "dark_sha1": "518c5f255c3b5dd672ced6af8a08cdef1fb0c844",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "974ec08250f051ef85a37de02f13b916b484d698",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/4wFDvDGB/611bdefc78806.png"
+  },
+  "source_sha1": "4d7e07a032970978de34518f910ab8d35970582c"
+ },
+ "nba": {
+  "dark": "tile",
+  "dark_sha1": "f7eac544b30321bd04c259f8f4a99ea4959057c4",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "f7eac544b30321bd04c259f8f4a99ea4959057c4",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDkWiWd8vYFVFueySzA9YNrFBd3CvrtdEBYw&s"
+  },
+  "source_sha1": "8774c8122958f4903d8c76665b57a14fa3f1efca"
+ },
+ "nba_us": {
+  "dark": "recolor",
+  "dark_sha1": "52e655aeffbdb9f7e2c1ddf475b04cb65eae1a0b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "c78f911d71bef4df6bc160dac7277a883ca3194f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/gMJ28gnx/Nba.png"
+  },
+  "source_sha1": "d8cde46ee1fb3377373aa8d29eab2320cbbaaa74"
+ },
+ "neo_tv_argentina": {
+  "dark": "recolor",
+  "dark_sha1": "a7bfa2e6f252d6930a32e4858831bfcae3b33899",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "0dd30128650971a0a0c5c9c0a663610e2f393bb0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/Xtu85tb.png"
+  },
+  "source_sha1": "b8c388c4ee671a0ef0c0747218a12b5fd7171414"
+ },
+ "neox_tv_not_24_7": {
+  "dark": "recolor",
+  "dark_sha1": "59e7402a74497a440f57437b4eb529638c72d0da",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "b7f179296182e87dfccb82f1fb72a365aff375e9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/eIX71c9.png"
+  },
+  "source_sha1": "851fe8a63177cf8a2cc7e813a501c53a03327eca"
+ },
+ "net_tv": {
+  "dark": "keep",
+  "dark_sha1": "e18e7ed6becc4b107024de33be5b3095bfb2c8c8",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "13f0d4108b3a494417f9b4a75acba98b1e2fcb1f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/net-tv-ar.png"
+  },
+  "source_sha1": "488b35f90e6c5339092f9fbd8634e3d9eb46b1e0"
+ },
+ "next_tv_carlos_paz": {
+  "dark": "recolor",
+  "dark_sha1": "1e090dd83de199ac30aa32d64fef51c8d6040a31",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "20ec816a662ccd8333f81217caaf2b628b1dcd7b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/g0DT51RQ/Logo_1.png"
+  },
+  "source_sha1": "203bcff076fbfc6f760d470d7652e8c77701ae34"
+ },
+ "nick_jr": {
+  "dark": "keep",
+  "dark_sha1": "e142140b19ec5939dab43078ea4e52983ae6ece6",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "e142140b19ec5939dab43078ea4e52983ae6ece6",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://lokos.pages.dev/webp/logos/nickjr.webp"
+  },
+  "source_sha1": "3d7ba92a9639afc2923739d1c44eebc7c44ba869"
+ },
+ "nickelodeon": {
+  "dark": "keep",
+  "dark_sha1": "e9b4c577ac450b086779bb9cdf472b1dbe51d5ab",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "e9b4c577ac450b086779bb9cdf472b1dbe51d5ab",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://lokos.pages.dev/webp/logos/nick.webp"
+  },
+  "source_sha1": "8b8e217a469be90162c66c34267dbef206c49b7b"
+ },
+ "norte_tv_720p_not_24_7": {
+  "dark": "tile",
+  "dark_sha1": "c94a761e287a45c1064d785b188a8dced5c1d5ee",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "c94a761e287a45c1064d785b188a8dced5c1d5ee",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/jTX2vp0.png"
+  },
+  "source_sha1": "f2effc152c432de53c6b2cdd900a39496be81fb1"
+ },
+ "novelas_turcas": {
+  "dark": "keep",
+  "dark_sha1": "931c69756f21177d4ce9c333f86f012f75b5b684",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "931c69756f21177d4ce9c333f86f012f75b5b684",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/TVFBq72/turcas-logo-3203466-C6-C-seeklogo-com.png"
+  },
+  "source_sha1": "31e5ed436107881db9253bbe445c0c88a229144f"
+ },
+ "npy": {
+  "dark": "keep",
+  "dark_sha1": "f47643d5edccbc80716530e79b81d494de47f5a1",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f47643d5edccbc80716530e79b81d494de47f5a1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/sgRZXh9/NPY-Noticias-Paraguay.png"
+  },
+  "source_sha1": "ae7506fcc8f5ad40e7017af1d606dcbb4086d4be"
+ },
+ "one_champions": {
+  "dark": "keep",
+  "dark_sha1": "e0c57ea9c8b447be2d3f98e01e3c68f0cdf45966",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "1c5262c10e6f451b377190e29f519cdb1a9e0d40",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/5QjmkY0/lk795c1545411843.png"
+  },
+  "source_sha1": "8bf7e171acc8ff8680bde9b927d5a56a44cbc5d4"
+ },
+ "p_f_l_mma": {
+  "dark": "tile",
+  "dark_sha1": "7dba744f79c1efc77b19b36c13141a03d61d3af7",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "7dba744f79c1efc77b19b36c13141a03d61d3af7",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/f4058a54-67b9-432c-b80e-3bfcf8d2d6d1.jpeg"
+  },
+  "source_sha1": "46b0791c8187a6f984e4bc35ce25891f8a87dbba"
+ },
+ "paka_paka": {
+  "dark": "keep",
+  "dark_sha1": "a6294a8f9b4e6fabe236fb6952ec0233db3e6f85",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "3f48e51aba4ba274aeb4ba6b54343ff9977c5a2a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/Y9nMcbT7/Fondo_Oscuro.png"
+  },
+  "source_sha1": "f046b057290558a950e42c028bb4a794aaa93211"
+ },
+ "paraguay_tv": {
+  "dark": "keep",
+  "dark_sha1": "d4c037bd5f5b7c42fb15886ce8e43873be81c6ef",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "629dca76bfe25758504ccc3d04c6e82843d89716",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Paraguay_TV_logo.png"
+  },
+  "source_sha1": "eb6ac1ceaf52698b954966c69de343cdec3590af"
+ },
+ "paravision": {
+  "dark": "tile",
+  "dark_sha1": "8632c7d734597c7f51b7ca1c53412bb1a15c5579",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "8632c7d734597c7f51b7ca1c53412bb1a15c5579",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Paravision_logo.png"
+  },
+  "source_sha1": "e43e9c39395a2fc631650a86fba8aea374efca3f"
+ },
+ "pasiones": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/-/-/0/0/93318670071976.png"
+  }
+ },
+ "playboy_tv": {
+  "dark": "keep",
+  "dark_sha1": "e309fdf59f76cb50ede428ec7c35d97d3697323f",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "e309fdf59f76cb50ede428ec7c35d97d3697323f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/tTLGm9X6/Playboy_TV.png"
+  },
+  "source_sha1": "35ae0b9c9f0e20c8f1e97525003a1735148a29ae"
+ },
+ "plim_plim": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/673/CH_LOGO/800/542/0/0/51867644078010.png"
+  }
+ },
+ "pop_radio_101_5": {
+  "dark": "recolor",
+  "dark_sha1": "fdd5527e41c9b4a0234e20c185a54986bcbff8ef",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "746c7f04a6903c4bd6a272754b14b592341a7341",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/DJwugcJ9XA7xxc8BMKHfGS04GYbBAx-5wr_QPQEuYlCgUSBw1USZRyh2OMbQzTLq3CfwdyDEMaxTRDv3htBQong"
+  },
+  "source_sha1": "75bd2d756018ee055dfb287e96ac658a74069b13"
+ },
+ "popu_tv": {
+  "dark": "keep",
+  "dark_sha1": "02b1f5cca93d0a9a4c3debedd7664ff3cdd999a1",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "02b1f5cca93d0a9a4c3debedd7664ff3cdd999a1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/UqCogyZ.png"
+  },
+  "source_sha1": "9944d9845d2fd720e752171d2b95fb3c221248f6"
+ },
+ "popular": {
+  "dark": "keep",
+  "dark_sha1": "0d76f71d05219a3af4866dad5f9ea923bd7dd925",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "0d76f71d05219a3af4866dad5f9ea923bd7dd925",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://geo.edge.pontiscloud.com:9002/images/3982/CH_LOGO/400/400/0/0/67035155079040.png"
+  },
+  "source_sha1": "8732256619d5471c6e1522fc8dbbd5cc4a2d163b"
+ },
+ "power_max_radio_tv_720p": {
+  "dark": "keep",
+  "dark_sha1": "2fa73fbd076430616aa89f678055c440989f4d54",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "2fa73fbd076430616aa89f678055c440989f4d54",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg"
+  },
+  "source_sha1": "b773998ee792101c1285aa666749bbf300833ee4"
+ },
+ "powerhd": {
+  "dark": "recolor",
+  "dark_sha1": "bd13b867cf45998c311d78efc3c749e8f81b0bf2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "091bdecb669ef29356dac7b249f55728f54e9dc2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/15gMDG0.png"
+  },
+  "source_sha1": "d88884bfdce251f1b0c2280e1a0c0af8377f2529"
+ },
+ "premiere": {
+  "dark": "keep",
+  "dark_sha1": "4ca4f7259dc8eda4f246fa64392b960e417850cb",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "4ca4f7259dc8eda4f246fa64392b960e417850cb",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/premiere-br.png"
+  },
+  "source_sha1": "dec87556ae9d7460706598395c244e946f7c7f59"
+ },
+ "premiere_2": {
+  "dark": "keep",
+  "dark_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn-cms74.hub.directvgo.com/documents/91224/494108/PREMIERE.png/26c4d41e-106d-6892-b429-ca16f94bdff8?t=1666321937327"
+  },
+  "source_sha1": "f5557dc80bbdb52a237a600f31971c0f16804283"
+ },
+ "premiere_3": {
+  "dark": "keep",
+  "dark_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn-cms74.hub.directvgo.com/documents/91224/494108/PREMIERE.png/26c4d41e-106d-6892-b429-ca16f94bdff8?t=1666321937327"
+  },
+  "source_sha1": "f5557dc80bbdb52a237a600f31971c0f16804283"
+ },
+ "premiere_4": {
+  "dark": "keep",
+  "dark_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn-cms74.hub.directvgo.com/documents/91224/494108/PREMIERE.png/26c4d41e-106d-6892-b429-ca16f94bdff8?t=1666321937327"
+  },
+  "source_sha1": "f5557dc80bbdb52a237a600f31971c0f16804283"
+ },
+ "premiere_5": {
+  "dark": "keep",
+  "dark_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn-cms74.hub.directvgo.com/documents/91224/494108/PREMIERE.png/26c4d41e-106d-6892-b429-ca16f94bdff8?t=1666321937327"
+  },
+  "source_sha1": "f5557dc80bbdb52a237a600f31971c0f16804283"
+ },
+ "premiere_clubes": {
+  "dark": "keep",
+  "dark_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b0b58b68a663b75e6b70e93973169434386d1633",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://cdn-cms74.hub.directvgo.com/documents/91224/494108/PREMIERE.png/26c4d41e-106d-6892-b429-ca16f94bdff8?t=1666321937327"
+  },
+  "source_sha1": "f5557dc80bbdb52a237a600f31971c0f16804283"
+ },
+ "px_sports": {
+  "dark": "recolor",
+  "dark_sha1": "0c53988cfa57e83edb718fd4a2f8d0ac7472ce61",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "1151e8f4e5cafc9c48f69de02e3e8f450c10c72a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/L5JRmjMP/Logo.png"
+  },
+  "source_sha1": "ae149e2bffb9c2156a499d5376f8b9891b6d9f13"
+ },
+ "quantica_tv": {
+  "dark": "recolor",
+  "dark_sha1": "0babd7a60859600cc83aa2c74882cbca5cac4707",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "f97ae884e50b34dd553c9c677349eb2508d128f5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/6f8EYC2.jpeg"
+  },
+  "source_sha1": "bdee00efce01109b5a513967324a5c82da67ea82"
+ },
+ "quiero_musica": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/3281.png"
+  }
+ },
+ "racer_international": {
+  "dark": "tile",
+  "dark_sha1": "3ba2fffcfdbece4114cb1d9ae7ccec52df959aa3",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "3ba2fffcfdbece4114cb1d9ae7ccec52df959aa3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/e99fd425-48f6-4ced-b550-a9faca315a4d.jpeg"
+  },
+  "source_sha1": "17921f71deee7bad5a8cece7a0b840996e2dc390"
+ },
+ "radio_10": {
+  "dark": "keep",
+  "dark_sha1": "3bcf2ee3149eb1c537d06332d5d523a9640fed6b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "3bcf2ee3149eb1c537d06332d5d523a9640fed6b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=Logo-radio10.svg&w=250"
+  },
+  "source_sha1": "9679b81e37d20a7acced410dabb0ee86e7b001d2"
+ },
+ "radio_conexion_web_tv_720p": {
+  "dark": "keep",
+  "dark_sha1": "bcd5eddb692cf51e33ab42d99520e0d12e730cff",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "bcd5eddb692cf51e33ab42d99520e0d12e730cff",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "keep"
+   },
+   "source": "https://i.imgur.com/pXS38zo.png"
+  },
+  "source_sha1": "e563790615eae576991c31115cde8d5ad2c6aea8"
+ },
+ "radio_realpolitik_720p": {
+  "dark": "recolor",
+  "dark_sha1": "47a26ca97df5f67db0faad24b57705829c982454",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "e637869ddb52bab8b2d2ef5c46435184cf7f06e0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/L9KCdTX.png"
+  },
+  "source_sha1": "9739c41caeea61018a2fbccb124f91fd34652491"
+ },
+ "radio_sublime_gracia_tv_720p": {
+  "dark": "recolor",
+  "dark_sha1": "fccc4a4b01986263807d7635d8c4b1b8b97667fb",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "06488a9a9faafc167d3b35fba52cd150b1d15339",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/P9jgTz4/c49b986afb751882bcbee57f9c9b20d7-350x210.png"
+  },
+  "source_sha1": "455984ca63839232f9415e2d022ed0a37df6c451"
+ },
+ "radio_tv_neuquen_720p_not_24_7": {
+  "dark": "recolor",
+  "dark_sha1": "2f41d228cb990e4e3c6c00b267546d8e08e39f45",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "1d2cc5cec8c7ecd49e4cdb37c54f45264b1c2540",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/HXBLozl.png"
+  },
+  "source_sha1": "3a652d2ce138f71de866c52f848da2ae04d8f5a4"
+ },
+ "radio_up_1080p": {
+  "dark": "keep",
+  "dark_sha1": "1408a802314087b4ba9e0a4c2935af8d65da5e3c",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "87d2162b8eaea46b369085d3da7fe4c65290c491",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://radioup.com.ar/wp-content/uploads/2025/06/logo-radioup-footer.png"
+  },
+  "source_sha1": "055846a6e90130dfd65a78406a462f7914ac7368"
+ },
+ "radiocanal_1080p": {
+  "dark": "tile",
+  "dark_sha1": "17977b9f833504626cfd6cf0a2455b57e884f3ba",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "17977b9f833504626cfd6cf0a2455b57e884f3ba",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/NNyDWsz/download-8.png"
+  },
+  "source_sha1": "a7f4b95e0ff51e5375103482cef82e6440e3d001"
+ },
+ "rai": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/29.png"
+  }
+ },
+ "rally_tv": {
+  "dark": "recolor",
+  "dark_sha1": "d0ffb643a9e0089e265b71423b19ad8f95a5a050",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "13af4091395bc37a0b9367d1d859dd502895bf40",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/9mSsCnv2/Picsart-26-04-15-13-24-42-448.png"
+  },
+  "source_sha1": "957b04c91a47106e86abdbb81842baa282733534"
+ },
+ "rally_tv_2": {
+  "dark": "tile",
+  "dark_sha1": "bf88e7c32bb37723cae34c95c914b5ab6fd81b53",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "bf88e7c32bb37723cae34c95c914b5ab6fd81b53",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/ryRD97zL/a7691067-f886-417f-a3c6-a8627a1ab405.jpg"
+  },
+  "source_sha1": "6d9c8cd01e70bc651d2437030fae6040fc43bfde"
+ },
+ "rcn_mas": {
+  "dark": "keep",
+  "dark_sha1": "4fba08c40a28807ac61d45e0467e9cc7d247123e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "4fba08c40a28807ac61d45e0467e9cc7d247123e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/j80Rjhd/MJzuRAN.png"
+  },
+  "source_sha1": "3f73fb350ec427f45dcf44d255be82e0de26b425"
+ },
+ "real_madrid_tv": {
+  "dark": "recolor",
+  "dark_sha1": "e4820939c25170d7e176d537aaba5d30f5acbd15",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "f592ffb4a49ff0471758886fe36038593238de80",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/57/Real_emblem_6.png"
+  },
+  "source_sha1": "e6909f27896f0f6e93505b06200d858c330aa06b"
+ },
+ "reality_kings": {
+  "dark": "recolor",
+  "dark_sha1": "a029f63f78a562b010c6278d3c7a60bcd005a438",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ac391bc1c08c83d02289c9436f64663ccf334f6c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://logos-world.net/wp-content/uploads/2023/01/RealityKings-Logo-2016.png"
+  },
+  "source_sha1": "836ab6e58006acbda566f7624ef0818667f5ca70"
+ },
+ "red_advenir": {
+  "dark": "tile",
+  "dark_sha1": "346fb135348d04311753a13af04e21b95b381d45",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "346fb135348d04311753a13af04e21b95b381d45",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/KzyN2BxQ/advenr.jpg"
+  },
+  "source_sha1": "70ff42b15c5fbd6821fa50c098e810a7a7f41c98"
+ },
+ "red_bull_tv": {
+  "dark": "tile",
+  "dark_sha1": "251018e14232e93d0c24e065aabcb30908e83bb5",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "251018e14232e93d0c24e065aabcb30908e83bb5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/cf356519-2a5a-4d5e-9737-e133f5c5a5c8.jpeg"
+  },
+  "source_sha1": "8ad0443a48a129ead26c0c52414f2d58b971908c"
+ },
+ "rede_record": {
+  "dark": "keep",
+  "dark_sha1": "d668b4551f263dd6d626fc427cf61c67248dbb99",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "477188b6fe153e6e6e65cdbe88d5645bc2e7362f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/record-br.png"
+  },
+  "source_sha1": "4e0015bbdc82840dbad899d76fdcd1b6e1b67c6c"
+ },
+ "rivadavia": {
+  "dark": "tile",
+  "dark_sha1": "3e588019130145c0a67191b2ba2e6b86aab24445",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "3e588019130145c0a67191b2ba2e6b86aab24445",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT-FRe-JGZ3JXct8LCx5M9NMuFiXC4W7Kk7jzB6BXtsg&s=10"
+  },
+  "source_sha1": "c6ec16fb61c8fda1bfea3b45f838dc26aaec64a2"
+ },
+ "rock_pop_2": {
+  "dark": "keep",
+  "dark_sha1": "0cda3fee56b7113b5650e96e278eb83f881492a4",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "0cda3fee56b7113b5650e96e278eb83f881492a4",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/37/Radio_rockpop.png"
+  },
+  "source_sha1": "26bee2f6eda356ee1df80c0f979f95a45ef89216"
+ },
+ "rtn_argentina_720p_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "d96cbed59bb04609cfb81f1a443d03ef0f406f11",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "5543c42893d6279e4da5208b6d660beca26c17d2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/8xqYg4C.png"
+  },
+  "source_sha1": "5641d32c1b02879ba1487e76e8be98f1ebf774ec"
+ },
+ "san_pedro_tv_1080p_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "af999d1d8aa43c7eec4bf83be8592a561a5d079c",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "af999d1d8aa43c7eec4bf83be8592a561a5d079c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/UkpXogr.png"
+  },
+  "source_sha1": "56db90d075f8ff3f0c7f07195e52829dd2fd549a"
+ },
+ "santa_fe_canal_1080p": {
+  "dark": "keep",
+  "dark_sha1": "00161651e8ab39e70ba88fab6a721374e25bb5ab",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "00161651e8ab39e70ba88fab6a721374e25bb5ab",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/C1mY5X4.png"
+  },
+  "source_sha1": "b25448d9a42b3bb77c9f1b2fbb30ce4ced328d06"
+ },
+ "santa_maria": {
+  "dark": "keep",
+  "dark_sha1": "f295e81ae5b0a931de04551929081b481701435f",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "f295e81ae5b0a931de04551929081b481701435f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/44zJdx6s/Santa-Maria.png"
+  },
+  "source_sha1": "2978c7bd5d09b5f7d4dd0991221c3e1364c4937a"
+ },
+ "senal_u": {
+  "dark": "keep",
+  "dark_sha1": "ecfbed9598cdeea3f92d07fcff6b53672384d216",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ecfbed9598cdeea3f92d07fcff6b53672384d216",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/yBYcKTj/Senal-U-Uncuyo-en-vivo-Online.png"
+  },
+  "source_sha1": "f18213ed9f6663b0538be1d97fc7f2d6a9d65a9b"
+ },
+ "senillosa_tv": {
+  "dark": "tile",
+  "dark_sha1": "22a95baad0747859e674e15b4fe3ff29fc743e11",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "22a95baad0747859e674e15b4fe3ff29fc743e11",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://yt3.ggpht.com/ytc/AKedOLTrvk7gv0uCQ8QdGREqv6Rtzm4F6UMetdxKub6D=s400-c-k-c0x00ffffff-no-rj"
+  },
+  "source_sha1": "6dfae22f2eeb3ac4ce621433f1cedd6440249680"
+ },
+ "sextreme": {
+  "dark": "keep",
+  "dark_sha1": "36fdca18e3d0228ecbeb6b45a068f65df6368611",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "36fdca18e3d0228ecbeb6b45a068f65df6368611",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/k4kPh7nx/Sextreme.png"
+  },
+  "source_sha1": "49bd05c56dbd3c6020558d3c65358e4db21a88b4"
+ },
+ "showsport_cordoba": {
+  "dark": "keep",
+  "dark_sha1": "fc0114a5a055a94c111db48a208065a01f2fd47b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "fc0114a5a055a94c111db48a208065a01f2fd47b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/Cx34701w/Logo.png"
+  },
+  "source_sha1": "001e5aeb728a1f8e3670c60e5bd6d0723b7f32ea"
+ },
+ "sicardi_tv_720p": {
+  "dark": "keep",
+  "dark_sha1": "7322b8462a30aa0eb2fa121c4e97f2ba37f432d9",
+  "kind": "removed",
+  "light": "recolor",
+  "light_sha1": "c7e06883c228447c319b750ece21c1dd913b816a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/W2EUIL2.png"
+  },
+  "source_sha1": "c767ac2c6e4755cbedb0eb3e41c6c104ada6fa87"
+ },
+ "snt": {
+  "dark": "keep",
+  "dark_sha1": "3e89c412b233a7835c5cf0d8c81710c01f423632",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "3e89c412b233a7835c5cf0d8c81710c01f423632",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/6a/SNT_2013_logotype.png"
+  },
+  "source_sha1": "91f5a7b7e8fcd002dae424637e6df3fa0aba2be8"
+ },
+ "somos": {
+  "dark": "keep",
+  "dark_sha1": "ab77430a5426e5a93a4e63a107fa066e5be87fe5",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "3158bf56257e70111de6094a043ff79604f2b733",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/6qp5L4FT/Somos.png"
+  },
+  "source_sha1": "142ae9ed555941d2bc118250d819d58d54b69137"
+ },
+ "somos_el_valle": {
+  "dark": "keep",
+  "dark_sha1": "316e169f22152ed3c64259832560dd39a20d63e2",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "36404b9a92b6ef1ce72e939a01915600ff0cc3d4",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/dVPqJ6j1/Somos_El_Valle.png"
+  },
+  "source_sha1": "7fa47e60b96b8a28016c54af666e4298b9406e9a"
+ },
+ "somos_entre_rios_360p": {
+  "dark": "keep",
+  "dark_sha1": "c88aad4e1c43485b983bd57fa17b63dc6a754587",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "c88aad4e1c43485b983bd57fa17b63dc6a754587",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://files.catbox.moe/ufv5z0.png"
+  },
+  "source_sha1": "5a905461a23681160fbc8ab6982de0f38acb2258"
+ },
+ "somos_la_plata": {
+  "dark": "keep",
+  "dark_sha1": "eb75a505785d6c709259ca6808c0a4302490aa41",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "2906ea26e6121351504aa7ba16ebc178dc2f7b1c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/T3MRT0Jp/Somos_La_Plata.png"
+  },
+  "source_sha1": "b1579718bf5db8526b6d3c2f1bfe93742ecd8609"
+ },
+ "somos_mdq_necochea": {
+  "dark": "keep",
+  "dark_sha1": "8546bef8fafbd6847387db6b4fb55deea1cbe6d0",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "30cd1df4ce9aea8b72f2ed04e511d8db073ffb7b",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/x1D0953j/Somos_MDQ_Necochea.png"
+  },
+  "source_sha1": "bb1596d873b03a8c07df104baac4060117ae1e03"
+ },
+ "somos_rosario": {
+  "dark": "keep",
+  "dark_sha1": "e363f44fb7c3c6fd58042731cde7f875037ee059",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "1eb6078389b2890b0ab4bd74cdb60af4bc73f9fa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/JzV1Rx5t/Somos_Rosario.png"
+  },
+  "source_sha1": "8d827f9b8fe6a246eb8f97b890e6f745299493d0"
+ },
+ "somos_salta_jujuy": {
+  "dark": "keep",
+  "dark_sha1": "3f983de3f9ec863739fb6c00527ea9742a604d12",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "f507e53555f9abc44b33926aef5befe0063683a2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/y84V7jy1/Somos_Salta_Jujuy.png"
+  },
+  "source_sha1": "83b51f794c4080852bcdb2beeac43537317d5086"
+ },
+ "sony_channel": {
+  "dark": "tile",
+  "dark_sha1": "f87c105b246b14fadcf862c6d9ca15b80bbee710",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "f87c105b246b14fadcf862c6d9ca15b80bbee710",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/sony-channel-lam.png"
+  },
+  "source_sha1": "ed5596112509659ed74a9873f7f1efba54973e62"
+ },
+ "sony_movies": {
+  "dark": "tile",
+  "dark_sha1": "2b8cac464c83d18d65153c6b86b7cd7ace7c7ae4",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "2b8cac464c83d18d65153c6b86b7cd7ace7c7ae4",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/960px-Sony_Movies_Logo.svg.png"
+  },
+  "source_sha1": "0f713525f680c8e024a4911f1049b6663ea26cf4"
+ },
+ "space": {
+  "dark": "keep",
+  "dark_sha1": "274c955978a80921e42b48ab4b65bca7319769b5",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "274c955978a80921e42b48ab4b65bca7319769b5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/space-ar.png"
+  },
+  "source_sha1": "f5376bff166b146d9e84641908d43cff17ff7edd"
+ },
+ "speed_sport": {
+  "dark": "recolor",
+  "dark_sha1": "4a399cb9635ca7ff8cb150fe1ce363ac0a1f1a57",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "562b47c44f5f929320d49065ffc3c61e0b72c824",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/YF3VxdxN/Picsart-26-04-15-13-37-11-905.png"
+  },
+  "source_sha1": "2090f32d70023aa21e25ea14074075ffbe01def0"
+ },
+ "sportv": {
+  "dark": "keep",
+  "dark_sha1": "f04815d55913dd557c18d3312b1e0da67bc5f3c8",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "3ac77c19839ff351c90b6948531058f73e93794d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/sportv-br.png"
+  },
+  "source_sha1": "0c53800482cc8ff8101233b961162f8524e4662e"
+ },
+ "sportv_2": {
+  "dark": "keep",
+  "dark_sha1": "0c15b1c8a11b265cece732218c2f138fb5101d5b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "c9ebb2e7d6d90688d2ccb377f07d1b2f5e4026e6",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/sportv2-br.png"
+  },
+  "source_sha1": "be2fff08a66d073c44fcaafdfd669c20d05b6ac7"
+ },
+ "sportv_3": {
+  "dark": "keep",
+  "dark_sha1": "0aac87b68b63a3ac8c5007e388bce66df27fb2fc",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "70211cbf914cac74924a91592cbb41c12d70a0ae",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/sportv3-br.png"
+  },
+  "source_sha1": "c3b14895976914a3ab548c534166aecc99b6fb29"
+ },
+ "star_channel": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/-/-/0/0/7718553707879.png"
+  }
+ },
+ "studio": {
+  "dark": "keep",
+  "dark_sha1": "e30ecdacc134966ff454fdd8c131932385491888",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "593def3842c19dbfbb0d7268d214ca8ac83f0295",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://weiss.mc.rocstar.tv/sb/image/38663260"
+  },
+  "source_sha1": "7da1cf13a4031b7c059203b5a3e22b1118872b89"
+ },
+ "sun_channel": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/771.png"
+  }
+ },
+ "sur_tv": {
+  "dark": "keep",
+  "dark_sha1": "30c4ef41b7811a24a90cbc5fc5656d54c7f60d75",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "30c4ef41b7811a24a90cbc5fc5656d54c7f60d75",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sur_TV_Itap%C3%BAa_logo_2022.png"
+  },
+  "source_sha1": "35e2ffc77fd4a0f87aa309d11734ae98fbc76015"
+ },
+ "t5_satelital": {
+  "dark": "recolor",
+  "dark_sha1": "646abaa45a1c32ebccfc66e3b5ffaf841179c842",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ab4223a7105dd2f35223580dabf2c1ac6e727464",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/ZcD0rUP.png"
+  },
+  "source_sha1": "86b82859ed9ed86c2953deebbb7486c8e56aed31"
+ },
+ "tastemade": {
+  "dark": "keep",
+  "dark_sha1": "23e6e1ec749ae05a7c5677b2961a927217947e58",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "23e6e1ec749ae05a7c5677b2961a927217947e58",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images.pluto.tv/channels/5f998c1fc54853000797bacd/colorLogoPNG.png?auto=&ixlib=react-9.1.5&w=224&h=124&dpr=2&q=50"
+  },
+  "source_sha1": "0fe9d02fae933109e6c10bddb1c405f997a064fc"
+ },
+ "tcm": {
+  "dark": "keep",
+  "dark_sha1": "63b3c02e7c82b297bff6abaf3210dfff8d953733",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "63b3c02e7c82b297bff6abaf3210dfff8d953733",
+  "sig": {
+   "algo": 6,
+   "ov": {
+    "dark": "keep"
+   },
+   "source": "https://i.ibb.co/Z6qftsS/TCM-Latam-logo-svg.png"
+  },
+  "source_sha1": "8115f800f8afa0bad59905d00f71289a2f5d018d"
+ },
+ "tele_6_720p": {
+  "dark": "recolor",
+  "dark_sha1": "ed7562e669ccb7ac07228a5b5755a64dfba5d4a6",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "09488e7efaf49d91554d36cf08c839d36f24e225",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/p7tt72X.png"
+  },
+  "source_sha1": "ccb8fa500bb0998b6bc12c02d8425f5e9599ce29"
+ },
+ "tele_posadas_720p": {
+  "dark": "recolor",
+  "dark_sha1": "c9b6b04cfaae881316d9a9446c1459f59f9b0b81",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "b2120ab84f72fdc23dc0a88a0598ac969e193a40",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/88MVgwX.png"
+  },
+  "source_sha1": "53ff58572cc53c3ac04552e20ae229e2bf396bd2"
+ },
+ "tele_sur": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/388.png"
+  }
+ },
+ "telefe": {
+  "dark": "keep",
+  "dark_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png"
+  },
+  "source_sha1": "0621eeb02d71cb7f027110eb618a764ebaed44d7"
+ },
+ "telefe_internacional": {
+  "dark": "keep",
+  "dark_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "57f1067e4494e77e1119efd6c5c979240aa6d5af",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telefe-ar.png"
+  },
+  "source_sha1": "0621eeb02d71cb7f027110eb618a764ebaed44d7"
+ },
+ "telefuturo": {
+  "dark": "keep",
+  "dark_sha1": "d2549af5cbb53bb15439959e6b90e3d12e07e97e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d2549af5cbb53bb15439959e6b90e3d12e07e97e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/Hp9jRYsP/telefuturo-new-logo-2022-by-randomuser2040-dfhp9ty-fullview.png"
+  },
+  "source_sha1": "9c05e2cdb5d76512acaac59909c0aa333b5fb9cf"
+ },
+ "telehit": {
+  "dark": "keep",
+  "dark_sha1": "6c4cc52fb64c3d76eb9f419440e2626217fb4a2e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "6c4cc52fb64c3d76eb9f419440e2626217fb4a2e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/5Y4C401/telehit.png"
+  },
+  "source_sha1": "4c9441197143781b309e3c16f5297f962b9bb72e"
+ },
+ "telehit_musica": {
+  "dark": "keep",
+  "dark_sha1": "4bc74f969e12dc0f6d9b47dc0cbc4bb820b87534",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "4a79fc543692cb6048c0f9be484636dd03aa6c7f",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/p4243Nf/Telehit-M-sica.png"
+  },
+  "source_sha1": "7a3c146ff01a9364b25ee263776f52432b75284c"
+ },
+ "telehit_musica_plus": {
+  "dark": "keep",
+  "dark_sha1": "c4c737bc1ac0cd017556ecfc63164ed73f1b0750",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "89b54870c163d0048c11a6a33fe7bb7928dd8866",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/hg3bxH0/do-download.png"
+  },
+  "source_sha1": "16c3a2ba35f4551b1dd0cde308d82f88291ce9df"
+ },
+ "telemax": {
+  "dark": "keep",
+  "dark_sha1": "c71ae281b75a5d4482d25a66d3ebdbed313fb94a",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "4bc853b82fe35b4f761bd8dcc89186782fb8bc83",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/telemax-ar.png"
+  },
+  "source_sha1": "5cab9aa8291c82cd6d4c811b72e5b4195f19db53"
+ },
+ "telemundo_2": {
+  "dark": "recolor",
+  "dark_sha1": "014be8e763b81bf860943d8f1d7518925c91fd3b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "58debe03208ee077c2b0fea4587036cc6d864e7c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"
+  },
+  "source_sha1": "0cc6b5ca06c575b98735318a5a5d3bf28e7204d9"
+ },
+ "telemundo_2_2": {
+  "dark": "recolor",
+  "dark_sha1": "014be8e763b81bf860943d8f1d7518925c91fd3b",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "58debe03208ee077c2b0fea4587036cc6d864e7c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/yx613kKm/TELEMUNDOMX.png"
+  },
+  "source_sha1": "0cc6b5ca06c575b98735318a5a5d3bf28e7204d9"
+ },
+ "telemundo_internacional_1080p": {
+  "dark": "recolor",
+  "dark_sha1": "4e5ce8368b16f382d5371a284affdbc8dc5c9917",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a1ef209716cf5acb90c664b8ee92fe2bac36b2bf",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/j2O4ndp.png"
+  },
+  "source_sha1": "ab05794b133dab9c365c580f1dfc397f80715bc0"
+ },
+ "the_cabbin_fm": {
+  "dark": "keep",
+  "dark_sha1": "f8692915da94b9e18eab767f2daf0d1bb424e56b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "aa662b2cd235274d38fd578cddf24ca1c752c767",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://files.catbox.moe/2vlskg.png"
+  },
+  "source_sha1": "c926acece83daf19169eba0fc02a552f213c72f0"
+ },
+ "tlnovelas": {
+  "dark": "keep",
+  "dark_sha1": "859d0123c0facfb4bc9c9e9c134c7aea6c31d114",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "859d0123c0facfb4bc9c9e9c134c7aea6c31d114",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/tlnovelas-lam.png"
+  },
+  "source_sha1": "c1448e98847b7e4a2a0de1f62fdff83834846d7b"
+ },
+ "tn": {
+  "dark": "keep",
+  "dark_sha1": "700f81a780ee7cbfe315585af1285776b9e012f9",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "700f81a780ee7cbfe315585af1285776b9e012f9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/tn-todo-noticias-ar.png"
+  },
+  "source_sha1": "b0318e83f9be8b99e9316ebb8c87e1efcf9aac45"
+ },
+ "tnt": {
+  "dark": "keep",
+  "dark_sha1": "d1dd4c0bea9371497ae61dbede33a4a4743e6aef",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "8be668d07d5dd5e9eabb12f7db49227742737123",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/r2gYhQb/tnt-fundo-escuro.png"
+  },
+  "source_sha1": "d5ba9431dcd083e6e8732df4a8bdae047a15f0a5"
+ },
+ "tnt_novelas": {
+  "dark": "keep",
+  "dark_sha1": "49ba6645912fd0bf508c76f7510f7c015b15ef1c",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "49ba6645912fd0bf508c76f7510f7c015b15ef1c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/tnt-novelas-lam.png"
+  },
+  "source_sha1": "08e70f422099b88034d0ae8de056b4461d9453e7"
+ },
+ "tnt_series": {
+  "dark": "keep",
+  "dark_sha1": "2c4ddf4c340c55b7014558e64f5960072751a727",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "8e53d0822ee08e2549d4c7dca970a76eaf3be224",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/pJGxSPx/unnamed.png"
+  },
+  "source_sha1": "42bf42c20cffbca44eb3d9072465b45156951e09"
+ },
+ "tnt_sports_1": {
+  "dark": "tile",
+  "dark_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/_GSu8z-EAJjuBZgGM_lxpXQ-PVRyh11yTttJDnvn5ARg-U7j6fhfTybVfg34-8PJpi3HWnZGp-Oup1q7HIbR43M"
+  },
+  "source_sha1": "ab94a574ce9a2951257e01aac6a92b587e8f6dec"
+ },
+ "tnt_sports_2": {
+  "dark": "tile",
+  "dark_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/_GSu8z-EAJjuBZgGM_lxpXQ-PVRyh11yTttJDnvn5ARg-U7j6fhfTybVfg34-8PJpi3HWnZGp-Oup1q7HIbR43M"
+  },
+  "source_sha1": "ab94a574ce9a2951257e01aac6a92b587e8f6dec"
+ },
+ "tnt_sports_3": {
+  "dark": "tile",
+  "dark_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/_GSu8z-EAJjuBZgGM_lxpXQ-PVRyh11yTttJDnvn5ARg-U7j6fhfTybVfg34-8PJpi3HWnZGp-Oup1q7HIbR43M"
+  },
+  "source_sha1": "ab94a574ce9a2951257e01aac6a92b587e8f6dec"
+ },
+ "tnt_sports_4": {
+  "dark": "tile",
+  "dark_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "80d1d6fcb5988377b9a5f97f9342dffe5e61ed7c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/_GSu8z-EAJjuBZgGM_lxpXQ-PVRyh11yTttJDnvn5ARg-U7j6fhfTybVfg34-8PJpi3HWnZGp-Oup1q7HIbR43M"
+  },
+  "source_sha1": "ab94a574ce9a2951257e01aac6a92b587e8f6dec"
+ },
+ "tnt_sports_premium": {
+  "dark": "keep",
+  "dark_sha1": "1f743d548957f4f4dc36d822740512279e78e773",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "5dba6406d3d1904b8a98392d0ae2e46988e6bb83",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/tnt-sports-ar.png"
+  },
+  "source_sha1": "17d3e7318e8a369d7230a1b893a7f0313f1d4de7"
+ },
+ "todo_novelas": {
+  "dark": "tile",
+  "dark_sha1": "cbb8239cfaf70f8f6ba3c51363c99fab471788e5",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "cbb8239cfaf70f8f6ba3c51363c99fab471788e5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC43000013T_20230915T042726SQUARE.png_20230915042727.png"
+  },
+  "source_sha1": "6a48de13a283b5ef163869c742178c31bc548fe5"
+ },
+ "tooncast": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/880.png"
+  }
+ },
+ "top_barca": {
+  "dark": "tile",
+  "dark_sha1": "436ee8f1cc3abc4d7d98b86ef06f92b0f5ea9647",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "436ee8f1cc3abc4d7d98b86ef06f92b0f5ea9647",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/ff403089-1c81-41d3-bb18-b817b1f01721.jpeg"
+  },
+  "source_sha1": "1d5ae43a9c717918b895b6d0a4e3c5fa3336306c"
+ },
+ "tsn_1": {
+  "dark": "keep",
+  "dark_sha1": "04ae40d6ca7f452b4493ab95e242ea3a9f56890d",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "04ae40d6ca7f452b4493ab95e242ea3a9f56890d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-1-ca.png"
+  },
+  "source_sha1": "32c339ddd26c3a3b3b07c3a1c48c7aac6989752c"
+ },
+ "tsn_2": {
+  "dark": "keep",
+  "dark_sha1": "b86e854e3a4f33b941e06e479b32c47ad0b393c0",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "b86e854e3a4f33b941e06e479b32c47ad0b393c0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-2-ca.png"
+  },
+  "source_sha1": "c31767df98bfac2bf5c361242c9d55830d906596"
+ },
+ "tsn_3": {
+  "dark": "keep",
+  "dark_sha1": "d55741c69b161c8be019328fad6a67eb59bc6e3a",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d55741c69b161c8be019328fad6a67eb59bc6e3a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-3-ca.png"
+  },
+  "source_sha1": "fc0a6b595112ae179222269b4120378ada1cbabc"
+ },
+ "tsn_4": {
+  "dark": "keep",
+  "dark_sha1": "c5bce6b34e7b713b63505a552a726a83998e4013",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "c5bce6b34e7b713b63505a552a726a83998e4013",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-4-ca.png"
+  },
+  "source_sha1": "82988ba4ddc94617dbb7e449b46ae56d1661866a"
+ },
+ "tsn_5": {
+  "dark": "keep",
+  "dark_sha1": "a0f0805949cdf010fc727ecb2c74d5a177898094",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a0f0805949cdf010fc727ecb2c74d5a177898094",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-5-ca.png"
+  },
+  "source_sha1": "5ddba9763d3d5b7097065abebbc47a60ac75fe10"
+ },
+ "tsn_eventos_f1": {
+  "dark": "tile",
+  "dark_sha1": "3f2bdde1c1164006b4bca16805142db37b33cab2",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "3f2bdde1c1164006b4bca16805142db37b33cab2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/Jj2HfX7Q/7-TDQB3-ME45-F53-LEANJYUW4333-A.jpg"
+  },
+  "source_sha1": "56ab8ef4a6bab16b19cca4379c2f9353daee3d27"
+ },
+ "tsn_the_ocho": {
+  "dark": "keep",
+  "dark_sha1": "8a499cfec571dab1380564050f8716d05451a058",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "8a499cfec571dab1380564050f8716d05451a058",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-ca.png"
+  },
+  "source_sha1": "9b20eef7de2ab0b79973e4a80411f4a0347f2feb"
+ },
+ "tudn": {
+  "dark": "keep",
+  "dark_sha1": "ff004170a3102d00ced51d5da1bf63f67182aaaa",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ff004170a3102d00ced51d5da1bf63f67182aaaa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/_9Iz8w2Ke_iHRjlgyUCz2HDSlujDqu-L-eOjsRUnUCKDRhZ97SIQCI2R4A4nwJ-Cz_qde3-t004NG3aBRbQRAiw=w240-h480-rw"
+  },
+  "source_sha1": "862c945903d742ac08273e2818803eac78486c61"
+ },
+ "tudn_2": {
+  "dark": "keep",
+  "dark_sha1": "ff004170a3102d00ced51d5da1bf63f67182aaaa",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ff004170a3102d00ced51d5da1bf63f67182aaaa",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://play-lh.googleusercontent.com/_9Iz8w2Ke_iHRjlgyUCz2HDSlujDqu-L-eOjsRUnUCKDRhZ97SIQCI2R4A4nwJ-Cz_qde3-t004NG3aBRbQRAiw=w240-h480-rw"
+  },
+  "source_sha1": "862c945903d742ac08273e2818803eac78486c61"
+ },
+ "tv5_monde": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.personal.com.ar/content/dam/teco-cms-ecosystem/flow/guia-de-canales/38.png"
+  }
+ },
+ "tv_canal_72": {
+  "dark": "recolor",
+  "dark_sha1": "8a49a930778f087f0936a345b09e48cac313c5ab",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "925cfa881be592c01216107613278a31f7485ec4",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png"
+  },
+  "source_sha1": "d55d6fd82f462a437704b8846a77bc2c391c4570"
+ },
+ "tv_ciudad": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 502: Bad Gateway",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://static.flow.com.ar/images/-/-/0/0/95377005071290.png"
+  }
+ },
+ "tv_galicia": {
+  "dark": "keep",
+  "dark_sha1": "48a1c5f9626f2315a64beb87f959c68629df3e8d",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "7bf3fd26715e8893d046af0292a490725296da77",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/galicia-es.png"
+  },
+  "source_sha1": "fcc73ece1d02552267de14405eb23986e82d21fa"
+ },
+ "tv_globo": {
+  "dark": "keep",
+  "dark_sha1": "ac9fc20de2fa9a0e540cf262ca83cd51c29fa5de",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "9b47ebb7af7f35a7db0ac853f6b0bda565e9bfec",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/globo-br.png"
+  },
+  "source_sha1": "9bdf021aa5debf703a431843e858f276d613ce1e"
+ },
+ "tv_mana_argentina_576p_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "109e9fc259898f6b3886e0bf28fdbfb047d51bd2",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "109e9fc259898f6b3886e0bf28fdbfb047d51bd2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/jars0mP.png"
+  },
+  "source_sha1": "a47fe714b72efacfceef6c92f8bffc10c3bb4cd5"
+ },
+ "tv_publica": {
+  "dark": "keep",
+  "dark_sha1": "fc2323fb9cd2929b4af7823d712ed506c80b19e5",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "fc2323fb9cd2929b4af7823d712ed506c80b19e5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/television-publica-ar.png"
+  },
+  "source_sha1": "94cc6d0314f9560907d964fc396de8926decaf20"
+ },
+ "tv_publica_fueguina_1080p": {
+  "dark": "tile",
+  "dark_sha1": "566d72be37b8f45d341c24d099378a3dc4b45ef9",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "566d72be37b8f45d341c24d099378a3dc4b45ef9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/4dUvFqa.png"
+  },
+  "source_sha1": "6f5860a2104d71bdccb0426988c624e6b1f0a6dc"
+ },
+ "tv_solidaria_576p": {
+  "dark": "keep",
+  "dark_sha1": "bfb278a46a3902b8183837c8dd0ddedef72558b5",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "60df22ced6b0baaa5e05b7b2ca494eb1afaa9ec2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/M0fMypR.png"
+  },
+  "source_sha1": "b0bd40ab9ceb9e3533ba471130117ad139fa81eb"
+ },
+ "tv_universidad": {
+  "dark": "tile",
+  "dark_sha1": "ad2d1e34fe4036c647135581f67a170c071002f3",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "ad2d1e34fe4036c647135581f67a170c071002f3",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/0MXsQ25.png"
+  },
+  "source_sha1": "511f9be240c34dff1931d7e88d860092fbf99fa1"
+ },
+ "tve": {
+  "dark": "keep",
+  "dark_sha1": "369b1fb9ccf2374a372d1f8ffdba9afe4634af4e",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "369b1fb9ccf2374a372d1f8ffdba9afe4634af4e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=TVE.svg&w=250"
+  },
+  "source_sha1": "46e9eb046a90099f60cdf2083766e34582d2ce95"
+ },
+ "tvs_encarnacion": {
+  "dark": "keep",
+  "dark_sha1": "d112a1ad64035a4304f222529fb9afb326deeae0",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "d112a1ad64035a4304f222529fb9afb326deeae0",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/rolnando-play/RP/refs/heads/master/app/canalesImg/tvs.png"
+  },
+  "source_sha1": "eebe19fca674643137a0ad9d264272759d4cf0c8"
+ },
+ "tyc_sports": {
+  "dark": "keep",
+  "dark_sha1": "ddbc455a4bf551a9b98cc23c7a30b716b57a4816",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ddbc455a4bf551a9b98cc23c7a30b716b57a4816",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "source_sha1": "1437a6fdaf79f2f1f82893686a85751add6d0808"
+ },
+ "tyc_sports_fan": {
+  "dark": "keep",
+  "dark_sha1": "ddbc455a4bf551a9b98cc23c7a30b716b57a4816",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ddbc455a4bf551a9b98cc23c7a30b716b57a4816",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "source_sha1": "1437a6fdaf79f2f1f82893686a85751add6d0808"
+ },
+ "tyc_sports_internacional": {
+  "dark": "keep",
+  "dark_sha1": "ddbc455a4bf551a9b98cc23c7a30b716b57a4816",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ddbc455a4bf551a9b98cc23c7a30b716b57a4816",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "source_sha1": "1437a6fdaf79f2f1f82893686a85751add6d0808"
+ },
+ "ufc": {
+  "dark": "keep",
+  "dark_sha1": "8314a4abc5df30ab60e87aff4efe64a2ba170d4b",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "c751ec1c55afbc85bf91a17a3fba02f8ab1d83a9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/67T1kgch/uffc.png"
+  },
+  "source_sha1": "182028254f2b3fe39922d9302e332c05f0707c6b"
+ },
+ "unife": {
+  "dark": "tile",
+  "dark_sha1": "8146bae9b11a570593537a30dce9be3deb0f2536",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "8146bae9b11a570593537a30dce9be3deb0f2536",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/b/bd/UNIFE_logo.png"
+  },
+  "source_sha1": "1c1d2431477136fb032a989b59c080677b5dc2ad"
+ },
+ "union_tv": {
+  "dark": "keep",
+  "dark_sha1": "c9ff6226a4ed7d759e445479ea8adce56bba15e2",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "a2a23315d6a579128f7a632e93c66d90020e56ee",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://uniontv.com.py/wp-content/uploads/2023/03/logo_retina-01.png"
+  },
+  "source_sha1": "6a34f7a9f30a398483372194a2e1f9a048e9282a"
+ },
+ "uniteve_720p_not_24_7": {
+  "dark": "keep",
+  "dark_sha1": "9db382c4cc372d6add7537a5d90fb65c9ba02655",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "9db382c4cc372d6add7537a5d90fb65c9ba02655",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg"
+  },
+  "source_sha1": "de271373ebc68c8aae554c05ada4005f95245007"
+ },
+ "universal_tv": {
+  "dark": "keep",
+  "dark_sha1": "556f95b0784995d4977db3eb4e7eff031c2712b9",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "556f95b0784995d4977db3eb4e7eff031c2712b9",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Universal_TV_Logo_2018.png"
+  },
+  "source_sha1": "19d21615f0354193183b28502b03a02e533c003f"
+ },
+ "unlp_tv": {
+  "dark": "keep",
+  "dark_sha1": "7b3daa0762d541aed92c2bfad3ad12c82b38f9f9",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "1520cbec7fea83c5d16bb5edac9972fd3ec79d60",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tv.unlp.edu.ar/wp-content/uploads/2026/02/cropped-Marca-UNLP-TV-sin-fondo.png"
+  },
+  "source_sha1": "23af297649a4981ae4834728b9e68e25e96acdc5"
+ },
+ "urban_mix_720p": {
+  "dark": "keep",
+  "dark_sha1": "28855eccd880d9c1ebaa1580fc1548a44690e4be",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "531b2958cc53c445553c8251b3825c8a8124c21a",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://tvomix.com/Logos/Urbanmix.png"
+  },
+  "source_sha1": "cba820b24ba5aa447d6ba5d869fe1471e7880769"
+ },
+ "usa_network": {
+  "dark": "keep",
+  "dark_sha1": "a789b964786add4079b7929e04e359e5d190663c",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "a789b964786add4079b7929e04e359e5d190663c",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://commons.wikimedia.org/w/thumb.php?f=USA_Network_2025_logo.svg&w=250"
+  },
+  "source_sha1": "fcf5de6ce24df34a937b747e08f3611dbf67090c"
+ },
+ "vale_97_5": {
+  "dark": "tile",
+  "dark_sha1": "03a92975fb9aa893763ef038f5bf93505fddd084",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "03a92975fb9aa893763ef038f5bf93505fddd084",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6vO3vP6TPxl0rdMIunbIdEvES31Tq0-pTnNwEslLrg&s=10"
+  },
+  "source_sha1": "a1e2b2eae1fc2f58c8dcc4d43ae07afb056b29e9"
+ },
+ "venus": {
+  "dark": "keep",
+  "dark_sha1": "2871db3d971adb12eae9eb9e83e04f0325068fc0",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "50ad3ab368c8fcd04f5f964c9daa4c37e0b9ef03",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/fL6QgMwf/Venus.png"
+  },
+  "source_sha1": "361c85c049e30683325945a0768f02ec99fb72cc"
+ },
+ "venus_media": {
+  "error": "RuntimeError: descarga fallida: HTTP Error 403: Forbidden",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://www.venus.com.py/player/playlist/img/venus.png"
+  }
+ },
+ "venus_media_2": {
+  "dark": "keep",
+  "dark_sha1": "1a277d3e1141645783f47604a3f30ec385cd0224",
+  "kind": "removed",
+  "light": "keep",
+  "light_sha1": "1a277d3e1141645783f47604a3f30ec385cd0224",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/jh9nXPP/venus-media.png"
+  },
+  "source_sha1": "8dadbe085c6c73e66c72df704d0285ac733a7851"
+ },
+ "villa_mantero_tv": {
+  "dark": "tile",
+  "dark_sha1": "fe1ba914aedde13fcfebd7d48369a8edde762cb5",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "fe1ba914aedde13fcfebd7d48369a8edde762cb5",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/mmEenTm.png"
+  },
+  "source_sha1": "12af7d800abd9341ae180c2d6c16a77bb6ecf12e"
+ },
+ "volver": {
+  "dark": "keep",
+  "dark_sha1": "00ce9c569ec5ca61650519f1e02992199300ded6",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "f4ca2654f42b9233270addc4abb628c57f3a81ba",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.postimg.cc/tR1jTzHt/Fondo-Oscuro.png"
+  },
+  "source_sha1": "746abd6184bf421672ea3b91c9fbb6f6e34954e5"
+ },
+ "vorterix": {
+  "dark": "keep",
+  "dark_sha1": "8883ddf001d0e04af1a8dcace7a6a0acd9254cd5",
+  "kind": "alpha",
+  "light": "plate",
+  "light_sha1": "7435532cf324c0318e47948b63130feb54f98ca7",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/VTRIX.png?raw=true"
+  },
+  "source_sha1": "1d8fb173d1b26bab2ef0d37ac2d00bce73e86293"
+ },
+ "vs_sports": {
+  "dark": "recolor",
+  "dark_sha1": "1180bf24b14dc407f97566d7a4c3d932df7a9fc8",
+  "kind": "alpha",
+  "light": "keep",
+  "light_sha1": "ce68816bef5ff43d3076a1ea2a5d183ded877bdf",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/CpxTmNvM/vs-sports.png"
+  },
+  "source_sha1": "9d0bb36b862ca7db2e57e768fe7c1cf27fefa34b"
+ },
+ "warner_tv": {
+  "dark": "keep",
+  "dark_sha1": "b9ad4532fcde376b3f590f7a54eefd33f4c80f1f",
+  "kind": "alpha",
+  "light": "recolor",
+  "light_sha1": "ee6220953f55267549f8f4afd78767b90afc9397",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.ibb.co/jyK3gPh/0000-all-l-warner-logo-warner-2018-blanco-1.png"
+  },
+  "source_sha1": "48ea9a3e4ddd3d9247ec6439792f5482782c0345"
+ },
+ "world_billiards_tv": {
+  "dark": "tile",
+  "dark_sha1": "12d1313f9aba100279432714aed4236c4c6ce3f1",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "12d1313f9aba100279432714aed4236c4c6ce3f1",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe.png"
+  },
+  "source_sha1": "20fca4c0f8f8e878b3ea556239960c1dec1dfdac"
+ },
+ "xtrema_accion": {
+  "dark": "tile",
+  "dark_sha1": "98b52846f0399fed78b61286cef421d0d7e2bdf2",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "98b52846f0399fed78b61286cef421d0d7e2bdf2",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/z5NwizH.png"
+  },
+  "source_sha1": "6a25996536942a5a556b4541a0c7ee8a3dff8f07"
+ },
+ "xtrema_cartoons": {
+  "dark": "tile",
+  "dark_sha1": "3d747d7e8258b680b7f28c07ebc7ff8894ed852e",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "3d747d7e8258b680b7f28c07ebc7ff8894ed852e",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/X2d8y4e.png"
+  },
+  "source_sha1": "4274e5a56b23b4a26d1dd9da6db491ea896bdfb9"
+ },
+ "xtrema_cine_clasico": {
+  "dark": "tile",
+  "dark_sha1": "c36725b4a90bdf0b73f28fe87c7a6335c8dcd80d",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "c36725b4a90bdf0b73f28fe87c7a6335c8dcd80d",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/j91M4Yf.png"
+  },
+  "source_sha1": "9fa66420a86547fc17d2986fe099f3f50baef668"
+ },
+ "xtrema_terror": {
+  "dark": "tile",
+  "dark_sha1": "2560637f964870e6a188dcbbeaffbad6f7523f73",
+  "kind": "tile",
+  "light": "tile",
+  "light_sha1": "2560637f964870e6a188dcbbeaffbad6f7523f73",
+  "sig": {
+   "algo": 6,
+   "ov": {},
+   "source": "https://i.imgur.com/FcaTUym.png"
+  },
+  "source_sha1": "2ae5fa817961d24964d8774df9e5ad2219be8f18"
+ }
+}

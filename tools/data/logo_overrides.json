@@ -1,0 +1,96 @@
+{
+  "_doc": "Correcciones manuales para tools/build_logos.py, por id de canal. Claves: source (URL de otro logo), bg (auto|remove|tile), light y dark (auto|keep|recolor|plate). Revisar con build/logos_preview.html.",
+  "mtv_latin_america_1080p": {
+    "light": "keep"
+  },
+  "canal_luz": {
+    "light": "keep"
+  },
+  "a3cine": {
+    "dark": "keep",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/A3Cine.png/960px-A3Cine.png"
+  },
+  "ciudad_magica_720p": {
+    "dark": "keep"
+  },
+  "la_100": {
+    "dark": "keep"
+  },
+  "radio_conexion_web_tv_720p": {
+    "dark": "keep"
+  },
+  "tcm": {
+    "dark": "keep"
+  },
+  "el_destape": {
+    "dark": "keep"
+  },
+  "2_posadas": {
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/canal-2-posadas-ar.png"
+  },
+  "5tv": {
+    "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPJcvr3hmpjicr5Sp2AEBkCtKwjgreapB-FL6iVuMEwQ&s=10"
+  },
+  "7_bahia_blanca": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Canal_Siete_Bahia_Blanca.png"
+  },
+  "7_jujuy": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Canal_Siete_Jujuy.png"
+  },
+  "a24_py": {
+    "source": "https://yt3.googleusercontent.com/w5iC0gGyzTvJSRMSyOfYSawUrFevmivHTELSXP4O6Nzyw2Dr9UgBuRbTy77mXKFgHxxhjI2H=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "al_jazeera": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Aljazeera_eng.svg/960px-Aljazeera_eng.svg.png"
+  },
+  "amc": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/AMC_logo.png/960px-AMC_logo.png"
+  },
+  "beats_radio": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_r%C3%A1dio_BEAT.png",
+    "dark": "plate"
+  },
+  "canal_de_la_ciudad": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Logo_Canal_de_la_Ciudad.png"
+  },
+  "cnn_en_espanol": {
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/cnn-en-espanol-lam.png"
+  },
+  "cnn_international": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/CNN-International-Logo.svg/960px-CNN-International-Logo.svg.png"
+  },
+  "discovery_h_h": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Discovery_H%26H.png"
+  },
+  "discovery_id": {
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/id-investigation-discovery-ar.png"
+  },
+  "discovery_tlc": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"
+  },
+  "dnews": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/DNews.svg/960px-DNews.svg.png"
+  },
+  "el_pais": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/El_Pais_Uruguay.svg/960px-El_Pais_Uruguay.svg.png",
+    "dark": "recolor"
+  },
+  "europa_europa": {
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/europa-europa-ar.png"
+  },
+  "fox_news": {
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/fox-news-framed-us.png"
+  },
+  "las_estrellas": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Canal_de_las_Estrellas_logo.svg/960px-Canal_de_las_Estrellas_logo.svg.png"
+  },
+  "misiones_cuatro": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/0/09/Misionescuatro_logo.png"
+  },
+  "sony_channel": {
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/sony-channel-lam.png"
+  },
+  "sony_movies": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/960px-Sony_Movies_Logo.svg.png"
+  }
+}

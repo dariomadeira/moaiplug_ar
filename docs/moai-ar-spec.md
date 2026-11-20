@@ -1,7 +1,7 @@
 # MoaiAr Plugin — Spec (contrato moai v1)
 
 Plugin `moai_ar` del motor moai3. **Solo resuelve la señal**; la app la
-reproduce. El catálogo (501 canales, v1.7.2) se genera desde dos fuentes: la copia
+reproduce. El catálogo (501 canales, v1.8.0) se genera desde dos fuentes: la copia
 reparada de pascua (`~/pascua/assets/master.json`, 398 canales) aplicando el filtro
 de exclusión auditado (`EXCLUDED_CHANNEL_IDS` en `generate_catalog.py`) y la
 instantánea del catálogo de `moaiplug_free` (`tools/data/canales_free.json`, 149
@@ -88,8 +88,8 @@ final**) → relevancia (`channel_priority`).
 
 El host SHALL leer la lista de canales desde `manifest.json` (`canales` +
 `canalInicial: telefe`); el dex embebido (`manifest()`) queda como fallback y
-coincide en versión e ids. La versión SHALL ser unificada en `1.7.2` en `build.sh`
-(env `PLUGIN_VERSION`, default `1.7.2`), `manifest.json` y en `MoaiArPlugin.manifest()`.
+coincide en versión e ids. La versión SHALL ser unificada en `1.8.0` en `build.sh`
+(env `PLUGIN_VERSION`, default `1.8.0`), `manifest.json` y en `MoaiArPlugin.manifest()`.
 
 El host decide si hay actualización **comparando solo el string de versión**
 (`PluginUpdateService.isNewer` en moai3, semver numérica); el `sha256` se usa
@@ -159,6 +159,23 @@ que espera `moai3`.
 #### Scenario: Radio progresiva
 - **WHEN** el canal apunta a `…/sc_rad1` o `…/FM999_56.mp3`
 - **THEN** `format="directo"` (no `dash`), y el motor reproduce por Content-Type.
+
+### Requirement: Logos por tema (v1.8.0)
+
+Cada canal del `manifest.json` SHALL traer `logoLight` y `logoDark`, PNG de
+384×384 servidos desde `assets/logos/{light,dark}/<id>.png` con `?v=<sha1[:8]>`
+para invalidar cachés. Los genera `tools/build_logos.py` (correcciones en
+`tools/data/logo_overrides.json`). El campo `logo` SHALL quedar sin cambios y
+el contrato Java (`PluginChannel`) no se modifica: los campos nuevos viven solo
+en el manifest.
+
+#### Scenario: Canal sin versión generada
+- **WHEN** el canal no tiene logo o el origen no se pudo descargar
+- **THEN** `logoLight` y `logoDark` repiten `logo`.
+
+#### Scenario: Host sin soporte de temas
+- **WHEN** una versión de moai3 no conoce `logoLight`/`logoDark`
+- **THEN** los ignora y sigue usando `logo`, igual que antes.
 
 ### Requirement: Fusión del catálogo de moaiplug_free
 
